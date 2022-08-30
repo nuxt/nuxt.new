@@ -20,7 +20,8 @@ export default defineNuxtConfig({
     '@nuxtjs/critters',
     '@nuxt/image-edge',
     'vue-plausible',
-    '~/modules/purge-comments'
+    '~/modules/purge-comments',
+    '~/modules/zero-js',
   ],
   plausible: {
     domain: 'nuxt.new'
