@@ -4,9 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   srcDir: 'src',
   nitro: {
-    output: {
-      publicDir: fileURLToPath(new URL('./dist', import.meta.url))
-    },
     prerender: {
       routes: ['/data/starters.json', '/data/themes.json']
     }
