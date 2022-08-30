@@ -14,6 +14,7 @@ const { data: themes } = await useFetch('/data/themes.json')
         <nuxt-picture
           class="object-cover"
           :src="item.image"
+          sizes="sm:100vw md:50vw lg:685px"
           alt=""
           width="685"
           height="434"
