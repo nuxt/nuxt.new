@@ -11,7 +11,7 @@ const { data: items } = await useFetch('/data/starters.json')
       <img :src="item.image" class="h-8 w-8" alt="" />
       <div class="font-bold mt-4">{{ item.name }}</div>
       <p class="font-thin">{{ item.description }}</p>
-      <RepoButtons :slug="item.slug" />
+      <RepoButtons :repo="item.repo" :branch="item.branch" :dir="item.dir" />
     </article>
   </div>
 </template>
