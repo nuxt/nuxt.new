@@ -26,7 +26,7 @@ defineProps({
     </a>
     <a
       target="_blank"
-      :href="`https://codesandbox.io/s/github/${repo}/tree/${branch}${
+      :href="`https://stackblitz.com/github/${repo}/tree/${branch}${
         dir ? `/${dir}` : ''
       }`"
       class="flex gap-2 items-center px-3 py-2 rounded bg-white bg-opacity-[0.1] border-[1px] border-white border-opacity-[0.1] hover:border-opacity-[0.7] hover:bg-opacity-[0.2] transition-all"
