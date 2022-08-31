@@ -14,6 +14,7 @@ test.describe(`pages`, () => {
     test(`renders ${path}`, async ({ page }) => {
       const pageErrors: Error[] = []
       const consoleLogs: { type: string, text: string }[] = []
+      const requests: string[] = []
 
       page.on('console', (message) => {
         consoleLogs.push({
@@ -23,6 +24,9 @@ test.describe(`pages`, () => {
       })
       page.on('pageerror', (err) => {
         pageErrors.push(err)
+      })
+      page.on('request', request => {
+        requests.push(request.url())
       })
 
       await page.goto(url(path), { waitUntil: 'networkidle' })
@@ -38,6 +42,8 @@ test.describe(`pages`, () => {
       expect(pageErrors).toEqual([])
       expect(consoleLogErrors).toEqual([])
       expect(consoleLogWarnings).toEqual([])
+      expect(requests.filter(i => i.endsWith('.js')))
+        .toEqual(['https://plausible.io/js/plausible.js'])
     })
   }
 })
