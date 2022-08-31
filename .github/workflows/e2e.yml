@@ -1,0 +1,35 @@
+name: test
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        required: false
+        description: The URL to run the test suite against. If omitted, it runs against all.
+        type: string
+  deployment_status:
+
+jobs:
+  e2e:
+    environment:
+      name: ${{ github.event.deployment.environment || 'Production' }}
+      url: ${{ github.event.inputs.url || github.event.deployment.payload.web_url || github.event.deployment_status.target_url }}
+    if: github.event.deployment_status.state == 'success' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.25.0-focal
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: corepack enable
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - run: pnpm test:e2e
+        env:
+          BASE_URL: ${{ github.event.inputs.url || github.event.deployment.payload.web_url || github.event.deployment_status.target_url }}
