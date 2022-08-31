@@ -28,14 +28,21 @@ export default defineNuxtConfig({
     meta: {
       name: 'Start a Nuxt project',
       description: 'The best way to get started with a new Nuxt project.',
+      theme_color: '#000',
       ogHost: 'https://nuxt.new',
       ogImage: {
         path: '/social-preview.png',
         width: 1280,
         height: 640
-      }
+      },
     },
-    manifest: false,
+    manifest: {
+      name: 'Start a Nuxt project',
+      background_color: '#000',
+      short_name: 'nuxt.new',
+      theme_color: '#000',
+      description: 'The best way to get started with a new Nuxt project.',
+    },
     workbox: false,
   },
   app: {
