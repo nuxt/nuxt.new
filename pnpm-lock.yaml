@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nuxt/image-edge': 1.0.0-27657146.da85542
-  '@nuxtjs/critters': ^0.3.1
+  '@nuxtjs/critters': ^0.3.2
   '@nuxtjs/tailwindcss': ^5.3.2
   '@playwright/test': 1.25.0
   nuxt: npm:nuxt3@latest
@@ -10,7 +10,7 @@ specifiers:
 
 devDependencies:
   '@nuxt/image-edge': 1.0.0-27657146.da85542
-  '@nuxtjs/critters': 0.3.1
+  '@nuxtjs/critters': 0.3.2
   '@nuxtjs/tailwindcss': 5.3.2
   '@playwright/test': 1.25.0
   nuxt: /nuxt3/3.0.0-rc.8-27697980.11e537d
@@ -781,8 +781,8 @@ packages:
       - webpack
     dev: true
 
-  /@nuxtjs/critters/0.3.1:
-    resolution: {integrity: sha512-6E3btKE88eqPL++QKPmitpHCFV7MydggcYgkvOv8HT3m7BqDR2iAjK5XwB22SPGndJ5Fg1iic9qn+gIMSJ0AdQ==}
+  /@nuxtjs/critters/0.3.2:
+    resolution: {integrity: sha512-TFovj5Y0nL1e2+40UF7RqJT6nI3z8T+m66CtFQscfyqek4JCGn1qhUJsgd+3bWx4YbLYHb05V0pQwT2hvsSKcA==}
     dependencies:
       '@nuxt/kit': 3.0.0-rc.8
       critters: 0.0.16
