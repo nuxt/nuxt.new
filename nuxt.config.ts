@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       },
       twitterCard: 'summary_large_image',
       twitterCreator: '@nuxt_js',
-      twitterSite: 'https://nuxt.new',
+      twitterSite: '@nuxt_js',
     },
     manifest: {
       name: 'Start a Nuxt project',
