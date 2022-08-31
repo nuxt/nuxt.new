@@ -14,10 +14,10 @@ export default defineNuxtModule({
 
     nuxt.hook('nitro:init', nitro => {
       nitro.hooks.hook('prerender:generate', route => {
-        if ('data' in route) {
+        if ('data' in route && route.data) {
           const contents = new TextDecoder('utf-8').decode(new Uint8Array(route.data))
           route.data = new TextEncoder().encode(purgeHTML(contents))
-        } else {
+        } else if (route.contents) {
           // Remove when we upgrade nitro
           route.contents = purgeHTML(route.contents)
         }

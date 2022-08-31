@@ -1,8 +1,8 @@
-import { fileURLToPath } from 'node:url'
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
   srcDir: 'src',
+  typescript: { strict: true, typeCheck: true, shim: false },
   nitro: {
     prerender: {
       routes: ['/data/starters.json', '/data/themes.json']
