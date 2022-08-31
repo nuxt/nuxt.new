@@ -26,7 +26,7 @@ export default defineNuxtConfig({
   ],
   pwa: {
     meta: {
-      name: 'Start a new Nuxt project',
+      name: 'Start a Nuxt project',
       description: 'The best way to get started with a new Nuxt project.',
       ogHost: 'https://nuxt.new',
       ogImage: {
@@ -35,8 +35,8 @@ export default defineNuxtConfig({
         height: 640
       }
     },
-    manifest: { enabled: false },
-    workbox: { enabled: false }
+    manifest: false,
+    workbox: false,
   },
   app: {
     head: {
