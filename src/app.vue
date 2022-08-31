@@ -8,7 +8,7 @@
         Start a Nuxt project
       </h1>
       <p
-        class="font-thin mt-6 text-center mx-auto md:mx-0 md:mt-8 md:text-left max-w-[30ch] md:max-w-[50ch]"
+        class="font-thin mt-6 text-center mx-auto md:mx-0 md:mt-8 md:text-left max-w-[23rem] md:max-w-[60rem]"
       >
         Open a Nuxt starter on CodeSandbox or StackBlitz to get up and running
         in a few seconds.
