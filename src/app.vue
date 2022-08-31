@@ -33,7 +33,7 @@ useHead({
       <p
         class="font-thin mt-6 text-center mx-auto md:mx-0 md:mt-8 md:text-left max-w-[30ch] md:max-w-[50ch]"
       >
-        Open a Nuxt starter or theme on CodeSandbox or StackBlitz to get up and
+        Open a Nuxt starter on CodeSandbox or StackBlitz to get up and
         running in a few seconds.
       </p>
       <h2 class="font-bold text-2xl md:text-3xl mt-20 md:mt-24">Starters</h2>
