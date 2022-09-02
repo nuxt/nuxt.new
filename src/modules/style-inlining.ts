@@ -1,4 +1,6 @@
 import { addVitePlugin, defineNuxtModule, useNuxt } from '@nuxt/kit'
+import purgehtml from 'purgecss-from-html'
+import { PurgeCSS } from 'purgecss'
 import { dirname, isAbsolute, join, relative } from 'pathe'
 
 export default defineNuxtModule({
@@ -11,7 +13,7 @@ export default defineNuxtModule({
     let css: string
     let cssFilename: string
 
-    const inlineStyles = (html: string, filename: string) => {
+    const inlineStyles = (html: string, css: string, filename: string) => {
       const resolvedCSS = css.replace(/(?<=url\()[^)]+(?=\))/g, url => {
         if (isAbsolute(url)) return url
         return './' + relative(dirname(filename.replace(/^\/*/, '')), join(cssFilename, '..', url))
@@ -36,16 +38,15 @@ export default defineNuxtModule({
     })
 
     nuxt.hook('nitro:init', nitro => {
-      nitro.hooks.hook('prerender:generate', route => {
-        if (!route.fileName?.endsWith('.html')) return
+      nitro.hooks.hook('prerender:generate', async route => {
+        if (!route.fileName?.endsWith('.html') || !route.contents) return
 
-        if ('data' in route && route.data) {
-          const contents = new TextDecoder('utf-8').decode(new Uint8Array(route.data))
-          route.data = new TextEncoder().encode(inlineStyles(contents, route.fileName))
-        } else if (route.contents) {
-          // Remove when we upgrade nitro
-          route.contents = inlineStyles(route.contents, route.fileName)
-        }
+        const [result] = await new PurgeCSS().purge({
+          content: [{ raw: route.contents, extension: 'html' }],
+          css: [{ raw: css }],
+          extractors: [{ extensions: ['html'], extractor: purgehtml }],
+        })
+        route.contents = inlineStyles(route.contents, result.css, route.fileName)
       })
     })
   }
