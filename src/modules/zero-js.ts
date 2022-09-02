@@ -14,6 +14,8 @@ export default defineNuxtModule({
 
     nuxt.hook('nitro:init', nitro => {
       nitro.hooks.hook('prerender:generate', route => {
+        if (!route.fileName?.endsWith('.html')) return
+
         if ('data' in route && route.data) {
           const contents = new TextDecoder('utf-8').decode(new Uint8Array(route.data))
           route.data = new TextEncoder().encode(purgeHTML(contents))

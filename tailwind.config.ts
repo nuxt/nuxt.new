@@ -168,7 +168,7 @@ export default <Partial<Config>> {
     extend: {
       colors,
       fontFamily: {
-        sans: ['"RoobertPRO"', 'sans-serif']
+        sans: ['"RoobertPRO"', '"RoobertPRO override"', 'sans-serif']
       },
     }
   },

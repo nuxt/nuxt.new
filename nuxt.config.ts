@@ -17,13 +17,20 @@ export default defineNuxtConfig({
   css: ['~/assets/fonts.css'],
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/critters',
+    // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
+    // '@nuxtjs/critters',
     '@nuxt/image-edge',
     'vue-plausible',
     '@kevinmarrec/nuxt-pwa',
+    'nuxt-font-metrics',
     '~/modules/purge-comments',
+    '~/modules/style-inlining',
     '~/modules/zero-js',
   ],
+  fontMetrics: {
+    // We inline styles ourselves
+    inline: false,
+  },
   pwa: {
     meta: {
       name: 'Start a Nuxt project',
