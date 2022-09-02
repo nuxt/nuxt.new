@@ -23,9 +23,9 @@ export default defineNuxtConfig({
     'vue-plausible',
     '@kevinmarrec/nuxt-pwa',
     'nuxt-font-metrics',
+    'nuxt-zero-js',
     '~/modules/purge-comments',
     '~/modules/style-inlining',
-    '~/modules/zero-js',
   ],
   fontMetrics: {
     // We inline styles ourselves
