@@ -28,3 +28,9 @@
     </div>
   </div>
 </template>
+
+<style>
+#__nuxt {
+  overflow: hidden;
+}
+</style>
