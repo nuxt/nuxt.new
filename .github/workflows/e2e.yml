@@ -22,8 +22,9 @@ jobs:
         uses: treosh/lighthouse-ci-action@v9
         with:
           urls: ${{ github.event.inputs.url || github.event.deployment.payload.web_url || github.event.deployment_status.target_url }}
-          uploadArtifacts: true # save results as an action artifacts
-          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          budgetPath: ./budget.json
   e2e:
     environment:
       name: ${{ github.event.deployment.environment || 'Production' }}
