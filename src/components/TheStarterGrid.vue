@@ -19,13 +19,12 @@ const { data: items } = await useFetch('/data/starters.json')
             item.dir ? `/${item.dir}` : ''
           }`"
         >
-          <img
-            src="/logos/github.svg"
+          <svg
             class="w-4 h-4"
-            height="16"
-            width="16"
             :alt="`GitHub repository for ${item.name} starter`"
-          />
+          >
+            <use xlink:href="#github" />
+          </svg>
         </a>
       </div>
       <p class="font-thin">{{ item.description }}</p>
