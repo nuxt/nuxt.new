@@ -25,6 +25,8 @@ jobs:
           uploadArtifacts: true
           temporaryPublicStorage: true
           budgetPath: ./budget.json
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
   e2e:
     environment:
       name: ${{ github.event.deployment.environment || 'Production' }}
