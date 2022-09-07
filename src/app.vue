@@ -1,6 +1,7 @@
 <template>
   <Html class="bg-black text-white" />
   <div class="relative max-w-5xl w-full mx-auto px-6">
+    <SpriteMap />
     <Spotlight class="z-[1]" />
     <div class="z-[2] relative flex flex-col min-h-screen">
       <TheHeader class="xl:mt-4" />

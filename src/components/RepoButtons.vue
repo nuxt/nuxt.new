@@ -15,13 +15,7 @@ defineProps({
       }`"
       class="flex gap-2 items-center px-3 py-2 rounded bg-white bg-opacity-[0.1] border-[1px] border-white border-opacity-[0.1] hover:border-opacity-[0.7] hover:bg-opacity-[0.2] transition-all"
     >
-      <img
-        src="/logos/codesandbox.svg"
-        class="h-4 w-4"
-        height="16"
-        width="16"
-        alt=""
-      />
+      <svg class="w-4 h-4" alt=""><use xlink:href="#codesandbox" /></svg>
       CodeSandbox
     </a>
     <a
@@ -31,13 +25,7 @@ defineProps({
       }`"
       class="flex gap-2 items-center px-3 py-2 rounded bg-white bg-opacity-[0.1] border-[1px] border-white border-opacity-[0.1] hover:border-opacity-[0.7] hover:bg-opacity-[0.2] transition-all"
     >
-      <img
-        src="/logos/stackblitz.svg"
-        class="h-4 w-4"
-        height="16"
-        width="16"
-        alt=""
-      />
+      <svg class="w-4 h-4" alt=""><use xlink:href="#stackblitz" /></svg>
       StackBlitz
     </a>
   </div>
