@@ -10,6 +10,19 @@ on:
   deployment_status:
 
 jobs:
+  lighthouse:
+    environment:
+      name: ${{ github.event.deployment.environment || 'Production' }}
+      url: ${{ github.event.inputs.url || github.event.deployment.payload.web_url || github.event.deployment_status.target_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit URLs using Lighthouse
+        uses: treosh/lighthouse-ci-action@v9
+        with:
+          urls: ${{ github.event.inputs.url || github.event.deployment.payload.web_url || github.event.deployment_status.target_url }}
+          uploadArtifacts: true # save results as an action artifacts
+          temporaryPublicStorage: true # upload lighthouse report to the temporary storage
   e2e:
     environment:
       name: ${{ github.event.deployment.environment || 'Production' }}
