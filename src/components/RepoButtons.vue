@@ -43,13 +43,7 @@ const command = `npx nuxi init ${template}app`
     >
       <span class="sr-only">Click to copy</span>
       <code class="flex items-center gap-2">
-        <img
-          src="/icons/terminal.svg"
-          class="h-4 w-4"
-          height="16"
-          width="16"
-          alt=""
-        />
+        <svg class="w-4 h-4" alt=""><use xlink:href="#terminal" /></svg>
         {{ command }}
       </code>
     </button>
