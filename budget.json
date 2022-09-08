@@ -1,16 +1,6 @@
 [
   {
     "path": "/",
-    "timings": [
-      {
-        "metric": "interactive",
-        "budget": 1500
-      },
-      {
-        "metric": "first-meaningful-paint",
-        "budget": 1200
-      }
-    ],
     "resourceSizes": [
       {
         "resourceType": "document",
