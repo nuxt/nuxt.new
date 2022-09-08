@@ -49,7 +49,7 @@ const command = `npx nuxi init ${template}app`
     </button>
     <span
       class="absolute bottom-[1.5rem] right-[0.5rem] transition-opacity opacity-0 copy-confirmation pointer-events-none"
-      aria-hidden
+      alt=""
     >
       Copied!
     </span>

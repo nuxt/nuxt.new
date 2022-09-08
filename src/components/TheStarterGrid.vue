@@ -19,10 +19,10 @@ const { data: items } = await useFetch('/data/starters.json')
             item.dir ? `/${item.dir}` : ''
           }`"
         >
-          <svg
-            class="w-4 h-4"
-            :alt="`GitHub repository for ${item.name} starter`"
-          >
+          <span class="sr-only">
+            GitHub repository for {{ item.name }} starter
+          </span>
+          <svg class="w-4 h-4" alt="">
             <use xlink:href="#github" />
           </svg>
         </a>
