@@ -19,11 +19,11 @@
         Explore our different starters with different presets.
       </p>
       <TheStarterGrid class="mt-4 md:mt-8" />
-      <!-- <h2 class="font-bold text-2xl md:text-3xl mt-20 md:mt-24">Themes</h2>
+      <h2 class="font-bold text-2xl md:text-3xl mt-20 md:mt-24">Themes</h2>
       <p class="font-thin max-w-[50ch]">
         Start with our content-driven open-source themes.
       </p>
-      <TheThemeGrid class="mt-4 md:mt-8" /> -->
+      <TheThemeGrid class="mt-4 md:mt-8" />
       <span class="flex-grow" />
       <TheHeader class="mt-12" />
     </div>
