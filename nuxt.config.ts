@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/fonts.css'],
+  experimental: {
+    noScripts: true
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
@@ -23,7 +26,6 @@ export default defineNuxtConfig({
     'vue-plausible',
     '@kevinmarrec/nuxt-pwa',
     'nuxt-font-metrics',
-    'nuxt-zero-js',
     '~/modules/purge-comments',
     '~/modules/style-inlining',
   ],
