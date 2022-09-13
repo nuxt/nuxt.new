@@ -9,7 +9,7 @@ const { data: themes } = await useFetch('/data/themes.json')
       class="rounded-lg border-gray-800 border-[1px] px-4 py-4 bg-gradient-to-r from-[rgba(24,24,27,0.65)] backdrop-blur-sm to-transparent overflow-hidden"
     >
       <div
-        class="aspect-video -mx-4 -mt-4 overflow-hidden bg-gradient-to-r from-blue-400 to-teal-400 p-4 md:p-6"
+        class="relative aspect-video -mx-4 -mt-4 overflow-hidden bg-gradient-to-r from-blue-400 to-teal-400 p-4 md:p-6"
       >
         <nuxt-picture
           class="object-cover"
@@ -25,7 +25,7 @@ const { data: themes } = await useFetch('/data/themes.json')
         :href="`/${item.slug}`"
       >
         {{ item.name }}
-        <span class="inline-block i-external h-4 w-4" />
+        <svg class="w-4 h-4" alt=""><use xlink:href="#external" /></svg>
       </a>
       <p class="font-thin">{{ item.description }}</p>
       <RepoButtons
