@@ -28,7 +28,12 @@ const { data: themes } = await useFetch('/data/themes.json')
         <span class="inline-block i-external h-4 w-4" />
       </a>
       <p class="font-thin">{{ item.description }}</p>
-      <RepoButtons :repo="item.repo" :branch="item.branch" :dir="item.dir" />
+      <RepoButtons
+        :repo="item.repo"
+        :branch="item.branch"
+        :dir="item.dir"
+        :slug="item.slug"
+      />
     </article>
   </div>
 </template>
