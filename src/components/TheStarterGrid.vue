@@ -28,7 +28,12 @@ const { data: items } = await useFetch('/data/starters.json')
         </a>
       </div>
       <p class="font-thin">{{ item.description }}</p>
-      <RepoButtons :repo="item.repo" :branch="item.branch" :dir="item.dir" />
+      <RepoButtons
+        :repo="item.repo"
+        :branch="item.branch"
+        :dir="item.dir"
+        :slug="item.slug"
+      />
     </article>
   </div>
 </template>
