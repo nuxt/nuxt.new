@@ -1,4 +1,4 @@
-export default (): Starter[] => [
+export default defineEventHandler((): Starter[] => [
   // {
   //   "name": "Alpine",
   //   "slug": "alpine",
@@ -26,4 +26,4 @@ export default (): Starter[] => [
     "template": "Atinux/content-wind-template",
     "branch": "main"
   }
-]
+])
