@@ -2,7 +2,6 @@
 const props = defineProps({
   repo: String,
   branch: String,
-  template: String,
   dir: String,
   slug: String,
 })
@@ -14,7 +13,9 @@ const template =
       : `-t ${props.branch} `
     : `-t "${props.repo}#${props.branch}" `
 
-const command = `npx nuxi init ${template}<${template.includes('module') ? 'module' : 'app'}>`
+const command = `npx nuxi init ${template}<${
+  template.includes('module') ? 'module' : 'app'
+}>`
 </script>
 
 <template>
