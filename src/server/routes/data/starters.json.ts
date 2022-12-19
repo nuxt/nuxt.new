@@ -1,4 +1,4 @@
-export default (): Starter[] => [
+export default defineEventHandler((): Starter[] => [
   {
     "name": "Nuxt 3",
     "slug": "v3",
@@ -31,4 +31,4 @@ export default (): Starter[] => [
     "repo": "nuxt/starter",
     "branch": "layer"
   }
-]
+])
