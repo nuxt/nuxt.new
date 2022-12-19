@@ -1,6 +1,6 @@
 <template>
   <header class="py-4 flex items-center w-full">
-    <a target="_blank" href="https://nuxtjs.org">
+    <a target="_blank" href="https://nuxt.com">
       <span class="sr-only">Nuxt</span>
       <svg width="130" height="39" alt=""><use xlink:href="#nuxt" /></svg>
     </a>

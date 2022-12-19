@@ -5,7 +5,7 @@ export default lazyEventHandler(async () => {
   ])
   const repos = [...themes, ...starters]
 
-  return event => {
+  return defineEventHandler(event => {
     const slug = getRouterParam(event, 'slug')
     const repo = repos.find(r => r.slug === slug)
 
@@ -17,5 +17,5 @@ export default lazyEventHandler(async () => {
     }
 
     return repo
-  }
+  })
 })

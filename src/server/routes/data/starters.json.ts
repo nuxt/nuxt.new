@@ -1,4 +1,4 @@
-export default (): Starter[] => [
+export default defineEventHandler((): Starter[] => [
   {
     "name": "Nuxt 3",
     "slug": "v3",
@@ -23,12 +23,12 @@ export default (): Starter[] => [
     "repo": "nuxt/starter",
     "branch": "module"
   },
-  // {
-  //   "name": "Theme",
-  //   "slug": "theme",
-  //   "description": "Starter to create your first Nuxt theme.",
-  //   "image": "data:image/svg+xml,%3Csvg width='34' height='34' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.667 23.667a1.667 1.667 0 1 0 0 3.333 1.667 1.667 0 0 0 0-3.333ZM28.767 17l2.05-2.05a5 5 0 0 0 0-7.067l-4.717-4.7a5 5 0 0 0-7.067 0L17 5.233a5 5 0 0 0-5-4.9H5.333a5 5 0 0 0-5 5v23.334a5 5 0 0 0 5 5h23.334a5 5 0 0 0 5-5V22a5 5 0 0 0-4.9-5Zm-15.1 11.667A1.667 1.667 0 0 1 12 30.333H5.333a1.667 1.667 0 0 1-1.666-1.666V5.333a1.667 1.667 0 0 1 1.666-1.666H12a1.667 1.667 0 0 1 1.667 1.666v23.334ZM17 9.933l4.4-4.4a1.667 1.667 0 0 1 2.35 0l4.717 4.8a1.667 1.667 0 0 1 0 2.35l-4.8 4.8L17 24.067V9.933Zm13.333 18.734a1.667 1.667 0 0 1-1.666 1.666H16.7a5.2 5.2 0 0 0 .283-1.533l8.467-8.467h3.217A1.666 1.666 0 0 1 30.333 22v6.667Z' fill='%2300BD6F'/%3E%3C/svg%3E",
-  //   "repo": "nuxt-themes/starter",
-  //   "branch": "main"
-  // }
-]
+  {
+    "name": "Layer",
+    "slug": "layer",
+    "description": "Starter to create your first Nuxt layer.",
+    "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' aria-hidden='true' role='img' width='1em' height='1em' viewBox='0 0 24 24' data-v-047565da=''%3E%3Cpath fill='%2300BD6F' d='m2.5 8.86l9 5.2a1 1 0 0 0 1 0l9-5.2A1 1 0 0 0 22 8a1 1 0 0 0-.5-.87l-9-5.19a1 1 0 0 0-1 0l-9 5.19A1 1 0 0 0 2 8a1 1 0 0 0 .5.86ZM12 4l7 4l-7 4l-7-4Zm8.5 7.17L12 16l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Zm0 4L12 20l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Z'%3E%3C/path%3E%3C/svg%3E",
+    "repo": "nuxt/starter",
+    "branch": "layer"
+  }
+])

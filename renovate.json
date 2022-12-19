@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "ignoreDeps": ["vue-tsc"],
   "extends": [
     "github>nuxt/renovate-config-nuxt",
     ":labels(dependencies,devops)",

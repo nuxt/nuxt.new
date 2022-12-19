@@ -15,9 +15,7 @@ const { data: items } = await useFetch('/data/starters.json')
         </span>
         <a
           class="opacity-50 hover:opacity-100 transition-opacity"
-          :href="`https://github.com/${item.repo}/tree/${item.branch}${
-            item.dir ? `/${item.dir}` : ''
-          }`"
+          :href="`https://github.com/${item.repo}/tree/${item.branch}`"
         >
           <span class="sr-only">
             GitHub repository for {{ item.name }} starter
@@ -28,10 +26,9 @@ const { data: items } = await useFetch('/data/starters.json')
         </a>
       </div>
       <p class="font-thin">{{ item.description }}</p>
-      <RepoButtons
+      <StarterButtons
         :repo="item.repo"
         :branch="item.branch"
-        :dir="item.dir"
         :slug="item.slug"
       />
     </article>
