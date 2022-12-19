@@ -13,6 +13,9 @@ const { data: themes } = await useFetch('/data/themes.json')
       >
         <nuxt-picture
           class="object-cover"
+          :img-attrs="{
+            class: 'rounded'
+          }"
           :src="item.image"
           sizes="sm:100vw md:50vw lg:685px"
           alt=""
@@ -22,19 +25,15 @@ const { data: themes } = await useFetch('/data/themes.json')
       </div>
       <a
         class="font-bold mt-4 flex items-center gap-2 hover:text-green-400"
-        :href="`/${item.slug}`"
+        :href="item.demo"
+        target="_blank"
+        rel="noopener"
       >
         {{ item.name }}
         <svg class="w-4 h-4" alt=""><use xlink:href="#external" /></svg>
       </a>
       <p class="font-thin">{{ item.description }}</p>
-      <RepoButtons
-        :repo="item.repo"
-        :branch="item.branch"
-        :template="item.template"
-        :dir="item.dir"
-        :slug="item.slug"
-      />
+      <ThemeButtons :slug="item.slug" />
     </article>
   </div>
 </template>

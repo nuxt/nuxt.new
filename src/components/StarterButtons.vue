@@ -14,7 +14,7 @@ const template =
       : `-t ${props.branch} `
     : `-t "${props.repo}#${props.branch}" `
 
-const command = `npx nuxi init ${template}app`
+const command = `npx nuxi init ${template}<${template.includes('module') ? 'module' : 'app'}>`
 </script>
 
 <template>
@@ -35,22 +35,7 @@ const command = `npx nuxi init ${template}app`
       <svg class="w-4 h-4" alt=""><use xlink:href="#stackblitz" /></svg>
       StackBlitz
     </a>
-    <button
-      class="flex gap-2 items-center px-3 py-2 rounded border-[1px] border-white border-opacity-[0.1] hover:border-opacity-[0.7] hover:bg-opacity-[0.2] transition-all col-span-2 opacity-75"
-      :onclick="`navigator.clipboard.writeText('${command}')`"
-    >
-      <span class="sr-only">Click to copy</span>
-      <code class="flex items-center gap-2">
-        <svg class="w-4 h-4" alt=""><use xlink:href="#terminal" /></svg>
-        {{ command }}
-      </code>
-    </button>
-    <span
-      class="absolute bottom-[1.5rem] right-[0.5rem] transition-opacity opacity-0 copy-confirmation pointer-events-none"
-      alt=""
-    >
-      Copied!
-    </span>
+    <CliCommand :command="command" />
   </div>
 </template>
 

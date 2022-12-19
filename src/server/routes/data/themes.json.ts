@@ -12,18 +12,18 @@ export default defineEventHandler((): Starter[] => [
     "name": "Docus",
     "slug": "docus",
     "description": "The best place to start your documentation.",
-    "image": "/previews/docus.jpg",
-    "repo": "nuxt-themes/docus",
-    "template": "nuxt-themes/docus-starter",
+    "image": "/previews/docus.png",
+    "demo": "https://docus.dev",
+    "repo": "nuxt-themes/docus-starter",
     "branch": "dev"
   },
   {
     "name": "Content Wind",
     "slug": "content-wind",
-    "description": "A lightweight Nuxt theme to build a Markdown driven website.",
-    "image": "/previews/content-wind.jpg",
-    "repo": "Atinux/content-wind",
-    "template": "Atinux/content-wind-template",
+    "description": "A lightweight Nuxt theme for a Markdown driven website.",
+    "image": "/previews/content-wind.png",
+    "demo": "https://content-wind.nuxt.space",
+    "repo": "Atinux/content-wind-template",
     "branch": "main"
   }
 ])
