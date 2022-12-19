@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     'nuxt-plausible',
     '@kevinmarrec/nuxt-pwa',
-    'nuxt-font-metrics',
+    '@nuxtjs/fontaine',
     '~/modules/purge-comments',
     '~/modules/style-inlining',
   ],
