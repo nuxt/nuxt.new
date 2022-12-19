@@ -2,6 +2,7 @@
 const props = defineProps({
   repo: String,
   branch: String,
+  template: String,
   dir: String,
   slug: String,
 })

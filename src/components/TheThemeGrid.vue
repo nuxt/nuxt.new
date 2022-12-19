@@ -31,6 +31,7 @@ const { data: themes } = await useFetch('/data/themes.json')
       <RepoButtons
         :repo="item.repo"
         :branch="item.branch"
+        :template="item.template"
         :dir="item.dir"
         :slug="item.slug"
       />

@@ -14,6 +14,7 @@ export default (): Starter[] => [
     "description": "The best place to start your documentation.",
     "image": "/previews/docus.jpg",
     "repo": "nuxt-themes/docus",
+    "template": "nuxt-themes/docus-starter",
     "branch": "dev"
   },
   {
@@ -22,6 +23,7 @@ export default (): Starter[] => [
     "description": "A lightweight Nuxt theme to build a Markdown driven website.",
     "image": "/previews/content-wind.jpg",
     "repo": "Atinux/content-wind",
+    "template": "Atinux/content-wind-template",
     "branch": "main"
   }
 ]
