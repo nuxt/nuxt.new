@@ -20,8 +20,8 @@
       </p>
       <TheStarterGrid class="mt-4 md:mt-8" />
       <h2 class="font-bold text-2xl md:text-3xl mt-20 md:mt-24">Themes</h2>
-      <p class="font-thin max-w-[50ch]">
-        Start with our content-driven open-source themes.
+      <p class="font-thin max-w-[70ch]">
+        Start with our content-driven open-source themes, or <a href="https://github.com/nuxt-themes/starter">create a new one</a>
       </p>
       <TheThemeGrid class="mt-4 md:mt-8" />
       <span class="flex-grow" />

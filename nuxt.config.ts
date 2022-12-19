@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
-    'vue-plausible',
+    'nuxt-plausible',
     '@kevinmarrec/nuxt-pwa',
     'nuxt-font-metrics',
     '~/modules/purge-comments',
