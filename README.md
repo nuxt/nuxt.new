@@ -12,7 +12,7 @@ Learn more in the ['What is Nuxt?'](https://nuxt.com/docs/getting-started/introd
 - 💪 SVG sprite map to reduce DOM size
 - 🎨 Inlined CSS to reduce network requests
 - 🆎 Generated [font fallback metrics](https://github.com/danielroe/fontaine/) to reduce CLS
-- ⚗️ [Nitro](https://nitro.unjs.io/) server routes
+- ⚗️ [Nitro](https://nitro.unjs.io/) server routes with the [server/](https://nuxt.com/docs/guide/directory-structure/server) directory
 
 ## 💻 Development
 
