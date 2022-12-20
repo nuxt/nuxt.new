@@ -6,7 +6,7 @@
     </a>
     <a
       target="_blank"
-      href="https://github.com/nuxtlabs/nuxt.new"
+      href="https://github.com/nuxt/nuxt.new"
       class="p-2 flex gap-2 text-gray-300 font-thin items-center"
     >
       <svg class="w-4 h-4" alt=""><use xlink:href="#github" /></svg>
