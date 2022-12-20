@@ -6,4 +6,5 @@ declare interface Starter {
   repo: string
   branch: string
   demo?: string
+  docs?: string
 }

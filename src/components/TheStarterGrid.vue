@@ -25,7 +25,12 @@ const { data: items } = await useFetch('/data/starters.json')
           </svg>
         </a>
       </div>
-      <p class="font-thin">{{ item.description }}</p>
+      <p class="font-thin">
+        {{ item.description }}
+        <template v-if="item.docs">
+          <a :href="item.docs" class="link">Learn more</a>.
+        </template>
+      </p>
       <StarterButtons
         :repo="item.repo"
         :branch="item.branch"
