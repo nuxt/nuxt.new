@@ -28,7 +28,8 @@ const { data: items } = await useFetch('/data/starters.json')
       <p class="font-thin">
         {{ item.description }}
         <template v-if="item.docs">
-          <a :href="item.docs" class="link">Learn more</a>.
+          <a :href="item.docs" class="link">Learn more</a
+          ><span class="sr-only">about {{ item.name }} starter</span>.
         </template>
       </p>
       <StarterButtons
