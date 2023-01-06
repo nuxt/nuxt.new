@@ -1,13 +1,12 @@
 export default defineEventHandler((): Starter[] => [
-  // {
-  //   "name": "Alpine",
-  //   "slug": "alpine",
-  //   "description": "The minimalist blog theme.",
-  //   "image": "/previews/alpine.png",
-  //   "repo": "nuxt-themes/alpine",
-  //   "branch": "dev",
-  //   "dir": "template"
-  // },
+  {
+    "name": "Alpine",
+    "slug": "alpine",
+    "description": "The minimalist blog theme.",
+    "image": "/previews/alpine.png",
+    "repo": "nuxt-themes/alpine-starter",
+    "branch": "main"
+  },
   {
     "name": "Docus",
     "slug": "docus",
