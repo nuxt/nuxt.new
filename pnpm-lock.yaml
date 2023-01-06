@@ -4,9 +4,9 @@ specifiers:
   '@kevinmarrec/nuxt-pwa': ^0.13.0
   '@nuxt/image-edge': 1.0.0-27840416.dc1ed65
   '@nuxtjs/critters': ^0.4.0
-  '@nuxtjs/fontaine': ^0.2.3
+  '@nuxtjs/fontaine': ^0.2.4
   '@nuxtjs/tailwindcss': ^6.2.0
-  '@playwright/test': 1.29.0
+  '@playwright/test': 1.29.2
   nuxt: ^3.0.0
   nuxt-plausible: ^0.1.2
   purgecss: ^5.0.0
@@ -18,9 +18,9 @@ devDependencies:
   '@kevinmarrec/nuxt-pwa': 0.13.0
   '@nuxt/image-edge': 1.0.0-27840416.dc1ed65
   '@nuxtjs/critters': 0.4.0
-  '@nuxtjs/fontaine': 0.2.3
+  '@nuxtjs/fontaine': 0.2.4
   '@nuxtjs/tailwindcss': 6.2.0
-  '@playwright/test': 1.29.0
+  '@playwright/test': 1.29.2
   nuxt: 3.0.0_typescript@4.9.4
   nuxt-plausible: 0.1.2
   purgecss: 5.0.0
@@ -725,12 +725,12 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/fontaine/0.2.3:
-    resolution: {integrity: sha512-FJvVyFr2c7rvhPeW93lXxHNbZZQB4ZhK37WBwn1uMNl+B9hqkCQg5mFCMKEd5Xgw6KAsb2IdbK+p0X36grooRQ==}
+  /@nuxtjs/fontaine/0.2.4:
+    resolution: {integrity: sha512-egOlWIQUMxXPAG3ltryF+R9lntSX4ovJu9iJ5IMbFnxo03DXBJMFIJSWhUNL/5jPUHkBoEFolaLZma5UtPpCpQ==}
     dependencies:
       '@nuxt/kit': 3.0.0
       fontaine: 0.2.3
-      magic-string: 0.26.7
+      magic-string: 0.27.0
       pathe: 1.0.0
       ufo: 1.0.1
     transitivePeerDependencies:
@@ -762,13 +762,13 @@ packages:
       - webpack
     dev: true
 
-  /@playwright/test/1.29.0:
-    resolution: {integrity: sha512-gp5PVBenxTJsm2bATWDNc2CCnrL5OaA/MXQdJwwkGQtqTjmY+ZOqAdLqo49O9MLTDh2vYh+tHWDnmFsILnWaeA==}
+  /@playwright/test/1.29.2:
+    resolution: {integrity: sha512-+3/GPwOgcoF0xLz/opTnahel1/y42PdcgZ4hs+BZGIUjtmEFSXGg+nFoaH3NSmuc7a6GSFwXDJ5L7VXpqzigNg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.7.18
-      playwright-core: 1.29.0
+      playwright-core: 1.29.2
     dev: true
 
   /@rollup/plugin-alias/4.0.2_rollup@2.79.1:
@@ -4481,8 +4481,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /playwright-core/1.29.0:
-    resolution: {integrity: sha512-pboOm1m0RD6z1GtwAbEH60PYRfF87vKdzOSRw2RyO0Y0a7utrMyWN2Au1ojGvQr4umuBMODkKTv607YIRypDSQ==}
+  /playwright-core/1.29.2:
+    resolution: {integrity: sha512-94QXm4PMgFoHAhlCuoWyaBYKb92yOcGVHdQLoxQ7Wjlc7Flg4aC/jbFW7xMR52OfXMVkWicue4WXE7QEegbIRA==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
