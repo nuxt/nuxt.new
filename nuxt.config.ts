@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
-    'nuxt-plausible',
+    '@nuxtjs/plausible',
     '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
     '~/modules/purge-comments',
@@ -65,8 +65,5 @@ export default defineNuxtConfig({
         href: `/fonts/RoobertPRO-${weight}.woff2`,
       })),
     }
-  },
-  plausible: {
-    domain: 'nuxt.new'
-  },
+  }
 })

@@ -8,3 +8,4 @@ node_modules
 dist
 .vercel
 .netlify
+.DS_STORE
