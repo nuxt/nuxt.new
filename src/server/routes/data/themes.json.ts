@@ -4,6 +4,7 @@ export default defineEventHandler((): Starter[] => [
     "slug": "alpine",
     "description": "The minimalist blog theme.",
     "image": "/previews/alpine.png",
+    "demo": "https://alpine.nuxt.space/",
     "repo": "nuxt-themes/alpine-starter",
     "branch": "main"
   },
