@@ -1,7 +1,7 @@
 export default lazyEventHandler(async () => {
   const [themes, starters] = await Promise.all([
-    $fetch('/data/themes.json'),
-    $fetch('/data/starters.json'),
+    $fetch<Starter[]>('/data/themes.json'),
+    $fetch<Starter[]>('/data/starters.json'),
   ])
   const repos = [...themes, ...starters]
 
