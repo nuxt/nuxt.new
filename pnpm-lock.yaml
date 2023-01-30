@@ -11,7 +11,7 @@ specifiers:
   nuxt: ^3.1.1
   purgecss: ^5.0.0
   purgecss-from-html: ^5.0.0
-  typescript: ^4.9.4
+  typescript: ^4.9.5
   vue-tsc: 1.0.24
 
 devDependencies:
@@ -22,11 +22,11 @@ devDependencies:
   '@nuxtjs/plausible': 0.2.0
   '@nuxtjs/tailwindcss': 6.3.0
   '@playwright/test': 1.30.0
-  nuxt: 3.1.1_wyyhfjdvksypk646qqlis7owe4
+  nuxt: 3.1.1_z7s3t26cvpahyyxmdmot7g5b4m
   purgecss: 5.0.0
   purgecss-from-html: 5.0.0
-  typescript: 4.9.4
-  vue-tsc: 1.0.24_typescript@4.9.4
+  typescript: 4.9.5
+  vue-tsc: 1.0.24_typescript@4.9.5
 
 packages:
 
@@ -1122,7 +1122,7 @@ packages:
     resolution: {integrity: sha512-KffiTNdVaZlkx0tgwopmy627WQclWO0kqFD1R646wawDbNlWkpmwj5qI5qoh2Rx13/O+KkYdc28H3JsQdQmXJw==}
     dev: true
 
-  /@nuxt/vite-builder/3.1.1_rtyldrl4xnowe3iykbr7rtbbsu:
+  /@nuxt/vite-builder/3.1.1_7kqb2z5okw2xpkvrxkgyt5wq3a:
     resolution: {integrity: sha512-tTV369sIURut6z+t36ib3J2GbgiazMc4VO9wB372A5hnd+faLtapknswMvzF23M+4z1/5tGaV/kkU/ZrO3V1Ag==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
@@ -1159,7 +1159,7 @@ packages:
       unplugin: 1.0.1
       vite: 4.0.4
       vite-node: 0.28.2
-      vite-plugin-checker: 0.5.4_udrm6xadn5tcg4egijvekn26eu
+      vite-plugin-checker: 0.5.4_6wyixyp27mtyjpb7oi2fh5glni
       vue: 3.2.45
       vue-bundle-renderer: 1.0.0
     transitivePeerDependencies:
@@ -4546,7 +4546,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt/3.1.1_wyyhfjdvksypk646qqlis7owe4:
+  /nuxt/3.1.1_z7s3t26cvpahyyxmdmot7g5b4m:
     resolution: {integrity: sha512-GVdmV88lR01OX0slxTPyTzwQkge7fxNREkx2QW0Lo66fb6aHcJlRXzFMBCOTjas+Ncng6AalIyIiPREEteGKSg==}
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     hasBin: true
@@ -4556,7 +4556,7 @@ packages:
       '@nuxt/schema': 3.1.1
       '@nuxt/telemetry': 2.1.9
       '@nuxt/ui-templates': 1.1.0
-      '@nuxt/vite-builder': 3.1.1_rtyldrl4xnowe3iykbr7rtbbsu
+      '@nuxt/vite-builder': 3.1.1_7kqb2z5okw2xpkvrxkgyt5wq3a
       '@unhead/ssr': 1.0.18
       '@vue/reactivity': 3.2.45
       '@vue/shared': 3.2.45
@@ -6171,8 +6171,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript/4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -6406,7 +6406,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-checker/0.5.4_udrm6xadn5tcg4egijvekn26eu:
+  /vite-plugin-checker/0.5.4_6wyixyp27mtyjpb7oi2fh5glni:
     resolution: {integrity: sha512-T6y+OHXqwOjGrCErbhzg5x79NQZV46cgLwYTxuMQnDzAfA6skh2i8PIHcKks8ZlxopzbkvMb5vwc2DpNXiHJdg==}
     engines: {node: '>=14.16'}
     peerDependencies:
@@ -6448,13 +6448,13 @@ packages:
       npm-run-path: 4.0.1
       strip-ansi: 6.0.1
       tiny-invariant: 1.2.0
-      typescript: 4.9.4
+      typescript: 4.9.5
       vite: 4.0.4
       vscode-languageclient: 7.0.0
       vscode-languageserver: 7.0.0
       vscode-languageserver-textdocument: 1.0.7
       vscode-uri: 3.0.3
-      vue-tsc: 1.0.24_typescript@4.9.4
+      vue-tsc: 1.0.24_typescript@4.9.5
     dev: true
 
   /vite/4.0.4:
@@ -6556,7 +6556,7 @@ packages:
       he: 1.2.0
     dev: true
 
-  /vue-tsc/1.0.24_typescript@4.9.4:
+  /vue-tsc/1.0.24_typescript@4.9.5:
     resolution: {integrity: sha512-mmU1s5SAqE1nByQAiQnao9oU4vX+mSdsgI8H57SfKH6UVzq/jP9+Dbi2GaV+0b4Cn361d2ln8m6xeU60ApiEXg==}
     hasBin: true
     peerDependencies:
@@ -6564,7 +6564,7 @@ packages:
     dependencies:
       '@volar/vue-language-core': 1.0.24
       '@volar/vue-typescript': 1.0.24
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
   /vue/3.2.45:
