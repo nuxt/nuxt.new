@@ -6,7 +6,7 @@ specifiers:
   '@nuxtjs/critters': ^0.4.0
   '@nuxtjs/fontaine': ^0.2.4
   '@nuxtjs/plausible': ^0.2.0
-  '@nuxtjs/tailwindcss': ^6.3.0
+  '@nuxtjs/tailwindcss': ^6.3.1
   '@playwright/test': 1.30.0
   nuxt: ^3.1.1
   purgecss: ^5.0.0
@@ -20,7 +20,7 @@ devDependencies:
   '@nuxtjs/critters': 0.4.0
   '@nuxtjs/fontaine': 0.2.4
   '@nuxtjs/plausible': 0.2.0
-  '@nuxtjs/tailwindcss': 6.3.0
+  '@nuxtjs/tailwindcss': 6.3.1
   '@playwright/test': 1.30.0
   nuxt: 3.1.1_z7s3t26cvpahyyxmdmot7g5b4m
   purgecss: 5.0.0
@@ -1217,13 +1217,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/tailwindcss/6.3.0:
-    resolution: {integrity: sha512-P8u3VrgyCUHUniq5yQfstRceq1E3HmLqS5oNdwFHscCVPepilimv3333gdgFhDaL0Nv1xzq4Rg2KRsQFRqnBhQ==}
+  /@nuxtjs/tailwindcss/6.3.1:
+    resolution: {integrity: sha512-UH8GwAGPty+OFiaIQeNIWdSOOqS7pThqN11RmRjigi5xBOVg2LpO0HtrOhcKn7v9+IwuXPWK67m067lNB4HITQ==}
     dependencies:
       '@nuxt/kit': 3.1.1
       '@nuxt/postcss8': 1.1.3
       autoprefixer: 10.4.13_postcss@8.4.21
       chalk: 5.2.0
+      chokidar: 3.5.3
       clear-module: 4.1.2
       consola: 2.15.3
       defu: 6.1.2
