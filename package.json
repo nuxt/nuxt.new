@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@kevinmarrec/nuxt-pwa": "^0.16.2",
-    "@nuxt/image-edge": "1.0.0-27954023.4cee565",
+    "@nuxt/image-edge": "1.0.0-27968280.9739e4d",
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/fontaine": "^0.2.4",
     "@nuxtjs/plausible": "^0.2.0",
