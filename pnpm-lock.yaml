@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@kevinmarrec/nuxt-pwa': ^0.16.2
+  '@kevinmarrec/nuxt-pwa': ^0.17.0
   '@nuxt/image-edge': 1.0.0-27968280.9739e4d
   '@nuxtjs/critters': ^0.4.0
   '@nuxtjs/fontaine': ^0.2.4
   '@nuxtjs/plausible': ^0.2.0
   '@nuxtjs/tailwindcss': ^6.4.1
-  '@playwright/test': 1.30.0
+  '@playwright/test': 1.31.2
   nuxt: ^3.2.3
   purgecss: ^5.0.0
   purgecss-from-html: ^5.0.0
@@ -15,13 +15,13 @@ specifiers:
   vue-tsc: 1.0.24
 
 devDependencies:
-  '@kevinmarrec/nuxt-pwa': 0.16.2
+  '@kevinmarrec/nuxt-pwa': 0.17.0
   '@nuxt/image-edge': 1.0.0-27968280.9739e4d
   '@nuxtjs/critters': 0.4.0
   '@nuxtjs/fontaine': 0.2.4
   '@nuxtjs/plausible': 0.2.0
   '@nuxtjs/tailwindcss': 6.4.1
-  '@playwright/test': 1.30.0
+  '@playwright/test': 1.31.2
   nuxt: 3.2.3_z7s3t26cvpahyyxmdmot7g5b4m
   purgecss: 5.0.0
   purgecss-from-html: 5.0.0
@@ -829,8 +829,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@kevinmarrec/nuxt-pwa/0.16.2:
-    resolution: {integrity: sha512-KRQtJ9hrIDogG7OrofmyOG+dM/vERF6KQGeI5IvINeZmmQxoO27IWO8D/ues10Ed/qYzjs6vj0vASsbJq0IY7A==}
+  /@kevinmarrec/nuxt-pwa/0.17.0:
+    resolution: {integrity: sha512-TI/0Fe30g6/VL2Y2jDLF/q5sov8UBE5K4/+CRPUnJbQPCXhCzTBM8EjllDUwslZ3bPtCk2TqwDFZOHaKtY/eoA==}
     dependencies:
       hasha: 5.2.2
       sharp: 0.31.3
@@ -1291,13 +1291,15 @@ packages:
     dev: true
     optional: true
 
-  /@playwright/test/1.30.0:
-    resolution: {integrity: sha512-SVxkQw1xvn/Wk/EvBnqWIq6NLo1AppwbYOjNLmyU0R1RoQ3rLEBtmjTnElcnz8VEtn11fptj1ECxK0tgURhajw==}
+  /@playwright/test/1.31.2:
+    resolution: {integrity: sha512-BYVutxDI4JeZKV1+ups6dt5WiqKhjBtIYowyZIJ3kBDmJgsuPKsqqKNIMFbUePLSCmp2cZu+BDL427RcNKTRYw==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.7.18
-      playwright-core: 1.30.0
+      playwright-core: 1.31.2
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /@rollup/plugin-alias/4.0.3_rollup@3.17.3:
@@ -4997,8 +4999,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /playwright-core/1.30.0:
-    resolution: {integrity: sha512-7AnRmTCf+GVYhHbLJsGUtskWTE33SwMZkybJ0v6rqR1boxq2x36U7p1vDRV7HO2IwTZgmycracLxPEJI49wu4g==}
+  /playwright-core/1.31.2:
+    resolution: {integrity: sha512-a1dFgCNQw4vCsG7bnojZjDnPewZcw7tZUNFN0ZkcLYKj+mPmXvg4MpaaKZ5SgqPsOmqIf2YsVRkgqiRDxD+fDQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
