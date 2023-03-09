@@ -5,6 +5,7 @@ declare interface Starter {
   image?: string
   repo: string
   branch: string
+  dir?: string
   demo?: string
   docs?: string
 }
