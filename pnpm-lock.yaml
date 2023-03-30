@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@kevinmarrec/nuxt-pwa': ^0.17.0
-  '@nuxt/image-edge': 1.0.0-28001428.0aa03b6
+  '@nuxt/image-edge': 1.0.0-28002839.c6a7c9b
   '@nuxtjs/critters': ^0.4.0
   '@nuxtjs/fontaine': ^0.2.4
   '@nuxtjs/plausible': ^0.2.0
@@ -16,7 +16,7 @@ specifiers:
 
 devDependencies:
   '@kevinmarrec/nuxt-pwa': 0.17.0
-  '@nuxt/image-edge': 1.0.0-28001428.0aa03b6
+  '@nuxt/image-edge': 1.0.0-28002839.c6a7c9b
   '@nuxtjs/critters': 0.4.0
   '@nuxtjs/fontaine': 0.2.4
   '@nuxtjs/plausible': 0.2.0
@@ -729,8 +729,8 @@ packages:
     resolution: {integrity: sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==}
     dev: true
 
-  /@nuxt/image-edge/1.0.0-28001428.0aa03b6:
-    resolution: {integrity: sha512-LaT+zz94KW1F//AgY2CHWBsgFnOuwJX0Z3e4+Xz1YCtQoyMCRZgRxX98ijYKw32QEIxUOp+d88eQ+zMceeebJg==}
+  /@nuxt/image-edge/1.0.0-28002839.c6a7c9b:
+    resolution: {integrity: sha512-926Ax7yyBDrDlxXfckSaXJdj6IOpk9ehGzgefB0jJQTzK60Ziwv4E14J18wSvD0zZOjMLoDYQBDgjxsD0/n7cw==}
     engines: {node: ^14.16.0 || ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       '@nuxt/kit': 3.3.2
