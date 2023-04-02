@@ -18,7 +18,7 @@
     "@nuxtjs/plausible": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.6.5",
     "@playwright/test": "1.32.1",
-    "nuxt": "^3.3.2",
+    "nuxt": "^3.3.3",
     "purgecss": "^5.0.0",
     "purgecss-from-html": "^5.0.0",
     "typescript": "^5.0.3",
