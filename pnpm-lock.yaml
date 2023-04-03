@@ -7,7 +7,7 @@ specifiers:
   '@nuxtjs/fontaine': ^0.2.4
   '@nuxtjs/plausible': ^0.2.0
   '@nuxtjs/tailwindcss': ^6.6.5
-  '@playwright/test': 1.32.1
+  '@playwright/test': 1.32.2
   nuxt: ^3.3.3
   purgecss: ^5.0.0
   purgecss-from-html: ^5.0.0
@@ -21,7 +21,7 @@ devDependencies:
   '@nuxtjs/fontaine': 0.2.4
   '@nuxtjs/plausible': 0.2.0
   '@nuxtjs/tailwindcss': 6.6.5
-  '@playwright/test': 1.32.1
+  '@playwright/test': 1.32.2
   nuxt: 3.3.3_ymoot5g7xie4f64sfqazdveg3u
   purgecss: 5.0.0
   purgecss-from-html: 5.0.0
@@ -1286,13 +1286,13 @@ packages:
       - webpack
     dev: true
 
-  /@playwright/test/1.32.1:
-    resolution: {integrity: sha512-FTwjCuhlm1qHUGf4hWjfr64UMJD/z0hXYbk+O387Ioe6WdyZQ+0TBDAc6P+pHjx2xCv1VYNgrKbYrNixFWy4Dg==}
+  /@playwright/test/1.32.2:
+    resolution: {integrity: sha512-nhaTSDpEdTTttdkDE8Z6K3icuG1DVRxrl98Qq0Lfc63SS9a2sjc9+x8ezysh7MzCKz6Y+nArml3/mmt+gqRmQQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.7.18
-      playwright-core: 1.32.1
+      playwright-core: 1.32.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -5064,8 +5064,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /playwright-core/1.32.1:
-    resolution: {integrity: sha512-KZYUQC10mXD2Am1rGlidaalNGYk3LU1vZqqNk0gT4XPty1jOqgup8KDP8l2CUlqoNKhXM5IfGjWgW37xvGllBA==}
+  /playwright-core/1.32.2:
+    resolution: {integrity: sha512-zD7aonO+07kOTthsrCR3YCVnDcqSHIJpdFUtZEMOb6//1Rc7/6mZDRdw+nlzcQiQltOOsiqI3rrSyn/SlyjnJQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
