@@ -21,7 +21,7 @@
     "nuxt": "^3.3.3",
     "purgecss": "^5.0.0",
     "purgecss-from-html": "^5.0.0",
-    "typescript": "^5.0.3",
+    "typescript": "^5.0.4",
     "vue-tsc": "1.0.24"
   },
   "packageManager": "pnpm@7.30.5"
