@@ -11,8 +11,8 @@ devDependencies:
     specifier: ^0.4.0
     version: 0.4.0
   '@nuxtjs/fontaine':
-    specifier: ^0.2.4
-    version: 0.2.4
+    specifier: ^0.2.5
+    version: 0.2.5
   '@nuxtjs/plausible':
     specifier: ^0.2.0
     version: 0.2.0
@@ -1207,14 +1207,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/fontaine@0.2.4:
-    resolution: {integrity: sha512-egOlWIQUMxXPAG3ltryF+R9lntSX4ovJu9iJ5IMbFnxo03DXBJMFIJSWhUNL/5jPUHkBoEFolaLZma5UtPpCpQ==}
+  /@nuxtjs/fontaine@0.2.5:
+    resolution: {integrity: sha512-nnIYc41cNGxz4A89dkVS5e3SgGC0PRq9ND1dyDP9t5TDuUeF2+BcVs7EbOTKirxdKPRqI4pMNQb2vN77xyVMgQ==}
     dependencies:
-      '@nuxt/kit': 3.0.0
+      '@nuxt/kit': 3.4.0
       fontaine: 0.2.3
-      magic-string: 0.27.0
-      pathe: 1.0.0
-      ufo: 1.0.1
+      magic-string: 0.30.0
+      pathe: 1.1.0
+      ufo: 1.1.1
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -6630,10 +6630,6 @@ packages:
 
   /ufo@0.8.6:
     resolution: {integrity: sha512-fk6CmUgwKCfX79EzcDQQpSCMxrHstvbLswFChHS0Vump+kFkw7nJBfTZoC1j0bOGoY9I7R3n2DGek5ajbcYnOw==}
-    dev: true
-
-  /ufo@1.0.1:
-    resolution: {integrity: sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==}
     dev: true
 
   /ufo@1.1.1:
