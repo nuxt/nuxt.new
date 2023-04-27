@@ -16,7 +16,7 @@
     "@nuxtjs/critters": "^0.4.0",
     "@nuxtjs/fontaine": "^0.2.5",
     "@nuxtjs/plausible": "^0.2.0",
-    "@nuxtjs/tailwindcss": "^6.6.6",
+    "@nuxtjs/tailwindcss": "^6.6.7",
     "@playwright/test": "1.32.3",
     "nuxt": "^3.4.2",
     "purgecss": "^5.0.0",
