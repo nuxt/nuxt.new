@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^6.6.7
     version: 6.6.7(webpack@5.78.0)
   '@playwright/test':
-    specifier: 1.32.3
-    version: 1.32.3
+    specifier: 1.33.0
+    version: 1.33.0
   nuxt:
     specifier: ^3.4.3
     version: 3.4.3(@types/node@18.7.18)(typescript@5.0.4)(vue-tsc@1.0.24)
@@ -1308,13 +1308,13 @@ packages:
       - webpack
     dev: true
 
-  /@playwright/test@1.32.3:
-    resolution: {integrity: sha512-BvWNvK0RfBriindxhLVabi8BRe3X0J9EVjKlcmhxjg4giWBD/xleLcg2dz7Tx0agu28rczjNIPQWznwzDwVsZQ==}
+  /@playwright/test@1.33.0:
+    resolution: {integrity: sha512-YunBa2mE7Hq4CfPkGzQRK916a4tuZoVx/EpLjeWlTVOnD4S2+fdaQZE0LJkbfhN5FTSKNLdcl7MoT5XB37bTkg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@types/node': 18.7.18
-      playwright-core: 1.32.3
+      playwright-core: 1.33.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -5364,8 +5364,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /playwright-core@1.32.3:
-    resolution: {integrity: sha512-SB+cdrnu74ZIn5Ogh/8278ngEh9NEEV0vR4sJFmK04h2iZpybfbqBY0bX6+BLYWVdV12JLLI+JEFtSnYgR+mWg==}
+  /playwright-core@1.33.0:
+    resolution: {integrity: sha512-aizyPE1Cj62vAECdph1iaMILpT0WUDCq3E6rW6I+dleSbBoGbktvJtzS6VHkZ4DKNEOG9qJpiom/ZxO+S15LAw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
