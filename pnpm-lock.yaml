@@ -8,8 +8,8 @@ devDependencies:
     specifier: 1.0.0-28050764.aaee7ac
     version: 1.0.0-28050764.aaee7ac
   '@nuxtjs/critters':
-    specifier: ^0.4.0
-    version: 0.4.0
+    specifier: ^0.4.1
+    version: 0.4.1
   '@nuxtjs/fontaine':
     specifier: ^0.2.5
     version: 0.2.5
@@ -1241,12 +1241,12 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxtjs/critters@0.4.0:
-    resolution: {integrity: sha512-+7RHktQwJcZsnWh6WB9nlX+t2gCv7/tv90DbVrFcXLR1Ew23uKcS5M2Wwq9emFupc1qnNJTk3zXR3GAGvqaRTg==}
+  /@nuxtjs/critters@0.4.1:
+    resolution: {integrity: sha512-5l4xkaC5v9vXBAyhdQZgG81hntlzZpCZ6z/6VrJBApOVjWr3dDgCpVb7hAODXHbTxemnSec9KCvbtcIxBytwFA==}
     dependencies:
-      '@nuxt/kit': 3.0.0
+      '@nuxt/kit': 3.4.3
       critters: 0.0.16
-      pathe: 1.0.0
+      pathe: 1.1.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -2622,7 +2622,7 @@ packages:
       css-select: 4.3.0
       parse5: 6.0.1
       parse5-htmlparser2-tree-adapter: 6.0.1
-      postcss: 8.4.21
+      postcss: 8.4.23
       pretty-bytes: 5.6.0
     dev: true
 
@@ -5840,15 +5840,6 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.4
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: true
-
-  /postcss@8.4.21:
-    resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
