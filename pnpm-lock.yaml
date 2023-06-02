@@ -5,8 +5,8 @@ devDependencies:
     specifier: ^0.17.0
     version: 0.17.0
   '@nuxt/image-edge':
-    specifier: 1.0.0-28092818.5c21f4c
-    version: 1.0.0-28092818.5c21f4c
+    specifier: 1.0.0-28094330.102af81
+    version: 1.0.0-28094330.102af81
   '@nuxtjs/critters':
     specifier: ^0.4.1
     version: 0.4.1
@@ -737,8 +737,8 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/image-edge@1.0.0-28092818.5c21f4c:
-    resolution: {integrity: sha512-3bXhj6MsdP+e8Os4lvlCSiBOHNS/1uQ72CEIMB7MD2XRVPoOPdfPCV4SyJbB5e/ZvEHTcsIXA1JHc1O6/qhwoQ==}
+  /@nuxt/image-edge@1.0.0-28094330.102af81:
+    resolution: {integrity: sha512-a1hEriEZsjXy18YH2Grp0uvgq68+X7kQK0WY4qsvmgbGERNv4QHsgg5DGq+VrE20CdXgz4Y/4f8yv2HWI8z46Q==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
       '@nuxt/kit': 3.5.2
