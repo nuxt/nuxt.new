@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^0.17.0
     version: 0.17.0
   '@nuxt/image-edge':
-    specifier: 1.0.0-28100678.6e9298b
-    version: 1.0.0-28100678.6e9298b
+    specifier: 1.0.0-rc.1-28101401.fbd4cd5
+    version: 1.0.0-rc.1-28101401.fbd4cd5
   '@nuxtjs/critters':
     specifier: ^0.4.1
     version: 0.4.1
@@ -611,6 +611,12 @@ packages:
     dev: true
     optional: true
 
+  /@fastify/accept-negotiator@1.1.0:
+    resolution: {integrity: sha512-OIHZrb2ImZ7XG85HXOONLcJWGosv7sIvM2ifAPQVhg9Lv7qdmMBNVaai4QTdyuaqbKM5eO6sLSQOYI7wEQeCJQ==}
+    engines: {node: '>=14'}
+    dev: true
+    optional: true
+
   /@ioredis/commands@1.2.0:
     resolution: {integrity: sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==}
     dev: true
@@ -727,8 +733,8 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/image-edge@1.0.0-28100678.6e9298b:
-    resolution: {integrity: sha512-FxFgVozne13JmSdigz6f4UP16htN3a+i8tKZO8y3/Wj6KekwGpFWXEbBGtaGgDkqha5rH+m3qvGzj9dWo7D4QA==}
+  /@nuxt/image-edge@1.0.0-rc.1-28101401.fbd4cd5:
+    resolution: {integrity: sha512-qiuEmPbZIAOIOBkiorv1T7kCo3+Hr0XmgjCIrFNJ0i6392w/5TBSegpCvRrg3ALrdw3ZpuFBS4JxrGkHY2XhwA==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
       '@nuxt/kit': 3.5.3
@@ -736,12 +742,13 @@ packages:
       defu: 6.1.2
       h3: 1.6.6
       image-meta: 0.1.1
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       ohash: 1.1.2
       pathe: 1.1.1
+      std-env: 3.3.3
       ufo: 1.1.2
     optionalDependencies:
-      ipx: 1.1.0
+      ipx: 1.2.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -3132,7 +3139,7 @@ packages:
       defu: 6.1.2
       https-proxy-agent: 5.0.1
       mri: 1.2.0
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       pathe: 1.1.1
       tar: 6.1.15
     transitivePeerDependencies:
@@ -3516,18 +3523,19 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /ipx@1.1.0:
-    resolution: {integrity: sha512-cqoLMNemwHFTTn+jeupPSqUDQKVQ+FUgtmglCzVTkukhmExwh3gTSNVcBZqeHa2Vwst1cit60q+Kj/fQ0q6t6g==}
+  /ipx@1.2.0:
+    resolution: {integrity: sha512-FkEP56C08HdlqlWKm3pMhatywPtDBTlePTdzskksCR1+7xnB6fQs6pXOTXPTG5i+gGPgCOxbNMUSZEH/DQcWDA==}
     hasBin: true
     requiresBuild: true
     dependencies:
+      '@fastify/accept-negotiator': 1.1.0
       consola: 3.1.0
       defu: 6.1.2
       destr: 1.2.2
       etag: 1.8.1
       image-meta: 0.1.1
       listhen: 1.0.4
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       pathe: 1.1.1
       sharp: 0.32.1
       ufo: 1.1.2
@@ -4367,7 +4375,7 @@ packages:
       mime: 3.0.0
       mlly: 1.3.0
       mri: 1.2.0
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       ofetch: 1.0.1
       ohash: 1.1.2
       openapi-typescript: 6.2.6
@@ -4424,8 +4432,8 @@ packages:
     engines: {node: '>=10.5.0'}
     dev: true
 
-  /node-fetch-native@1.1.1:
-    resolution: {integrity: sha512-9VvspTSUp2Sxbl+9vbZTlFGq9lHwE8GDVVekxx6YsNd1YH59sb3Ba8v3Y3cD8PkLNcileGGcA21PFjVl0jzDaw==}
+  /node-fetch-native@1.2.0:
+    resolution: {integrity: sha512-5IAMBTl9p6PaAjYCnMv5FmqIF6GcZnawAVnzaCG0rX2aYZJ4CxEkZNtVPuTRug7fL7wyM5BQYTlAzcyMPi6oTQ==}
     dev: true
 
   /node-fetch@2.6.11:
@@ -4657,7 +4665,7 @@ packages:
     resolution: {integrity: sha512-icBz2JYfEpt+wZz1FRoGcrMigjNKjzvufE26m9+yUiacRQRHwnNlGRPiDnW4op7WX/MR6aniwS8xw8jyVelF2g==}
     dependencies:
       destr: 1.2.2
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       ufo: 1.1.2
     dev: true
 
@@ -6289,7 +6297,7 @@ packages:
       consola: 3.1.0
       defu: 6.1.2
       mime: 3.0.0
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       pathe: 1.1.1
     dev: true
 
@@ -6424,7 +6432,7 @@ packages:
       listhen: 1.0.4
       lru-cache: 9.1.2
       mri: 1.2.0
-      node-fetch-native: 1.1.1
+      node-fetch-native: 1.2.0
       ofetch: 1.0.1
       ufo: 1.1.2
     transitivePeerDependencies:
