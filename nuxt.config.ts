@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@nuxtjs/plausible',
     '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
