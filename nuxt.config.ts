@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     noScripts: true
   },
   modules: [
-    '@nuxtjs/tailwindcss',
+    '@nuxthq/ui',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
@@ -65,5 +65,8 @@ export default defineNuxtConfig({
         href: `/fonts/RoobertPRO-${weight}.woff2`,
       })),
     }
-  }
+  },
+  ui: {
+    icons: ['ph'],
+  },
 })
