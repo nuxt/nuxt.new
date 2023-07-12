@@ -6,7 +6,7 @@
     to: 'https://nuxt.com',
   },
   {
-    title: "Nuxt.nuxters",
+    title: "Nuxters",
     description: "Are you a Nuxter?",
     to: "https://nuxters.nuxt.com/",
   },
