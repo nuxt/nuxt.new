@@ -6,7 +6,7 @@
     <div class="z-[2] relative flex flex-col min-h-screen">
       <TheHeader class="xl:mt-4" />
       <h1 class="font-bold text-center text-3xl mt-12 md:text-left md:text-5xl">
-        Start a Nuxt project
+        Start a <span class="text-green-400">Nuxt</span> project
       </h1>
       <p
         class="font-thin mt-6 text-center mx-auto md:mx-0 md:mt-8 md:text-left max-w-[23rem] md:max-w-[60rem]"

@@ -12,10 +12,6 @@ export default defineNuxtConfig({
       cover2x: 1370
     }
   },
-  css: ['~/assets/fonts.css'],
-  experimental: {
-    noScripts: true
-  },
   modules: [
     '@nuxthq/ui',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
@@ -24,12 +20,17 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
-    '~/modules/purge-comments',
-    '~/modules/style-inlining',
+    '@nuxtjs/google-fonts'
   ],
   fontMetrics: {
-    // We inline styles ourselves
-    inline: false,
+    fonts: ['DM Sans'],
+  },
+  googleFonts: {
+    display: 'swap',
+    download: true,
+    families: {
+      'DM+Sans': [400, 500, 700],
+    },
   },
   pwa: {
     meta: {

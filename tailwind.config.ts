@@ -3,6 +3,9 @@ import type { Config } from 'tailwindcss/types/config'
 export default <Partial<Config>> {
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["'DM Sans'", "'DM Sans fallback'", "'sans-serif'"],
+      },
       colors: {
         zinc: {
           50: '#fafafa',
@@ -29,10 +32,6 @@ export default <Partial<Config>> {
           800: '#005e38',
           900: '#003f25'
         },
-      },
-
-      fontFamily: {
-        sans: ['"RoobertPRO"', '"RoobertPRO override"', 'sans-serif']
       },
     }
   },

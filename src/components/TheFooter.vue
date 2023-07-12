@@ -2,7 +2,7 @@
   <header class="py-4 flex justify-between w-full">
     <a target="_blank" href="https://nuxt.com">
       <span class="sr-only">Nuxt</span>
-      <svg width="100" height="30" alt=""><use xlink:href="#nuxt" /></svg>
+      <svg width="100" height="30" alt=""><use xlink:href="#nuxt_full" /></svg>
     </a>
     <a
       target="_blank"
