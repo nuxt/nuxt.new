@@ -21,8 +21,7 @@
           <svg width="115" height="28" alt=""><use xlink:href="#nuxt_full" /></svg>
         </NuxtLink>
 
-        <UButton variant="ghost" color="gray" icon="i-ph-caret-down-fill" :ui="{ color: { gray: { ghost: 'text-zinc-200 hover:text-white hover:bg-zinc-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-400' } } }" square
-          class="ml-1" />
+        <UButton variant="ghost" color="gray" icon="i-ph-caret-down-fill" square class="ml-1 opacity-50 hover:opacity-100"/>
 
         <template #panel>
           <ul class="flex flex-col gap-y-1 p-2 bg-zinc-950">
