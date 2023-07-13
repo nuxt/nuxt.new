@@ -12,24 +12,25 @@ export default defineNuxtConfig({
       cover2x: 1370
     }
   },
-  css: ['~/assets/fonts.css'],
-  experimental: {
-    noScripts: true
-  },
   modules: [
-    '@nuxtjs/tailwindcss',
+    '@nuxthq/ui',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
     '@nuxtjs/plausible',
     '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
-    '~/modules/purge-comments',
-    '~/modules/style-inlining',
+    '@nuxtjs/google-fonts'
   ],
   fontMetrics: {
-    // We inline styles ourselves
-    inline: false,
+    fonts: ['DM Sans'],
+  },
+  googleFonts: {
+    display: 'swap',
+    download: true,
+    families: {
+      'DM+Sans': [400, 500, 700],
+    },
   },
   pwa: {
     meta: {
@@ -65,5 +66,8 @@ export default defineNuxtConfig({
         href: `/fonts/RoobertPRO-${weight}.woff2`,
       })),
     }
-  }
+  },
+  ui: {
+    icons: ['ph'],
+  },
 })
