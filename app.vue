@@ -1,5 +1,17 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-  <Html class="bg-black text-white" />
+  <div>
+    <AppHeader />
+    <UContainer>
+      <NuxtPage />
+    </UContainer>
+    <AppFooter />
+  </div>
+
+  <!-- <Html class="bg-black text-white" />
   <div class="relative max-w-5xl w-full mx-auto px-6">
     <SpriteMap />
     <Spotlight class="z-[1]" />
@@ -30,7 +42,7 @@
       <span class="flex-grow" />
       <TheFooter class="mt-12" />
     </div>
-  </div>
+  </div> -->
 </template>
 
 <style lang="postcss">

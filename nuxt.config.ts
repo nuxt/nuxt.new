@@ -1,17 +1,19 @@
 export default defineNuxtConfig({
-  srcDir: 'src',
   typescript: { strict: true, typeCheck: true, shim: false },
+
   nitro: {
     prerender: {
       routes: ['/', '/data/starters.json', '/data/themes.json']
     }
   },
+
   image: {
     screens: {
       cover: 685,
       cover2x: 1370
     }
   },
+
   modules: [
     '@nuxthq/ui',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
@@ -22,9 +24,11 @@ export default defineNuxtConfig({
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts'
   ],
+
   fontMetrics: {
     fonts: ['DM Sans'],
   },
+
   googleFonts: {
     display: 'swap',
     download: true,
@@ -32,6 +36,7 @@ export default defineNuxtConfig({
       'DM+Sans': [400, 500, 700],
     },
   },
+
   pwa: {
     meta: {
       name: 'Start a Nuxt project',
@@ -56,6 +61,7 @@ export default defineNuxtConfig({
     },
     workbox: false,
   },
+
   app: {
     head: {
       link: ['Light', 'Regular', 'Bold'].map(weight => ({
@@ -67,7 +73,14 @@ export default defineNuxtConfig({
       })),
     }
   },
+
   ui: {
     icons: ['ph'],
   },
+
+  colorMode: {
+    preference: 'dark',
+  },
+
+  plugins: ['~/plugins/dark.client.ts', '~/plugins/plausible.server.ts'],
 })

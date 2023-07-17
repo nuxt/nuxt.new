@@ -1,24 +1,24 @@
-import type { Config } from 'tailwindcss/types/config'
+import type { Config } from 'tailwindcss'
 
-export default <Partial<Config>> {
+export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
         sans: ["'DM Sans'", "'DM Sans fallback'", "'sans-serif'"],
       },
       colors: {
-        zinc: {
-          50: '#fafafa',
-          100: '#f4f4f5',
-          200: '#e4e4e7',
-          300: '#d4d4d8',
-          400: '#a1a1aa',
-          500: '#71717a',
-          600: '#52525b',
-          700: '#3f3f46',
-          800: '#27272a',
-          900: '#18181b',
-          950: '#030712'
+        slate: {
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          200: '#e2e8f0',
+          300: '#cbd5e1',
+          400: '#94a3b8',
+          500: '#64748b',
+          600: '#475569',
+          700: '#334155',
+          800: '#1e293b',
+          900: '#0f172a',
+          950: '#020420',
         },
         green: {
           50: '#d6ffee',
@@ -30,9 +30,9 @@ export default <Partial<Config>> {
           600: '#009d5d',
           700: '#007e4a',
           800: '#005e38',
-          900: '#003f25'
+          900: '#003f25',
         },
       },
-    }
+    },
   },
 }
