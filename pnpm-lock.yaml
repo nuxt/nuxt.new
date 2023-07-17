@@ -8,6 +8,9 @@ devDependencies:
   '@iconify-json/ph':
     specifier: ^1.1.5
     version: 1.1.5
+  '@iconify-json/simple-icons':
+    specifier: ^1.1.60
+    version: 1.1.60
   '@kevinmarrec/nuxt-pwa':
     specifier: ^0.17.0
     version: 0.17.0
@@ -16,7 +19,7 @@ devDependencies:
     version: 1.0.0-rc.1-28143901.afe4120
   '@nuxthq/ui':
     specifier: npm:@nuxthq/ui-edge@latest
-    version: /@nuxthq/ui-edge@2.5.0-28159733.773a23f(vue@3.3.4)(webpack@5.88.1)
+    version: /@nuxthq/ui-edge@2.5.0-28159973.d292706(vue@3.3.4)(webpack@5.88.1)
   '@nuxtjs/critters':
     specifier: ^0.5.0
     version: 0.5.0
@@ -32,6 +35,9 @@ devDependencies:
   '@playwright/test':
     specifier: 1.36.1
     version: 1.36.1
+  '@vueuse/nuxt':
+    specifier: ^10.2.1
+    version: 10.2.1(nuxt@3.6.2)(vue@3.3.4)
   nuxt:
     specifier: ^3.6.2
     version: 3.6.2(@types/node@20.4.2)(typescript@5.1.6)(vue-tsc@1.8.4)
@@ -856,6 +862,12 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
+  /@iconify-json/simple-icons@1.1.60:
+    resolution: {integrity: sha512-/5ZU9nbHTOhhqdTDcTsN2iZBqfBzVHcpaWmt381wh+LmWXghYTLrYpFb/E3Vkb+TmuvKtpk/8zaBIgv+gGurKA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
@@ -1117,7 +1129,7 @@ packages:
     resolution: {integrity: sha512-7kr2VDirYIXqyTHqaiWCrfQLgUjAa4qAHzykJOspMCFJWalHU9SVfnv+cTOKGqoXQ4TWOCd09tEd7sLlMFTEqw==}
     hasBin: true
     dependencies:
-      '@nuxt/kit': 3.6.2
+      '@nuxt/kit': 3.6.3
       chalk: 5.3.0
       ci-info: 3.8.0
       consola: 3.2.3
@@ -1206,8 +1218,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/ui-edge@2.5.0-28159733.773a23f(vue@3.3.4)(webpack@5.88.1):
-    resolution: {integrity: sha512-YYxGzjE1OtwPzWgBDJzBEYA0/bZIL01EosgpTyj6pxHzbtDloV9a8+sMuaxRxfLNC7RWaLEFd3VJO4092iVbow==}
+  /@nuxthq/ui-edge@2.5.0-28159973.d292706(vue@3.3.4)(webpack@5.88.1):
+    resolution: {integrity: sha512-JRNTBpCyYm1adKsg9p7uajF/31ui+/I1RGqgJx3toQ/Rkx+Zg5ZHiuz756cbZfcknTmxuyC5GO9ytE4byBFkwQ==}
     engines: {node: '>=v16.14.0'}
     dependencies:
       '@egoist/tailwindcss-icons': 1.1.0(tailwindcss@3.3.3)
@@ -1923,6 +1935,24 @@ packages:
 
   /@vueuse/metadata@10.2.1:
     resolution: {integrity: sha512-3Gt68mY/i6bQvFqx7cuGBzrCCQu17OBaGWS5JdwISpMsHnMKKjC2FeB5OAfMcCQ0oINfADP3i9A4PPRo0peHdQ==}
+    dev: true
+
+  /@vueuse/nuxt@10.2.1(nuxt@3.6.2)(vue@3.3.4):
+    resolution: {integrity: sha512-01iDXnjZFDaGZnEL0nvlmSTNV0EG6WY+VSFyWnBji9lbxdQwOn4DHvLou3ePe8ipaoQVtY58WcL0OHIFa4+fBA==}
+    peerDependencies:
+      nuxt: ^3.0.0
+    dependencies:
+      '@nuxt/kit': 3.6.3
+      '@vueuse/core': 10.2.1(vue@3.3.4)
+      '@vueuse/metadata': 10.2.1
+      local-pkg: 0.4.3
+      nuxt: 3.6.2(@types/node@20.4.2)(typescript@5.1.6)(vue-tsc@1.8.4)
+      vue-demi: 0.14.5(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - rollup
+      - supports-color
+      - vue
     dev: true
 
   /@vueuse/shared@10.2.1(vue@3.3.4):

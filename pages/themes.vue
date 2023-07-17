@@ -1,6 +1,6 @@
 <template>
   <div>
-    THEME
+    <Hero templateType="themes" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    BOILERPLATE
+    <Hero />
   </div>
 </template>
 

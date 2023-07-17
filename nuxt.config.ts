@@ -22,7 +22,8 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@vueuse/nuxt'
   ],
 
   fontMetrics: {
@@ -62,25 +63,13 @@ export default defineNuxtConfig({
     workbox: false,
   },
 
-  app: {
-    head: {
-      link: ['Light', 'Regular', 'Bold'].map(weight => ({
-        rel: 'preload',
-        as: 'font',
-        type: 'font/woff2',
-        crossorigin: '',
-        href: `/fonts/RoobertPRO-${weight}.woff2`,
-      })),
-    }
-  },
-
   ui: {
-    icons: ['ph'],
+    icons: ['simple-icons', 'ph'],
   },
 
   colorMode: {
     preference: 'dark',
   },
 
-  plugins: ['~/plugins/dark.client.ts', '~/plugins/plausible.server.ts'],
+  plugins: ['~/plugins/slideover.ts', '~/plugins/dark.client.ts', '~/plugins/plausible.server.ts'],
 })
