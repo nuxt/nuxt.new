@@ -71,5 +71,5 @@ export default defineNuxtConfig({
     preference: 'dark',
   },
 
-  plugins: ['~/plugins/slideover.ts', '~/plugins/dark.client.ts', '~/plugins/plausible.server.ts'],
+  plugins: ['~/plugins/dark.client.ts', '~/plugins/plausible.server.ts'],
 })

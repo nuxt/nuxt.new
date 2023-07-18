@@ -1,10 +1,13 @@
 <script setup lang="ts">
-const { data: items } = await useFetch('/data/starters.json')
+const { data: items } = await useFetch<Array<Starter>>('/data/starters.json')
+
+console.log('items', items)
 </script>
 
 <template>
-  <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
-    <article
+  <ul class="grid gap-8 grid-cols-1 md:grid-cols-2">
+    <StarterCard v-for="item in items" :key="item.name" :item="item" />
+    <!-- <article
       v-for="item in items"
       class="rounded-lg border-gray-800 border-[1px] px-4 py-4 bg-gradient-to-r from-[rgba(24,24,27,0.65)] backdrop-blur-sm to-transparent"
     >
@@ -37,6 +40,6 @@ const { data: items } = await useFetch('/data/starters.json')
         :branch="item.branch"
         :slug="item.slug"
       />
-    </article>
-  </div>
+    </article> -->
+  </ul>
 </template>
