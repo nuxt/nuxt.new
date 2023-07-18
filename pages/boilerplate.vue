@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <StarterList class="py-18" />
+    <Further />
   </div>
 </template>
 

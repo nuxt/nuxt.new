@@ -1,16 +1,34 @@
+<script setup lang="ts">
+const socialLinks = [
+  {
+    to: 'https://twitter.com/nuxt_js',
+    alt: 'Nuxt Twitter Account',
+    icon: 'i-simple-icons-twitter'
+  },
+  {
+    to: 'https://github.com/nuxt/nuxt',
+    alt: 'Nuxt GitHub Repository',
+    icon: 'i-simple-icons-github'
+  },
+  {
+    to: 'https://discord.com/invite/nuxt',
+    alt: 'Nuxt Discord Channel',
+    icon: 'i-simple-icons-discord'
+  }
+] as Array<{ to: string, alt: string, icon: string }>
+</script>
+
 <template>
-  <header class="py-4 flex justify-between w-full">
-    <a target="_blank" href="https://nuxt.com">
-      <span class="sr-only">Nuxt</span>
-      <svg width="100" height="30" alt=""><use xlink:href="#nuxt_full" /></svg>
-    </a>
-    <a
-      target="_blank"
-      href="https://github.com/nuxt/nuxt.new"
-      class="p-2 flex gap-2 text-gray-300 font-thin items-center"
-    >
-      <svg class="w-4 h-4" alt=""><use xlink:href="#github" /></svg>
-      Edit on GitHub
-    </a>
-  </header>
+  <div class="border-t border-gray-800 py-6">
+    <UContainer class="flex justify-between items-center gap-x-4">
+      <span class="text-gray-300 text-sm">
+        Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white">source code</NuxtLink>).
+      </span>
+      <ul class="flex items-center justify-center gap-x-2">
+        <li v-for="social in socialLinks" :key="social.to" >
+          <UButton variant="link" color="gray" :to="social.to" :alt="social.alt" :icon="social.icon" target="_blank" />
+        </li>
+      </ul>
+    </UContainer>
+  </div>
 </template>

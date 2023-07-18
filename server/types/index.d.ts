@@ -9,3 +9,8 @@ declare interface Starter {
   demo?: string
   docs?: string
 }
+
+declare interface Themes extends Starter {
+  studio?: boolean,
+  shop?: string
+}
