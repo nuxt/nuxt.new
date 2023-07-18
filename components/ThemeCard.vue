@@ -54,10 +54,8 @@ const command = computed(() => {
               icon="i-simple-icons-stackblitz" class="lg:col-span-2 xl:col-span-1 flex justify-center items-center"
               size="sm" />
 
-            <UButton v-if="theme.studio" target="_blank" :to="`/studio/${theme.slug}`" variant="outline" color="gray"
-              class="lg:col-span-4 xl:col-span-1 flex justify-center items-center" size="sm">
-              <img src="studio.svg" class="w-5 h-5" />
-              <span>Studio</span>
+            <UButton v-if="theme.studio" target="_blank" :to="`/studio/${theme.slug}`" label="Studio" icon="i-simple-icons-nuxtdotjs" variant="outline" color="gray"
+              class="lg:col-span-4 xl:col-span-1 flex justify-center items-center" size="sm" :ui="{ icon: { base: 'flex-shrink-0 text-cyan-500'} }">
             </UButton>
           </div>
 
