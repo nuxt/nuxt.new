@@ -15,7 +15,7 @@ defineProps({
         <span> with our {{ templateType }}</span>
       </h1>
       <p class="text-gray-300 text-xl font-normal">
-        Open a Nuxt starter on CodeSandbox or StackBlitz to get up and running in a few seconds.
+        Open a Nuxt {{ templateType.slice(0, -1) }} on CodeSandbox or StackBlitz to get up and running in a few seconds.
       </p>
       <CopyButton text="npx nuxi@latest init my-app" class="mt-4" />
     </div>
