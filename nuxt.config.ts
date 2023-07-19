@@ -20,7 +20,6 @@ export default defineNuxtConfig({
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
     '@nuxtjs/plausible',
-    '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt'
@@ -38,30 +37,30 @@ export default defineNuxtConfig({
     },
   },
 
-  pwa: {
-    meta: {
-      name: 'Start a Nuxt project',
-      description: 'The best way to get started with a new Nuxt project.',
-      theme_color: '#000',
-      ogHost: 'https://nuxt.new',
-      ogImage: {
-        path: '/social-preview.png',
-        width: 1280,
-        height: 640
-      },
-      twitterCard: 'summary_large_image',
-      twitterCreator: '@nuxt_js',
-      twitterSite: '@nuxt_js',
-    },
-    manifest: {
-      name: 'Start a Nuxt project',
-      background_color: '#000',
-      short_name: 'nuxt.new',
-      theme_color: '#000',
-      description: 'The best way to get started with a new Nuxt project.',
-    },
-    workbox: false,
-  },
+  // pwa: {
+  //   meta: {
+  //     name: 'Start a Nuxt project',
+  //     description: 'The best way to get started with a new Nuxt project.',
+  //     theme_color: '#000',
+  //     ogHost: 'https://nuxt.new',
+  //     ogImage: {
+  //       path: '/social-preview.png',
+  //       width: 1280,
+  //       height: 640
+  //     },
+  //     twitterCard: 'summary_large_image',
+  //     twitterCreator: '@nuxt_js',
+  //     twitterSite: '@nuxt_js',
+  //   },
+  //   manifest: {
+  //     name: 'Start a Nuxt project',
+  //     background_color: '#000',
+  //     short_name: 'nuxt.new',
+  //     theme_color: '#000',
+  //     description: 'The best way to get started with a new Nuxt project.',
+  //   },
+  //   workbox: false,
+  // },
 
   ui: {
     icons: ['simple-icons', 'ph'],
