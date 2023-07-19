@@ -38,9 +38,8 @@ onMounted(() => {
         </div>
 
         <div class="flex flex-col gap-y-6 px-4 pt-6 text-lg">
-          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/">Starters
-          </NuxtLink>
-          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/themes">Themes</NuxtLink>
+          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/" aria-label="Go to starters page">Starters</NuxtLink>
+          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/themes" aria-label="Go to themes page">Themes</NuxtLink>
         </div>
       </div>
     </USlideover>
@@ -48,19 +47,18 @@ onMounted(() => {
     <UContainer class="flex justify-between items-center w-full">
       <NuxtDropdown />
       <div class="hidden sm:flex gap-x-4 items-center justify-center text-lg">
-        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/">Starters
-        </NuxtLink>
-        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/themes">Themes</NuxtLink>
+        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/" aria-label="Go to starters page">Starters</NuxtLink>
+        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/themes" aria-label="Go to themes page">Themes</NuxtLink>
       </div>
       <div class="hidden sm:flex items-center sm:gap-x-4 text-white font-medium">
         <UButton class="flex items-center sm:-mr-2" to="https://discord.com/invite/nuxt" target="_blank" variant="link"
-          color="gray" size="xl">
+          color="gray" size="xl"  aria-label="Join us">
           <UIcon name="i-simple-icons-discord" class="h-5 w-5 text-gray-300" />
           <span class="hidden lg:block">Join us</span>
         </UButton>
         <div class="hidden sm:block h-8 w-[1px] bg-gray-700 -mr-2 sm:-mr-6" />
         <UButton to="http://www.github.com/nuxt/nuxt" class="flex gap-x-2 items-center" variant="link" color="gray"
-          size="xl" target="_blank">
+          size="xl" target="_blank" aria-label="Star us">
           <UIcon name="i-simple-icons-github" class="h-5 w-5 sm:ml-4" />
           <span class="hidden lg:block">Star us</span>
         </UButton>
