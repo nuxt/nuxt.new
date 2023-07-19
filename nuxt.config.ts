@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
     '@nuxtjs/plausible',
+    '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt'
