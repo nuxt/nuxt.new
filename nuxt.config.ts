@@ -70,6 +70,4 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'dark',
   },
-
-  plugins: ['~/plugins/dark.client.ts', '~/plugins/plausible.server.ts'],
 })
