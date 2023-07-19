@@ -10,7 +10,7 @@ declare interface Starter {
   docs?: string
 }
 
-declare interface Themes extends Starter {
+declare interface Theme extends Starter {
   studio?: boolean,
   shop?: string
 }

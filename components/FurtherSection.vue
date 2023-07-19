@@ -8,6 +8,7 @@
         Explore our different starters with different presets.
       </p>
     </div>
+
     <ul class="grid grid-cols-1 md:grid-cols-3 rounded-xl border border-gray-800 w-full">
       <li v-for="(item, index) in items" :key="index"
         class="transition-colors duration-200 flex flex-col gap-y-1 hover:bg-gray-900"
@@ -23,14 +24,15 @@
             {{ item.description }}
           </p>
         </NuxtLink>
-
       </li>
     </ul>
-    <Join />
+
+    <JoinSection />
   </div>
 </template>
 
 <script setup lang="ts">
+//TODO
 const items = [
   {
     title: 'Docs',

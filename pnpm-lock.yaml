@@ -19,7 +19,7 @@ devDependencies:
     version: 1.0.0-rc.1-28143901.afe4120
   '@nuxthq/ui':
     specifier: npm:@nuxthq/ui-edge@latest
-    version: /@nuxthq/ui-edge@2.5.0-28160306.b1825ff(vue@3.3.4)(webpack@5.88.2)
+    version: /@nuxthq/ui-edge@2.6.0-28161593.a31e7df(vue@3.3.4)(webpack@5.88.2)
   '@nuxtjs/critters':
     specifier: ^0.5.0
     version: 0.5.0
@@ -1218,8 +1218,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/ui-edge@2.5.0-28160306.b1825ff(vue@3.3.4)(webpack@5.88.2):
-    resolution: {integrity: sha512-KeAq5LQ86Q8EVf/9kdnrbvjiujCfbbfkm+NDTvxbkVANXLwtKlXlcCP8ygcopaT1m88BTb+uxQSM5ggvdK7PhA==}
+  /@nuxthq/ui-edge@2.6.0-28161593.a31e7df(vue@3.3.4)(webpack@5.88.2):
+    resolution: {integrity: sha512-EEvGUMolXnUt9qV+z2xvYLz6N69c1rU8w3f1a/UlUD3UJyxzuTLHcY4hge6/goszM7QAcmbW1DojyCYgBVaYLw==}
     engines: {node: '>=v16.14.0'}
     dependencies:
       '@egoist/tailwindcss-icons': 1.1.0(tailwindcss@3.3.3)
@@ -2272,7 +2272,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.9
-      caniuse-lite: 1.0.30001516
+      caniuse-lite: 1.0.30001517
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -2355,8 +2355,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001516
-      electron-to-chromium: 1.4.463
+      caniuse-lite: 1.0.30001517
+      electron-to-chromium: 1.4.464
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: true
@@ -2438,13 +2438,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.21.9
-      caniuse-lite: 1.0.30001516
+      caniuse-lite: 1.0.30001517
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite@1.0.30001516:
-    resolution: {integrity: sha512-Wmec9pCBY8CWbmI4HsjBeQLqDTqV91nFVR83DnZpYyRnPI1wePDsTg0bGLPC5VU/3OIZV1fmxEea1b+tFKe86g==}
+  /caniuse-lite@1.0.30001517:
+    resolution: {integrity: sha512-Vdhm5S11DaFVLlyiKu4hiUTkpZu+y1KA/rZZqVQfOD5YdDT/eQKlkt7NaE0WGOFgX32diqt9MiP9CAiFeRklaA==}
     dev: true
 
   /chalk@2.4.2:
@@ -3077,8 +3077,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium@1.4.463:
-    resolution: {integrity: sha512-fT3hvdUWLjDbaTGzyOjng/CQhQJSQP8ThO3XZAoaxHvHo2kUXiRQVMj9M235l8uDFiNPsPa6KHT1p3RaR6ugRw==}
+  /electron-to-chromium@1.4.464:
+    resolution: {integrity: sha512-guZ84yoou4+ILNdj0XEbmGs6DEWj6zpVOWYpY09GU66yEb0DSYvP/biBPzHn0GuW/3RC/pnaYNUWlQE1fJYtgA==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -3880,7 +3880,7 @@ packages:
       destr: 1.2.2
       etag: 1.8.1
       image-meta: 0.1.1
-      listhen: 1.1.1
+      listhen: 1.1.2
       node-fetch-native: 1.2.0
       pathe: 1.1.1
       sharp: 0.32.3
@@ -4174,8 +4174,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /listhen@1.1.1:
-    resolution: {integrity: sha512-p5fntsbu69TY3f6s56FzvwCUK3pt0fO3SKTtQdkdAHd4HGjN519U00OLM5eGgtraEig7ebwc4eGKCeDC6C/rXA==}
+  /listhen@1.1.2:
+    resolution: {integrity: sha512-rLX5V57oonazmc6zoZ2LzfbSOfGzDOLdQ/eTEh/d3f1xYMACH1yIU8nr0YGl2WiR+l31o3QCN4/VH2dUNyYvTA==}
     hasBin: true
     dependencies:
       citty: 0.1.2
@@ -4612,7 +4612,7 @@ packages:
       jiti: 1.19.1
       klona: 2.0.6
       knitwork: 1.0.0
-      listhen: 1.1.1
+      listhen: 1.1.2
       magic-string: 0.30.1
       mime: 3.0.0
       mlly: 1.4.0
@@ -6596,7 +6596,7 @@ packages:
       destr: 2.0.0
       h3: 1.7.1
       ioredis: 5.3.2
-      listhen: 1.1.1
+      listhen: 1.1.2
       lru-cache: 10.0.0
       mri: 1.2.0
       node-fetch-native: 1.2.0

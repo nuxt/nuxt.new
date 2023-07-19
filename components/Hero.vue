@@ -1,8 +1,8 @@
 <script setup lang="ts">
 defineProps({
   templateType: {
-    type: String as PropType<'boilerplate' | 'themes'>,
-    default: 'boilerplate'
+    type: String as PropType<'starters' | 'themes'>,
+    default: 'starters'
   }
 })
 </script>

@@ -1,9 +1,7 @@
 <template>
-  <div />
+  <div>
+    <Hero />
+    <StarterList class="py-18" />
+    <FurtherSection />
+  </div>
 </template>
-
-<script setup lang="ts">
-definePageMeta({
-  middleware: ['redirect']
-})
-</script>

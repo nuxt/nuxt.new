@@ -6,10 +6,10 @@ const links = [
     to: 'https://nuxt.com',
   },
   {
-    title: 'Nuxt.new',
-    description: 'Nuxt templates',
-    to: 'https://nuxt.new',
-  },
+    title: "Nuxters",
+    description: "Are you a Nuxter?",
+    to: "https://nuxters.nuxt.com/",
+  }
 ] as Array<{ title: string; description: string; to: string }>
 </script>
 

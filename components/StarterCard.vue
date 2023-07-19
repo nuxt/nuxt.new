@@ -14,7 +14,6 @@ const template = computed(() => {
     : `-t "${props.starter.repo}#${props.starter.branch}" `
 })
 
-
 const command = computed(() => {
   return `npx nuxi init ${template.value}<${template.value.includes('module') ? 'module' : 'app' }>`
 })
@@ -22,7 +21,7 @@ const command = computed(() => {
 
 <template>
   <li class="relative w-full h-full flex justify-center items-center p-[1px]">
-    <div class="flex w-full h-full text-xs card rounded-xl z-10 py-4 px-5 sm:py-[40px] sm:px-[60px] md:p-6 lg:py-[40px] lg:px-[60px]">
+    <div class="flex w-full h-full text-xs bg-gray-950/60 rounded-xl z-10 py-4 px-5 sm:py-[40px] sm:px-[60px] md:p-6 lg:py-[40px] lg:px-[60px]">
       <div class="flex flex-col gap-y-4 justify-center items-center w-full">
         <img :src="starter.image" width="40" height="40" alt="" />
         <UButton :href="`https://github.com/${starter.repo}/tree/${starter.branch}`" size="xs" _target="blank" class="flex gap-x-4 transition-colors duration-200 items-center justify-center" variant="ghost" color="gray">
@@ -46,10 +45,6 @@ const command = computed(() => {
 </template>
 
 <style scoped lang="postcss">
-.card {
-  background: rgba(2, 4, 32, 0.60);
-}
-
 .card-bg {
   background: linear-gradient(180deg, #1E293B 0%, #0F172A 100%);
 }

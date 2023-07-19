@@ -2,7 +2,7 @@
   <div>
     <Hero templateType="themes" />
     <ThemeList class="py-18" />
-    <Further />
+    <FurtherSection />
   </div>
 </template>
 

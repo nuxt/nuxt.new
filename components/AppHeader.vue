@@ -7,7 +7,6 @@ const open = ref(false)
 onMounted(() => {
   nuxtApp.$router.afterEach(() => setTimeout(() => open.value = false, 50))
 
-  // Watch visible and remove overflow so the scrollbar disappears when menu is opened
   if (process.client) {
     watch(open, (isVisible) => {
       const html = document.documentElement
@@ -17,7 +16,7 @@ onMounted(() => {
       } else {
         setTimeout(() => {
           html.style.overflow = ''
-        }, 100) /* had to put it, because of layout shift on leave transition */
+        }, 100)
       }
     },
       {
@@ -26,8 +25,6 @@ onMounted(() => {
     )
   }
 })
-
-
 </script>
 
 <template>
@@ -41,7 +38,7 @@ onMounted(() => {
         </div>
 
         <div class="flex flex-col gap-y-6 px-4 pt-6 text-lg">
-          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/boilerplate">Boilerplate
+          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/">Starters
           </NuxtLink>
           <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/themes">Themes</NuxtLink>
         </div>
@@ -51,7 +48,7 @@ onMounted(() => {
     <UContainer class="flex justify-between items-center w-full">
       <NuxtDropdown />
       <div class="hidden sm:flex gap-x-4 items-center justify-center text-lg">
-        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/boilerplate">Boilerplate
+        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/">Starters
         </NuxtLink>
         <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/themes">Themes</NuxtLink>
       </div>

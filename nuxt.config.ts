@@ -3,7 +3,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      routes: ['/', '/data/starters.json', '/data/themes.json']
+      routes: ['/', '/themes', '/data/starters.json', '/data/themes.json']
     }
   },
 

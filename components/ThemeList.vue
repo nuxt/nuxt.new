@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { data: themes } = await useFetch<Array<Themes>>('/data/themes.json')
+const { data: themes } = await useFetch<Array<Theme>>('/data/themes.json')
 </script>
 
 <template>
