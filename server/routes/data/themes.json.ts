@@ -1,4 +1,4 @@
-export default defineEventHandler((): Themes[] => [
+export default defineEventHandler((): Theme[] => [
   {
     "name": "Alpine",
     "slug": "alpine",

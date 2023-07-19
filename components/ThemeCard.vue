@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const props = defineProps({
   theme: {
-    type: Object as PropType<Themes>,
+    type: Object as PropType<Theme>,
     default: () => ({})
   }
 })
