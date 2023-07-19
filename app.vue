@@ -14,14 +14,9 @@ useHead({
   }
 })
 
-
 const socialImage = computed(() => {
   return `https://nuxt.new/social-card${route.fullPath === '/' ? '' : `-${route.fullPath.split('/')[1]}` }.png`
 })
-
-console.log('route', route)
-
-console.log('social', socialImage.value)
 
 useSeoMeta({
   title: 'Nuxt.new',
