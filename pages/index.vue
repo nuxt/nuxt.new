@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hero />
-    <StarterList class="py-18" />
+    <StarterList />
     <FurtherSection />
   </div>
 </template>

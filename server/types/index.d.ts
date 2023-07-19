@@ -11,6 +11,7 @@ declare interface Starter {
 }
 
 declare interface Theme extends Starter {
-  studio?: boolean,
-  shop?: string
+  studio: boolean,
+  shop?: string,
+  free?: boolean
 }

@@ -7,7 +7,8 @@ export default defineEventHandler((): Theme[] => [
     "demo": "https://alpine.nuxt.space/",
     "repo": "nuxt-themes/alpine-starter",
     "branch": "main",
-    "studio": true
+    "studio": true,
+    "free": true
   },
   {
     "name": "Docus",
@@ -17,7 +18,8 @@ export default defineEventHandler((): Theme[] => [
     "demo": "https://docus.dev",
     "repo": "nuxt-themes/docus-docs-starter",
     "branch": "main",
-    "studio": true
+    "studio": true,
+    "free": true
   },
   {
     "name": "Content Wind",
@@ -28,7 +30,8 @@ export default defineEventHandler((): Theme[] => [
     "repo": "Atinux/content-wind",
     "branch": "main",
     "dir": ".demo",
-    "studio": true
+    "studio": true,
+    "free": true
   },
   {
     "name": "Movies",
@@ -39,7 +42,8 @@ export default defineEventHandler((): Theme[] => [
     "repo": "/nuxt/movies",
     "branch": "main",
     "dir": "",
-    "studio": false
+    "studio": false,
+    "free": true
   },
   {
     "name": "HackerNews",
@@ -50,7 +54,8 @@ export default defineEventHandler((): Theme[] => [
     "repo": "/nuxt/hackernews",
     "branch": "master",
     "dir": "",
-    "studio": false
+    "studio": false,
+    "free": true
   },
   {
     "name": "Tairo",
@@ -62,7 +67,7 @@ export default defineEventHandler((): Theme[] => [
     "branch": "",
     "dir": "",
     "studio": false,
-    "shop": "https://themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/45383013"
+    "shop": "https://themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/45383013",
   },
   {
     "name": "Brook",
