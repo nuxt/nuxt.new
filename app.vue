@@ -1,4 +1,7 @@
 <script setup lang="ts">
+
+const route = useRoute()
+
 useHead({
   link: [
     { rel: 'icon', href: '/icon.png' }
@@ -11,13 +14,17 @@ useHead({
   }
 })
 
+const socialImage = computed(() => {
+  return `https://nuxt.new/social-card${route.fullPath === '/' ? '' : `${route.fullPath}` }.png`
+})
+
 useSeoMeta({
   title: 'Nuxt.new',
   description: 'Kickstart your project',
   ogSiteName: 'Nuxt.new',
-  ogImage: 'https://nuxt.new/social-card.jpg',
+  ogImage: socialImage.value,
   ogImageAlt: 'Nuxters',
-  twitterImage: 'https://nuxt.new/social-card.jpg',
+  twitterImage: socialImage.value,
   twitterCard: 'summary_large_image',
   twitterSite: '@nuxt_js',
 })
