@@ -20,14 +20,12 @@
             </h3>
             <UIcon name="i-ph-arrow-right-light" class="w-5 h-5 self-start text-gray-400" />
           </div>
-          <p class="text-gray-400 pt-1">
+          <p class="text-gray-400">
             {{ item.description }}
           </p>
         </NuxtLink>
       </li>
     </ul>
-
-    <JoinSection />
   </div>
 </template>
 
