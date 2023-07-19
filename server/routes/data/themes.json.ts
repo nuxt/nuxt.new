@@ -46,7 +46,7 @@ export default defineEventHandler((): Themes[] => [
     "slug": "hackernews",
     "description": "HackerNews clone built with Nuxt.",
     "image": "/previews/hackernews.png",
-    "demo": "hn.nuxt.space",
+    "demo": "https://hn.nuxt.space/news/1",
     "repo": "/nuxt/hackernews",
     "branch": "master",
     "dir": "",
