@@ -20,7 +20,7 @@
             </h3>
             <UIcon name="i-ph-arrow-right-light" class="w-5 h-5 self-start text-gray-400" />
           </div>
-          <p class="text-gray-400">
+          <p class="text-gray-400 pt-1">
             {{ item.description }}
           </p>
         </NuxtLink>
@@ -32,22 +32,21 @@
 </template>
 
 <script setup lang="ts">
-//TODO
 const items = [
   {
     title: 'Docs',
-    description: 'Starter for a content-driven website.',
-    to: '/'
+    description: 'We highly recommend you take a look at documentation to level up.',
+    to: 'https://nuxt.com/docs'
   },
   {
     title: 'Contribute',
-    description: 'Starter for a content-driven website.',
-    to: '/'
+    description: 'Want to contribute to Nuxt? We provide a Contribution Guide to help you get started.',
+    to: 'https://nuxt.com/docs/community/contribution'
   },
   {
     title: 'Examples',
-    description: 'Starter for a content-driven website.',
-    to: '/'
+    description: 'Explore different ways of using Nuxt features and get inspired with our examples.',
+    to: 'https://nuxt.com/docs/examples/hello-world'
   }
 ]
 </script>
