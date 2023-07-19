@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col py-[60px] gap-y-[60px] items-center justify-center bg-slate-950/60 backdrop-blur-sm">
+  <div class="flex flex-col pt-[60px] pb-[120px] gap-y-[60px] items-center justify-center bg-slate-950/60 backdrop-blur-sm">
     <div>
       <h2 class="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         Go further
