@@ -19,7 +19,7 @@ devDependencies:
     version: 1.0.0-rc.1-28143901.afe4120
   '@nuxthq/ui':
     specifier: npm:@nuxthq/ui-edge@latest
-    version: /@nuxthq/ui-edge@2.6.0-28163226.c4e0e5a(vue@3.3.4)(webpack@5.88.2)
+    version: /@nuxthq/ui-edge@2.6.0-28164188.beffde1(vue@3.3.4)(webpack@5.88.2)
   '@nuxtjs/critters':
     specifier: ^0.5.0
     version: 0.5.0
@@ -1447,8 +1447,8 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/ui-edge@2.6.0-28163226.c4e0e5a(vue@3.3.4)(webpack@5.88.2):
-    resolution: {integrity: sha512-tYXFLmXoocnsbtDTwah3FGbBmFVeMLAdhRY+UkGiRGYaqYHOZ2nb7S2vHNe/YdnqihpPWfbt8PdTlwRhHOkfZQ==}
+  /@nuxthq/ui-edge@2.6.0-28164188.beffde1(vue@3.3.4)(webpack@5.88.2):
+    resolution: {integrity: sha512-ajm+bKtvymu/RlhD+ynNFcaNq8yNVaUyUX6vZNFi+pe5bbJX59yU9GAGAazK1qNEQZfeaXXp6Jtov3r/Yg1xDA==}
     engines: {node: '>=v16.14.0'}
     dependencies:
       '@egoist/tailwindcss-icons': 1.1.0(tailwindcss@3.3.3)

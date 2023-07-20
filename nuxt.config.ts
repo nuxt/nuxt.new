@@ -1,19 +1,10 @@
 export default defineNuxtConfig({
   typescript: { strict: true, typeCheck: true, shim: false },
-
   nitro: {
     prerender: {
       routes: ['/', '/themes', '/data/starters.json', '/data/themes.json']
     }
   },
-
-  image: {
-    screens: {
-      cover: 685,
-      cover2x: 1370
-    }
-  },
-
   modules: [
     '@nuxt/devtools',
     '@nuxthq/ui',
@@ -25,11 +16,15 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@vueuse/nuxt'
   ],
-
+  image: {
+    screens: {
+      cover: 685,
+      cover2x: 1370
+    }
+  },
   fontMetrics: {
     fonts: ['DM Sans'],
   },
-
   googleFonts: {
     display: 'swap',
     download: true,
@@ -37,12 +32,10 @@ export default defineNuxtConfig({
       'DM+Sans': [200, 300, 700],
     },
   },
-
   ui: {
     icons: ['simple-icons', 'ph'],
   },
-
   colorMode: {
     preference: 'dark',
-  },
+  }
 })

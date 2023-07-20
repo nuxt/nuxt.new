@@ -1,7 +1,4 @@
 <script setup lang="ts">
-
-const route = useRoute()
-
 useHead({
   link: [
     { rel: 'icon', href: '/icon.png' }
@@ -16,7 +13,7 @@ useHead({
 
 useSeoMeta({
   title: 'Nuxt.new',
-  description: 'Kickstart your project',
+  description: 'Kickstart your Nuxt project',
   ogSiteName: 'nuxt.new',
   twitterCard: 'summary_large_image',
   twitterSite: '@nuxt_js',
