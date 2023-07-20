@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     '@nuxthq/ui',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
-    '@nuxt/image-edge',
+    '@nuxt/image',
     '@nuxtjs/plausible',
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
