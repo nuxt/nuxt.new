@@ -9,14 +9,14 @@ devDependencies:
     specifier: ^1.1.5
     version: 1.1.5
   '@iconify-json/simple-icons':
-    specifier: ^1.1.60
-    version: 1.1.60
+    specifier: ^1.1.61
+    version: 1.1.61
   '@nuxt/devtools':
     specifier: ^0.6.7
     version: 0.6.7(nuxt@3.6.5)(vite@4.4.5)
-  '@nuxt/image-edge':
-    specifier: 1.0.0-rc.1-28164352.ad7c010
-    version: 1.0.0-rc.1-28164352.ad7c010
+  '@nuxt/image':
+    specifier: 1.0.0-rc.1
+    version: 1.0.0-rc.1
   '@nuxthq/ui':
     specifier: npm:@nuxthq/ui-edge@latest
     version: /@nuxthq/ui-edge@2.6.0-28164188.beffde1(vue@3.3.4)(webpack@5.88.2)
@@ -902,8 +902,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons@1.1.60:
-    resolution: {integrity: sha512-/5ZU9nbHTOhhqdTDcTsN2iZBqfBzVHcpaWmt381wh+LmWXghYTLrYpFb/E3Vkb+TmuvKtpk/8zaBIgv+gGurKA==}
+  /@iconify-json/simple-icons@1.1.61:
+    resolution: {integrity: sha512-n1UWME41sSm7AexhVLAfuPwwmjHXiNsHU88KhJBwrZGL47s4GzmADbGobms7EmKwehC8RlMJq3hj7j8jYNqWjQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1186,8 +1186,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@nuxt/image-edge@1.0.0-rc.1-28164352.ad7c010:
-    resolution: {integrity: sha512-deOQY0VAYtpjjxF1H1f18FgaIHU8gzecy4fge9rAZav4M4I7mY+uwgsidbYkEmJhoKv31ruE80TDLaE81PFFmQ==}
+  /@nuxt/image@1.0.0-rc.1:
+    resolution: {integrity: sha512-gCYglIwEuYOdIbcH21RbMfqgQ2jqyd9SJH+GmyvH9M/vBsL7eZ4XEatfZRWa2q1A4DcIMs09/LbQiR3HHy2wZw==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
       '@nuxt/kit': 3.6.5
