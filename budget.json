@@ -4,7 +4,7 @@
     "resourceSizes": [
       {
         "resourceType": "document",
-        "budget": 11
+        "budget": 25.7
       },
       {
         "resourceType": "total",
@@ -22,7 +22,7 @@
       },
       {
         "resourceType": "total",
-        "budget": 8
+        "budget": 11
       }
     ]
   }
