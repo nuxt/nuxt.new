@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { joinURL } from 'ufo'
+import { joinURL, parseURL } from 'ufo'
 
 const baseURL = process.env.BASE_URL || 'https://nuxt.new/'
 
@@ -42,14 +42,14 @@ test.describe(`pages`, () => {
       expect(pageErrors).toEqual([])
       expect(consoleLogErrors).toEqual([])
       expect(consoleLogWarnings).toEqual([])
-      expect(requests.filter(i => i.endsWith('.js')).map(i => i.replace(/\.\w+\.js/, '.js')))
+      expect(requests.filter(i => i.endsWith('.js')).map(i => parseURL(i.replace(/\.\w+\.js/, '.js')).pathname))
         .toEqual([
-          "https://nuxt.new/_nuxt/entry.js",
-          "https://nuxt.new/_nuxt/index.js",
-          "https://nuxt.new/_nuxt/FurtherSection.vue.js",
-          "https://nuxt.new/_nuxt/error-404.js",
-          "https://nuxt.new/_nuxt/error-500.js",
-          "https://nuxt.new/_nuxt/themes.js",
+          "/_nuxt/entry.js",
+          "/_nuxt/index.js",
+          "/_nuxt/FurtherSection.vue.js",
+          "/_nuxt/error-404.js",
+          "/_nuxt/error-500.js",
+          "/_nuxt/themes.js",
         ])
     })
   }
