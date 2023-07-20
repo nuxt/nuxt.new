@@ -19,6 +19,6 @@ defineProps({
       </p>
       <CopyButton text="npx nuxi@latest init my-app" class="mt-4" />
     </div>
-    <img :src="`hero-${templateType}.svg`" width="385" height="216" class="w-full h-full justify-self-center md:justify-self-end md:col-span-3" alt="">
+    <img :src="`hero-${templateType}.svg`" width="385" height="216" class="hidden md:block w-full h-full justify-self-center md:justify-self-end md:col-span-3" alt="">
   </div>
 </template>
