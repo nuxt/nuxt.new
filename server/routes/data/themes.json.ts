@@ -36,7 +36,7 @@ export default defineEventHandler((): Theme[] => [
   {
     "name": "Movies",
     "slug": "movies",
-    "description": "A TMDB client built with Nuxt 3",
+    "description": "A TMDB client built with Nuxt.",
     "image": "/previews/movies.png",
     "demo": "https://movies.nuxt.space/",
     "repo": "/nuxt/movies",
@@ -60,37 +60,37 @@ export default defineEventHandler((): Theme[] => [
   {
     "name": "Tairo",
     "slug": "tairo",
-    "description": "The dashboard system that makes you say WOW",
+    "description": "The dashboard system that makes you say WOW.",
     "image": "/previews/tairo.png",
-    "demo": "https://preview.themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/full_screen_preview/45383013",
+    "demo": "https://1.envato.market/nuxt-tairo-preview",
     "repo": "",
     "branch": "",
     "dir": "",
     "studio": false,
-    "shop": "https://themeforest.net/item/tairo-multipurpose-nuxt-tailwind-css-dashboard-system/45383013",
+    "shop": "https://1.envato.market/nuxt-tairo",
   },
   {
     "name": "Brook",
     "slug": "brook",
-    "description": "VueJS Nuxt JS Template",
+    "description": "Powerful, flexible & multipurpose template.",
     "image": "/previews/brook.png",
-    "demo": "https://preview.themeforest.net/item/brook-creative-multipurpose-vue-nuxt-js-template/full_screen_preview/28452229",
+    "demo": "https://1.envato.market/nuxt-brook-preview",
     "repo": "",
     "branch": "",
     "dir": "",
     "studio": false,
-    "shop": "https://themeforest.net/item/brook-creative-multipurpose-vue-nuxt-js-template/28452229"
+    "shop": "https://1.envato.market/nuxt-brook"
   },
   {
-    "name": "Argon",
+    "name": "Argon Pro",
     "slug": "argon",
-    "description": "VueJS Nuxt JS Template",
+    "description": "Full-stack application dashboard template.",
     "image": "/previews/argon.png",
-    "demo": "https://demos.creative-tim.com/nuxt-argon-dashboard-pro/",
+    "demo": "https://demos.creative-tim.com/nuxt-argon-dashboard-pro/?partner=120213",
     "repo": "",
     "branch": "",
     "dir": "",
     "studio": false,
-    "shop": "https://www.creative-tim.com/product/nuxt-argon-dashboard-pro"
+    "shop": "https://www.creative-tim.com/product/nuxt-argon-dashboard-pro?partner=120213"
   }
 ])

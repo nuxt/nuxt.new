@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    '@nuxt/devtools',
     '@nuxthq/ui',
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',

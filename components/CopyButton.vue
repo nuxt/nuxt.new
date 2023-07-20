@@ -1,10 +1,16 @@
 <template>
   <UButton @click='copy(text)'
-  :size="size"
-    class="grid grid-cols-6 items-center justify-between gap-x-3 px-5 transition-all duration-200 group border border-gray-700 hover:border-gray-500 w-fit" :class="[background, { 'py-3 rounded-xl ': size !== 'sm' }]">
+    :size="size"
+    class="grid grid-cols-6 items-center justify-between gap-x-3 px-5 transition-all duration-200 group border w-fit"
+    :class="[
+      background,
+      { 'py-3 rounded-xl ': size !== 'sm' },
+      [copied ? 'border-green-600' : 'border-gray-700 hover:border-gray-500']
+    ]"
+    >
     <UIcon name="i-ph-terminal" class="w-5 h-5 text-gray-300 col-span-1" />
-    <span class="font-mono text-gray-300 col-span-4">{{ command }}</span>
-    <UIcon :name="copyIcon" class="text-gray-300 w-5 h-5 opacity-50 col-span-1 justify-self-end" />
+    <span class="font-mono text-gray-300 col-span-4">{{ text }}</span>
+    <UIcon :name="copied ? 'i-ph-check' : 'i-ph-copy'" class="w-5 h-5 col-span-1 justify-self-end" :class="[copied ? 'text-green-400' : 'text-gray-300 opacity-50']"/>
   </UButton>
 </template>
 
@@ -24,23 +30,4 @@ const props = defineProps({
   }
 })
 const { copy, copied } = useClipboard()
-
-const command = ref(props.text)
-const copyIcon = ref('i-ph-copy')
-
-const copyDone = () => {
-  copyIcon.value = 'i-ph-check'
-
-  const timeoutId = setTimeout(() => {
-    copyIcon.value = 'i-ph-copy'
-
-    clearTimeout(timeoutId)
-  }, 1000)
-}
-
-watch(() => copied.value, () => {
-  if (copied.value) {
-    copyDone()
-  }
-})
 </script>
