@@ -11,18 +11,22 @@
     "test:e2e": "playwright test test/e2e"
   },
   "devDependencies": {
-    "@kevinmarrec/nuxt-pwa": "^0.17.0",
+    "@iconify-json/ph": "^1.1.5",
+    "@iconify-json/simple-icons": "^1.1.60",
+    "@nuxt/devtools": "^0.6.7",
     "@nuxt/image": "1.0.0-rc.1",
-    "@nuxtjs/critters": "^0.4.1",
+    "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
+    "@nuxtjs/critters": "^0.5.0",
     "@nuxtjs/fontaine": "^0.4.0",
+    "@nuxtjs/google-fonts": "^3.0.1",
     "@nuxtjs/plausible": "^0.2.1",
-    "@nuxtjs/tailwindcss": "^6.8.0",
-    "@playwright/test": "1.35.1",
-    "nuxt": "^3.5.3",
+    "@playwright/test": "1.36.1",
+    "@vueuse/nuxt": "^10.2.1",
+    "nuxt": "^3.6.5",
     "purgecss": "^5.0.0",
     "purgecss-from-html": "^5.0.0",
     "typescript": "^5.1.6",
-    "vue-tsc": "1.0.24"
+    "vue-tsc": "1.8.4"
   },
-  "packageManager": "pnpm@8.6.5"
+  "packageManager": "pnpm@8.6.9"
 }
