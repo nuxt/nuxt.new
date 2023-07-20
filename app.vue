@@ -14,17 +14,10 @@ useHead({
   }
 })
 
-const socialImage = computed(() => {
-  return `https://nuxt.new/social-card${route.fullPath === '/' ? '' : `-${route.fullPath.split('/')[1]}` }.png`
-})
-
 useSeoMeta({
   title: 'Nuxt.new',
   description: 'Kickstart your project',
-  ogSiteName: 'Nuxt.new',
-  ogImage: socialImage.value,
-  ogImageAlt: 'Nuxt.new',
-  twitterImage: socialImage.value,
+  ogSiteName: 'nuxt.new',
   twitterCard: 'summary_large_image',
   twitterSite: '@nuxt_js',
 })
