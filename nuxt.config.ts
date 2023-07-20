@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  typescript: { strict: true, typeCheck: true, shim: false },
+  typescript: { typeCheck: true, shim: false },
   nitro: {
     prerender: {
       routes: ['/', '/themes', '/data/starters.json', '/data/themes.json']
@@ -23,7 +23,13 @@ export default defineNuxtConfig({
     }
   },
   fontMetrics: {
-    fonts: ['DM Sans'],
+    inline: false,
+    fonts: [
+      {
+        family: 'DM Sans',
+        fallbacks: ['Arial']
+      }
+    ],
   },
   googleFonts: {
     display: 'swap',
