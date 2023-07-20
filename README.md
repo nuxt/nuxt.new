@@ -1,6 +1,8 @@
 # nuxt.new
 
-This project is a landing page to get you up and running as quickly as possible with Nuxt. Nuxt is a full-stack web framework that aims to make web development intuitive and performant, with a great developer experience.
+This project is a minimal website to get you up and running as quickly as possible with Nuxt.
+
+Nuxt is a full-stack web framework that aims to make web development intuitive and performant, with a great developer experience.
 
 Learn more in the ['What is Nuxt?'](https://nuxt.com/docs/getting-started/introduction) section of our documentation.
 
@@ -8,11 +10,10 @@ Learn more in the ['What is Nuxt?'](https://nuxt.com/docs/getting-started/introd
 
 ## ✨ Features
 
-- 🚀 Zero-JS at runtime
-- 💪 SVG sprite map to reduce DOM size
-- 🎨 Inlined CSS to reduce network requests
-- 🆎 Generated [font fallback metrics](https://github.com/danielroe/fontaine/) to reduce CLS
-- ⚗️ [Nitro](https://nitro.unjs.io/) server routes with the [server/](https://nuxt.com/docs/guide/directory-structure/server) directory
+- 🚀 Start from a starter (Nuxt, Content, Module or Layer)
+- 🎨 Start with a theme (free or premium)
+
+Head over [nuxt.new](https://nuxt.new) to get started.
 
 ## 💻 Development
 

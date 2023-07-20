@@ -1,8 +1,8 @@
 <script setup lang="ts">
 defineProps({
   templateType: {
-    type: String as PropType<'starters' | 'themes'>,
-    default: 'starters'
+    type: String as PropType<'starter' | 'theme'>,
+    default: 'starter'
   }
 })
 </script>
@@ -15,7 +15,7 @@ defineProps({
         <span> with a {{ templateType }}</span>
       </h1>
       <p class="text-gray-300 text-xl font-extralight">
-        Open a Nuxt {{ templateType.slice(0, -1) }} on CodeSandbox or StackBlitz to get up and running in a few seconds.
+        Open a Nuxt {{ templateType }} on CodeSandbox, StackBlitz or locally to get up and running in a few seconds.
       </p>
       <CopyButton text="npx nuxi@latest init my-app" class="mt-4" />
     </div>
