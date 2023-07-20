@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { joinURL } from 'ufo'
+import { joinURL, parseURL } from 'ufo'
 
 const baseURL = process.env.BASE_URL || 'https://nuxt.new/'
 
@@ -32,7 +32,7 @@ test.describe(`pages`, () => {
       await page.goto(url(path), { waitUntil: 'networkidle' })
 
       const title = page.locator('title')
-      expect(await title.textContent()).toContain('Start a Nuxt project')
+      expect(await title.textContent()).toContain('Start a new Nuxt project')
 
       await expect(page).toHaveScreenshot({ maxDiffPixelRatio: 0.05 })
 
@@ -42,8 +42,15 @@ test.describe(`pages`, () => {
       expect(pageErrors).toEqual([])
       expect(consoleLogErrors).toEqual([])
       expect(consoleLogWarnings).toEqual([])
-      expect(requests.filter(i => i.endsWith('.js')))
-        .toEqual(['https://plausible.io/js/plausible.js'])
+      expect(requests.filter(i => i.endsWith('.js')).map(i => parseURL(i.replace(/\.\w+\.js/, '.js')).pathname))
+        .toEqual([
+          "/_nuxt/entry.js",
+          "/_nuxt/index.js",
+          "/_nuxt/FurtherSection.vue.js",
+          "/_nuxt/error-404.js",
+          "/_nuxt/error-500.js",
+          "/_nuxt/themes.js",
+        ])
     })
   }
 })
