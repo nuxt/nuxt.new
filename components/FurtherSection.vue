@@ -4,7 +4,7 @@
       <h2 class="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         Go further
       </h2>
-      <p class="text-gray-300 font-xl text-center">
+      <p class="text-gray-300 text-xl text-center pt-4">
         Explore our different starters with different presets.
       </p>
     </div>
