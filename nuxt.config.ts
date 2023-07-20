@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     display: 'swap',
     download: true,
     families: {
-      'DM+Sans': [400, 500, 700],
+      'DM+Sans': [200, 300, 700],
     },
   },
 

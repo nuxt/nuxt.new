@@ -12,9 +12,9 @@ defineProps({
     <div class="flex flex-col gap-y-4 md:col-span-4">
       <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white lg:leading-[64px]">
         <span class="text-green-400">Kickstart your project</span><br />
-        <span> with our {{ templateType }}</span>
+        <span> with a {{ templateType }}</span>
       </h1>
-      <p class="text-gray-300 text-xl font-normal">
+      <p class="text-gray-300 text-xl font-extralight">
         Open a Nuxt {{ templateType.slice(0, -1) }} on CodeSandbox or StackBlitz to get up and running in a few seconds.
       </p>
       <CopyButton text="npx nuxi@latest init my-app" class="mt-4" />

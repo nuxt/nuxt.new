@@ -46,7 +46,7 @@ onMounted(() => {
 
     <UContainer class="flex justify-between items-center w-full">
       <NuxtDropdown />
-      <div class="hidden sm:flex gap-x-4 items-center justify-center text-lg">
+      <div class="hidden sm:flex gap-x-8 items-center justify-center text-lg">
         <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/" aria-label="Go to starters page">Starters</NuxtLink>
         <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/themes" aria-label="Go to themes page">Themes</NuxtLink>
       </div>
