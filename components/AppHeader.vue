@@ -63,7 +63,11 @@ onMounted(() => {
           <span class="hidden lg:block">Star us</span>
         </UButton>
       </div>
-      <UButton class="sm:hidden text-white" icon="i-ph-list" variant="ghost" color="gray" @click="open = true" />
+      <UButton class="sm:hidden text-white" icon="i-ph-list" variant="ghost" color="gray" @click="open = true">
+        <span class="sr-only">
+          Open menu
+        </span>
+      </UButton>
     </UContainer>
   </div>
 </template>
