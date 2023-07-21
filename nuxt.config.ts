@@ -18,8 +18,8 @@ export default defineNuxtConfig({
   ],
   image: {
     screens: {
-      cover: 685,
-      cover2x: 1370
+      sm: 640,
+      lg: 1024
     }
   },
   fontMetrics: {
@@ -37,5 +37,5 @@ export default defineNuxtConfig({
   },
   colorMode: {
     preference: 'dark',
-  }
+  },
 })
