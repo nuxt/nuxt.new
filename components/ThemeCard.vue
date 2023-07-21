@@ -33,8 +33,7 @@ const command = computed(() => {
         class="flex flex-col gap-y-4 justify-between items-center w-full py-4 px-5 sm:py-[40px] sm:px-[60px] md:p-6 lg:py-[40px] lg:px-[60px]">
         <div class="flex flex-col justify-start gap-y-4">
           <div v-if="!theme.shop" class="flex gap-x-2 items-center justify-center">
-            <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xs"
-              _target="blank" class="flex gap-x-4 transition-colors duration-200 items-center justify-center"
+            <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xs" class="flex gap-x-4 transition-colors duration-200 items-center justify-center"
               variant="ghost" color="gray">
               <span class="text-white font-bold text-2xl">{{ theme.name }}</span>
 
