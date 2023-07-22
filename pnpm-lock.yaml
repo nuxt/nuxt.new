@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^0.5.0
     version: 0.5.0
   '@nuxtjs/fontaine':
-    specifier: ^0.4.0
-    version: 0.4.0
+    specifier: ^0.4.1
+    version: 0.4.1
   '@nuxtjs/google-fonts':
     specifier: ^3.0.2
     version: 3.0.2
@@ -1468,8 +1468,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/fontaine@0.4.0:
-    resolution: {integrity: sha512-ZGFnp73RCg8weB65Qp0A3d+cWfUyea8OXXgoc61DkDP8+mQ+/mp73wwoy8RMsU5+F60vvx6FkPwiWTJLRMdbAw==}
+  /@nuxtjs/fontaine@0.4.1:
+    resolution: {integrity: sha512-8VnrFYnilfqlQVsCufiqoWusivYVOwP/0Nzu9FV44oryQlBa3qiT7EyOkKSmOxf9yZWCZBRc2wjTSxI+WTYlpg==}
     dependencies:
       '@nuxt/kit': 3.6.5
       fontaine: 0.4.0
