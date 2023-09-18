@@ -16,10 +16,11 @@ const command = computed(() => {
 </script>
 
 <template>
-  <li class="relative w-full h-full flex justify-center items-center p-[1px]">
-    <div class="w-full h-full text-xs card rounded-xl z-10 grid grid-cols-1">
+  <ULandingCard class="relative w-full h-full flex justify-center items-center" :ui="{ body: { padding: '' } }">
+    <div class="w-full h-full text-xs rounded-xl z-10 grid grid-cols-1">
       <div class="relative h-[300px]">
-        <NuxtImg :src="theme.image" class="w-full rounded-t-xl object-cover h-[300px]" alt="" sizes="sm:300px lg:600px" width="1112" height="617" format="webp" :loading="lazyImg ? 'loading' : undefined" />
+        <NuxtImg :src="theme.image" class="w-full rounded-t-xl object-cover h-[300px]" alt="" sizes="sm:300px lg:600px"
+          width="1112" height="617" format="webp" :loading="lazyImg ? 'loading' : undefined" />
 
         <div class="h-[5px] w-full line flex justify-between -mt-[1px] z-10">
           <span class="h-[5px] w-full bg-gradient-to-l from-transparent to-slate-950/90" />
@@ -38,8 +39,9 @@ const command = computed(() => {
         class="flex flex-col gap-y-4 justify-between items-center w-full py-4 px-5 sm:py-[40px] sm:px-[60px] md:p-6 lg:py-[40px] lg:px-[60px]">
         <div class="flex flex-col justify-start gap-y-4">
           <div v-if="!theme.shop" class="flex gap-x-2 items-center justify-center">
-            <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xs" class="flex gap-x-4 transition-colors duration-200 items-center justify-center"
-              variant="ghost" color="gray">
+            <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xs"
+              class="flex gap-x-4 transition-colors duration-200 items-center justify-center" variant="ghost"
+              color="gray">
               <span class="text-white font-bold text-2xl">{{ theme.name }}</span>
 
               <UIcon name="i-simple-icons-github" class="h-5 w-5" />
@@ -81,19 +83,11 @@ const command = computed(() => {
           class="w-full flex justify-center items-center" />
       </div>
     </div>
-    <div class="absolute card-bg inset-0 w-full h-full z-[-1] rounded-xl" />
-  </li>
+  </ULandingCard>
 </template>
 
 <style scoped lang="postcss">
-.card {
-  background: rgba(2, 4, 32, 0.60);
-}
-
-.card-bg {
-  background: linear-gradient(180deg, #1E293B 0%, #0F172A 100%);
-}
-
 .line {
   background: linear-gradient(rgba(0, 220, 130, 0), rgba(19, 223, 162, 1), rgba(54, 228, 218, 1), rgba(54, 228, 218, 0))
-}</style>
+}
+</style>
