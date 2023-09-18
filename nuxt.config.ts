@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  extends: '@nuxthq/elements',
+  extends: process.env.NUXT_ELEMENTS_PATH || '@nuxthq/elements',
 
   typescript: { typeCheck: true, shim: false },
 
