@@ -9,7 +9,6 @@ useSeoMeta({
   twitterImage: 'https://nuxt.new/social-card.png',
 })
 
-
 const { data: starters } = await useFetch<Array<Starter>>('/data/starters.json')
 
 </script>

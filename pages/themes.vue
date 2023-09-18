@@ -9,9 +9,6 @@ useSeoMeta({
   twitterImage: 'https://nuxt.new/social-card-themes.png',
 })
 
-const source = ref('npx nuxi@latest init my-app')
-const { copy, copied } = useClipboard({ source })
-
 const { data: themes } = await useFetch<Array<Theme>>('/data/themes.json')
 </script>
 
