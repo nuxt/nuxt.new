@@ -62,6 +62,7 @@ export default defineNuxtConfig({
     'components:extend': function (components) {
       for (const comp of components) {
         if (comp.global)
+          //@ts-ignore
           comp.global = 'sync'
       }
     },

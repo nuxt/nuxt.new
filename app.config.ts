@@ -4,13 +4,16 @@ export default defineAppConfig({
     gray: 'slate',
     button: {
       color: {
+        //@ts-ignore
         primary: {
           outline: 'bg-gray-950 border border-[0.5px] border-primary-400 text-gray-300 disabled:bg-gray-700 hover:bg-gray-900 focus-visible:ring-2 focus-visible:ring-gray-400 transition-all duration-200'
         },
+        //@ts-ignore
         gray: {
           outline: 'bg-gradient-to-b from-gray-800/50 to-gray-900/50 border border-gray-700 text-gray-300 disabled:bg-transparent hover:bg-gray-900 hover:border-gray-500 disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-gray-400 transition-color duration-200',
           link: 'text-gray-300 hover:text-gray-200 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-300'
         },
+        //@ts-ignore
         blur: {
           outline: 'z-20 hover:bg-white/30 bg-white/10 border border-white/20 backdrop-blur-sm text-white disabled:bg-gray-700 hover:bg-gray-900 focus-visible:ring-2 focus-visible:ring-gray-400 transition-all duration-200'
         }
@@ -35,6 +38,7 @@ export default defineAppConfig({
     },
     badge: {
       color: {
+        //@ts-ignore
         primary: {
           solid: 'bg-primary-400/10 text-primary-400 ring-1 ring-inset ring-primary-400 ring-opacity-10 dark:ring-opacity-20'
         }
