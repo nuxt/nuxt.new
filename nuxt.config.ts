@@ -55,16 +55,16 @@ export default defineNuxtConfig({
     preference: 'dark',
   },
 
-  hooks: {
-    // Related to https://github.com/nuxt/nuxt/pull/22558
-    // Adding all global components to the main entry
-    // To avoid lagging during page navigation on client-side
-    'components:extend': function (components) {
-      for (const comp of components) {
-        if (comp.global)
-          //@ts-ignore
-          comp.global = 'sync'
-      }
-    },
-  },
+  // hooks: {
+  //   // Related to https://github.com/nuxt/nuxt/pull/22558
+  //   // Adding all global components to the main entry
+  //   // To avoid lagging during page navigation on client-side
+  //   'components:extend': function (components) {
+  //     for (const comp of components) {
+  //       if (comp.global)
+  //         //@ts-ignore
+  //         comp.global = 'sync'
+  //     }
+  //   },
+  // },
 })
