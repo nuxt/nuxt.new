@@ -19,15 +19,15 @@ const command = computed(() => {
   <ULandingCard class="relative" :ui="{ body: { padding: '' } }" :description="theme.description">
     <template #title>
       <div class="relative mb-4">
-        <NuxtImg :src="theme.image" class="w-full rounded-t-xl object-cover h-[300px]" alt="" sizes="sm:300px lg:600px"
+        <NuxtImg :src="theme.image" class="w-full rounded-xl object-cover h-[300px]" alt="" sizes="sm:300px lg:600px"
           width="1112" height="617" format="webp" :loading="lazyImg ? 'loading' : undefined" />
-        <div class="h-[5px] w-full line flex justify-between -mt-[1px] z-10">
-          <span class="h-[5px] w-full bg-gradient-to-l from-transparent to-slate-950/90" />
-          <span class="h-[5px] w-full bg-gradient-to-r from-transparent to-slate-950/90" />
+        <div class="h-[3px] w-full line flex justify-between -mb-[2px] z-10 relative">
+          <span class="h-[3px] w-full bg-gradient-to-l from-transparent to-slate-950/90" />
+          <span class="h-[3px] w-full bg-gradient-to-r from-transparent to-slate-950/90" />
         </div>
         <div v-if="theme.demo"
           class='absolute inset-0 w-full h-full bg-gradient-to-b from-transparent to-gray-950/80 flex justify-center'>
-          <div class="absolute bottom-6 left-0 right-0  flex justify-center group">
+          <div class="absolute bottom-6 left-0 right-0 flex justify-center group">
             <UButton label="preview" icon="i-ph-arrow-up-right-bold" :to="theme.demo" size="sm" target="_blank"
               :trailing="true" color="blur" variant="outline" :ui="{ icon: { size: { sm: 'w-4 h-4' } } }" />
           </div>
@@ -80,6 +80,6 @@ const command = computed(() => {
 
 <style scoped lang="postcss">
 .line {
-  background: linear-gradient(rgba(0, 220, 130, 0), rgba(19, 223, 162, 1), rgba(54, 228, 218, 1), rgba(54, 228, 218, 0))
+  background: linear-gradient(rgba(19, 223, 162, 1), rgba(54, 228, 218, 1))
 }
 </style>
