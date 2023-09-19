@@ -36,13 +36,10 @@ const command = computed(() => {
       <div v-if="!theme.shop" class="flex flex-col justify-between h-full">
         <div class="flex flex-col items-center justify-center">
           <div class="flex gap-x-2 items-center justify-center ">
-            <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xs"
-              class="flex gap-x-4 transition-colors duration-200 items-center justify-center" variant="ghost"
-              color="gray">
-              <span class="text-white font-bold text-2xl">{{ theme.name }}</span>
+            <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xl"
+              class="flex gap-x-4 transition-colors duration-200 items-center justify-center" variant="ghost" color="gray"
+              icon="i-simple-icons-github" :label="theme.name" :ui="{ size: { xl: 'text-xl font-bold' } }" />
 
-              <UIcon name="i-simple-icons-github" class="h-5 w-5" />
-            </UButton>
             <UBadge v-if="theme.free" color="green" variant="outline" label="Free" :ui="{ rounded: 'rounded-full' }" />
           </div>
         </div>
