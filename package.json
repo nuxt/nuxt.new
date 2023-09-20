@@ -13,7 +13,7 @@
   "devDependencies": {
     "@iconify-json/ph": "^1.1.5",
     "@iconify-json/simple-icons": "^1.1.62",
-    "@nuxt/devtools": "^0.7.1",
+    "@nuxt/devtools": "^0.8.4",
     "@nuxt/image": "1.0.0-rc.1",
     "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
     "@nuxtjs/critters": "^0.5.0",
@@ -22,7 +22,7 @@
     "@nuxtjs/plausible": "^0.2.1",
     "@playwright/test": "1.36.2",
     "@vueuse/nuxt": "^10.2.1",
-    "nuxt": "^3.6.5",
+    "nuxt": "^3.7.3",
     "purgecss": "^5.0.0",
     "purgecss-from-html": "^5.0.0",
     "typescript": "^5.1.6",
