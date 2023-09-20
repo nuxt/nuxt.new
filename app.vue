@@ -44,12 +44,10 @@ provide('navigation', navigation)
       </template>
 
       <template #right>
-        <div class="items-center sm:gap-x-4 font-medium">
-          <UButton to="https://discord.com/invite/nuxt" target="_blank" variant="ghost" color="gray" aria-label="Join us"
-            icon="i-simple-icons-discord" />
-          <UButton to="http://www.github.com/nuxt/nuxt" variant="ghost" color="gray" target="_blank" aria-label="Star us"
-            icon="i-simple-icons-github" />
-        </div>
+        <UButton to="https://discord.com/invite/nuxt" class="mr-2" target="_blank" variant="ghost" color="gray"
+          aria-label="Join us" icon="i-simple-icons-discord" />
+        <UButton to="http://www.github.com/nuxt/nuxt" variant="ghost" color="gray" target="_blank" aria-label="Star us"
+          icon="i-simple-icons-github" />
       </template>
       <!-- Mobile panel -->
       <template v-if="$route.path !== '/'" #panel>
@@ -64,8 +62,8 @@ provide('navigation', navigation)
     <UFooter :links="links">
       <template #left>
         <span class="text-gray-300 text-sm text-center">
-          Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
-        </span>
+                  Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
+                </span>
       </template>
       <template #right>
         <UButton to="https://discord.com/invite/nuxt" target="_blank" variant="ghost" color="gray" aria-label="Join us"
