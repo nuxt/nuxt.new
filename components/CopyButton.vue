@@ -1,6 +1,7 @@
 <template>
-  <UInput aria-label="Copy code to start using a theme" :model-value="text" name="get-started" disabled autocomplete="off"
-    size="xl" :ui="{ base: 'disabled:cursor-default text-center', icon: { trailing: { pointer: '' } } }">
+  <UInput class="font-mono" aria-label="Copy code to start using a theme" :model-value="text" name="get-started" disabled
+    autocomplete="off" size="xl"
+    :ui="{ base: 'disabled:cursor-default text-center', icon: { trailing: { pointer: '' } } }">
     <template #leading>
       <UIcon name="i-ph-terminal" />
     </template>
