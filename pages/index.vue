@@ -39,7 +39,8 @@ const template = (repo: string, branch: string) => {
             <div class="flex items-center justify-center">
               <UButton target="_blank" :to="`https://github.com/${starter.repo}/tree/${starter.branch}`" size="xl"
                 _target="blank" class="flex gap-x-4 transition-colors duration-200 items-center justify-center w-fit"
-                variant="ghost" color="gray" :label="starter.name" icon="i-simple-icons-github" />
+                variant="ghost" color="gray" :label="starter.name" icon="i-simple-icons-github"
+                :ui="{ size: { xl: 'text-xl font-bold' } }" />
             </div>
           </template>
 
