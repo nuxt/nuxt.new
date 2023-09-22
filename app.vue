@@ -1,7 +1,4 @@
 <script setup lang="ts">
-
-const { mapContentNavigation } = useElementsHelpers()
-
 useHead({
   link: [
     { rel: 'icon', href: '/icon.png' }
@@ -49,10 +46,6 @@ provide('navigation', navigation)
         <UButton to="http://www.github.com/nuxt/nuxt" variant="ghost" color="gray" target="_blank" aria-label="Star us"
           icon="i-simple-icons-github" />
       </template>
-      <!-- Mobile panel -->
-      <template v-if="$route.path !== '/'" #panel>
-        <LazyUNavigationTree :links="mapContentNavigation(navigation)" default-open :multiple="false" />
-      </template>
     </UHeader>
 
     <UContainer>
@@ -62,8 +55,8 @@ provide('navigation', navigation)
     <UFooter :links="links">
       <template #left>
         <span class="text-gray-300 text-sm text-center">
-                  Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
-                </span>
+                        Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
+                      </span>
       </template>
       <template #right>
         <UButton to="https://discord.com/invite/nuxt" target="_blank" variant="ghost" color="gray" aria-label="Join us"
