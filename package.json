@@ -28,5 +28,8 @@
     "typescript": "^5.2.2",
     "vue-tsc": "1.8.13"
   },
-  "packageManager": "pnpm@8.6.11"
+  "packageManager": "pnpm@8.6.11",
+  "dependencies": {
+    "ufo": "^1.3.0"
+  }
 }

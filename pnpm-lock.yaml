@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  ufo:
+    specifier: ^1.3.0
+    version: 1.3.0
+
 devDependencies:
   '@iconify-json/ph':
     specifier: ^1.1.6
@@ -13,7 +18,7 @@ devDependencies:
     version: 1.1.71
   '@nuxt/devtools':
     specifier: ^0.8.4
-    version: 0.8.4(nuxt@3.7.3)(vite@4.4.5)
+    version: 0.8.4(nuxt@3.7.3)(vite@4.4.9)
   '@nuxt/image':
     specifier: 1.0.0-rc.1
     version: 1.0.0-rc.1
@@ -1536,7 +1541,7 @@ packages:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
     dev: true
 
-  /@nuxt/devtools-kit@0.8.4(nuxt@3.7.3)(vite@4.4.5):
+  /@nuxt/devtools-kit@0.8.4(nuxt@3.7.3)(vite@4.4.9):
     resolution: {integrity: sha512-kBgXJ1NUcE37ea08hlLkA5ZYvEy8sY08Z/lfzpvEwra4aQ22hm/c9FlqIGLfTfDJ4vfvSBlPF6oRyC3zE28VWg==}
     peerDependencies:
       nuxt: ^3.7.3
@@ -1546,7 +1551,7 @@ packages:
       '@nuxt/schema': 3.7.3
       execa: 7.2.0
       nuxt: 3.7.3(typescript@5.2.2)(vue-tsc@1.8.13)
-      vite: 4.4.5
+      vite: 4.4.9
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -1569,7 +1574,7 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /@nuxt/devtools@0.8.4(nuxt@3.7.3)(vite@4.4.5):
+  /@nuxt/devtools@0.8.4(nuxt@3.7.3)(vite@4.4.9):
     resolution: {integrity: sha512-Ti3j+w06IFVnJJAAWh8KhE3Dzzp+g5W+1CEus7obIUQC8amByd96wFV00CfnNNvaXLVmi4+1mo4mYUvQN+Pv4A==}
     hasBin: true
     peerDependencies:
@@ -1577,7 +1582,7 @@ packages:
       vite: '*'
     dependencies:
       '@antfu/utils': 0.7.6
-      '@nuxt/devtools-kit': 0.8.4(nuxt@3.7.3)(vite@4.4.5)
+      '@nuxt/devtools-kit': 0.8.4(nuxt@3.7.3)(vite@4.4.9)
       '@nuxt/devtools-wizard': 0.8.4
       '@nuxt/kit': 3.7.3
       birpc: 0.2.14
@@ -1610,9 +1615,9 @@ packages:
       simple-git: 3.20.0
       sirv: 2.0.3
       unimport: 3.3.0(rollup@3.29.2)
-      vite: 4.4.5
-      vite-plugin-inspect: 0.7.38(@nuxt/kit@3.7.3)(vite@4.4.5)
-      vite-plugin-vue-inspector: 3.7.1(vite@4.4.5)
+      vite: 4.4.9
+      vite-plugin-inspect: 0.7.38(@nuxt/kit@3.7.3)(vite@4.4.9)
+      vite-plugin-vue-inspector: 3.7.1(vite@4.4.9)
       wait-on: 7.0.1
       which: 3.0.1
       ws: 8.14.2
@@ -1638,7 +1643,7 @@ packages:
       ohash: 1.1.2
       pathe: 1.1.1
       std-env: 3.3.3
-      ufo: 1.1.2
+      ufo: 1.3.0
     optionalDependencies:
       ipx: 1.2.0
     transitivePeerDependencies:
@@ -1750,7 +1755,7 @@ packages:
       pkg-types: 1.0.3
       postcss-import-resolver: 2.0.0
       std-env: 3.3.3
-      ufo: 1.1.2
+      ufo: 1.3.0
       unimport: 3.1.0
       untyped: 1.3.2
     transitivePeerDependencies:
@@ -1768,7 +1773,7 @@ packages:
       pkg-types: 1.0.3
       postcss-import-resolver: 2.0.0
       std-env: 3.3.3
-      ufo: 1.1.2
+      ufo: 1.3.0
       unimport: 3.1.0
       untyped: 1.3.2
     transitivePeerDependencies:
@@ -1962,7 +1967,7 @@ packages:
       fontaine: 0.4.0
       magic-string: 0.30.1
       pathe: 1.1.1
-      ufo: 1.1.2
+      ufo: 1.3.0
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -2014,7 +2019,7 @@ packages:
       radix3: 1.0.1
       tailwind-config-viewer: 1.7.2(tailwindcss@3.3.3)
       tailwindcss: 3.3.3
-      ufo: 1.1.2
+      ufo: 1.3.0
       uncrypto: 0.1.3
     transitivePeerDependencies:
       - rollup
@@ -2110,6 +2115,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -3563,7 +3569,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /chownr@1.1.4:
@@ -4659,7 +4665,7 @@ packages:
       magic-regexp: 0.7.0
       magic-string: 0.30.1
       pathe: 1.1.1
-      ufo: 1.1.2
+      ufo: 1.3.0
       unplugin: 1.4.0
     transitivePeerDependencies:
       - encoding
@@ -4980,7 +4986,7 @@ packages:
       deepmerge: 4.3.1
       hookable: 5.5.3
       ofetch: 1.1.1
-      ufo: 1.1.2
+      ufo: 1.3.0
     dev: true
 
   /graceful-fs@4.2.11:
@@ -5002,7 +5008,7 @@ packages:
       destr: 2.0.0
       iron-webcrypto: 0.7.1
       radix3: 1.0.1
-      ufo: 1.1.2
+      ufo: 1.3.0
       uncrypto: 0.1.3
     dev: true
 
@@ -5322,7 +5328,7 @@ packages:
       node-fetch-native: 1.2.0
       pathe: 1.1.1
       sharp: 0.32.3
-      ufo: 1.1.2
+      ufo: 1.3.0
       xss: 1.0.14
     dev: true
     optional: true
@@ -5705,7 +5711,7 @@ packages:
       mlly: 1.4.0
       node-forge: 1.3.1
       pathe: 1.1.1
-      ufo: 1.1.2
+      ufo: 1.3.0
     dev: true
     optional: true
 
@@ -5854,7 +5860,7 @@ packages:
       magic-string: 0.30.1
       mlly: 1.4.0
       type-level-regexp: 0.1.17
-      ufo: 1.1.2
+      ufo: 1.3.0
       unplugin: 1.4.0
     dev: true
 
@@ -6165,7 +6171,7 @@ packages:
       acorn: 8.10.0
       pathe: 1.1.1
       pkg-types: 1.0.3
-      ufo: 1.1.2
+      ufo: 1.3.0
     dev: true
 
   /mlly@1.4.2:
@@ -6228,6 +6234,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
+    dev: true
 
   /negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
@@ -6684,7 +6694,7 @@ packages:
     dependencies:
       destr: 2.0.0
       node-fetch-native: 1.2.0
-      ufo: 1.1.2
+      ufo: 1.3.0
     dev: true
 
   /ofetch@1.3.3:
@@ -7806,20 +7816,12 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /rollup@3.26.3:
-    resolution: {integrity: sha512-7Tin0C8l86TkpcMtXvQu6saWH93nhG3dGQ1/+l5V2TDMceTxO7kDiK6GzbfLWNNxqJXm591PcEZUozZm51ogwQ==}
-    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
   /rollup@3.29.2:
     resolution: {integrity: sha512-CJouHoZ27v6siztc21eEQGo0kIcE5D1gVPA571ez0mMYb25LGYGKnVNXpEj5MGlepmDWGXNjDB5q7uNiPHC11A==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-applescript@5.0.0:
@@ -8549,7 +8551,7 @@ packages:
       '@esbuild-kit/core-utils': 3.1.0
       '@esbuild-kit/esm-loader': 2.5.5
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /tuf-js@2.1.0:
@@ -8604,13 +8606,8 @@ packages:
     hasBin: true
     dev: true
 
-  /ufo@1.1.2:
-    resolution: {integrity: sha512-TrY6DsjTQQgyS3E3dBaOXf0TpPD8u9FVrVYmKVegJuFw51n/YB9XPt+U6ydzFG5ZIN7+DIjPbNmXoBj9esYhgQ==}
-    dev: true
-
   /ufo@1.3.0:
     resolution: {integrity: sha512-bRn3CsoojyNStCZe0BG0Mt4Nr/4KF+rhFlnNXybgqt5pXHNFRlqinSoQaTrGyzE4X8aHplSb+TorH+COin9Yxw==}
-    dev: true
 
   /ultrahtml@1.5.2:
     resolution: {integrity: sha512-qh4mBffhlkiXwDAOxvSGxhL0QEQsTbnP9BozOK3OYPEGvPvdWzvAUaXNtUSMdNsKDtuyjEbyVUPFZ52SSLhLqw==}
@@ -8991,7 +8988,7 @@ packages:
       vue-tsc: 1.8.13(typescript@5.2.2)
     dev: true
 
-  /vite-plugin-inspect@0.7.38(@nuxt/kit@3.7.3)(vite@4.4.5):
+  /vite-plugin-inspect@0.7.38(@nuxt/kit@3.7.3)(vite@4.4.9):
     resolution: {integrity: sha512-+p6pJVtBOLGv+RBrcKAFUdx+euizg0bjL35HhPyM0MjtKlqoC5V9xkCmO9Ctc8JrTyXqODbHqiLWJKumu5zJ7g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -9010,13 +9007,13 @@ packages:
       open: 9.1.0
       picocolors: 1.0.0
       sirv: 2.0.3
-      vite: 4.4.5
+      vite: 4.4.9
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /vite-plugin-vue-inspector@3.7.1(vite@4.4.5):
+  /vite-plugin-vue-inspector@3.7.1(vite@4.4.9):
     resolution: {integrity: sha512-bbCEpLrIxtEzVbXKkodZPuCgUjnqHFBOGZPhEgwlUThhRoBDbnHl+Sq1Y2BsSSApR1NEI81yMUmJAghsJLDGUA==}
     peerDependencies:
       vite: ^3.0.0-0 || ^4.0.0-0
@@ -9032,44 +9029,9 @@ packages:
       kolorist: 1.8.0
       magic-string: 0.30.1
       shell-quote: 1.8.1
-      vite: 4.4.5
+      vite: 4.4.9
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /vite@4.4.5:
-    resolution: {integrity: sha512-4m5kEtAWHYr0O1Fu7rZp64CfO1PsRGZlD3TAB32UmQlpd7qg15VF7ROqGN5CyqN7HFuwr7ICNM2+fDWRqFEKaA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      esbuild: 0.18.15
-      postcss: 8.4.26
-      rollup: 3.26.3
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: true
 
   /vite@4.4.9:
@@ -9104,7 +9066,7 @@ packages:
       postcss: 8.4.30
       rollup: 3.29.2
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vscode-jsonrpc@6.0.0:
@@ -9267,7 +9229,7 @@ packages:
       '@webassemblyjs/wasm-parser': 1.11.6
       acorn: 8.10.0
       acorn-import-assertions: 1.9.0(acorn@8.10.0)
-      browserslist: 4.21.9
+      browserslist: 4.21.11
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.15.0
       es-module-lexer: 1.3.0
