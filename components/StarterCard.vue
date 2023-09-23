@@ -32,9 +32,9 @@ const command = computed(() => {
           {{ starter.description }}
         </p>
         <div class="grid grid-cols-1 lg:grid-cols-2 justify-between w-full gap-3">
-          <UButton target="_blank" :to="`/c/${starter.slug}`" variant="outline" color="gray" label="CodeSandbox" icon="i-simple-icons-codesandbox" class="flex justify-center items-center" size="sm" :ui="{ icon: { size: { sm: 'w-4 h-4' }}}" />
+          <UButton target="_blank" :to="`/c/${starter.slug}`" color="gray" label="CodeSandbox" icon="i-simple-icons-codesandbox" class="flex justify-center items-center" size="sm" :ui="{ icon: { size: { sm: 'w-4 h-4' }}}" />
 
-          <UButton target="_blank" :to="`/s/${starter.slug}`" label="StackBlitz" variant="outline" color="gray" icon="i-simple-icons-stackblitz" class="flex justify-center items-center" size="sm" />
+          <UButton target="_blank" :to="`/s/${starter.slug}`" label="StackBlitz" color="gray" icon="i-simple-icons-stackblitz" class="flex justify-center items-center" size="sm" />
         </div>
 
         <CopyButton :text="command" class="w-full" background="bg-gradient-to-b from-gray-900 to-gray-950 hover:to-gray-800 lg:hover:to-gray-900" size="sm"/>

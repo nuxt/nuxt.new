@@ -29,13 +29,13 @@ const command = computed(() => {
           class='absolute inset-0 w-full h-full bg-gradient-to-b from-transparent to-gray-950/80 flex justify-center'>
           <div class="absolute bottom-6 left-0 right-0  flex justify-center group">
             <UButton label="preview" icon="i-ph-arrow-up-right-bold" :to="theme.demo" size="sm" target="_blank"
-              :trailing="true" color="blur" variant="outline" :ui="{ icon: { size: { sm: 'w-4 h-4' } } }" />
+              :trailing="true" color="gray" :ui="{ icon: { size: { sm: 'w-4 h-4' } } }" />
           </div>
         </div>
       </div>
 
       <div
-        class="flex flex-col gap-y-4 justify-between items-center w-full py-4 px-5 sm:py-[40px] sm:px-[60px] md:p-6 lg:py-[40px] lg:px-[60px]">
+        class="flex flex-col gap-y-4 items-center w-full py-4 px-5 sm:py-[40px] sm:px-[60px] md:p-6 lg:py-[40px] lg:px-[60px]">
         <div class="flex flex-col justify-start gap-y-4">
           <div v-if="!theme.shop" class="flex gap-x-2 items-center justify-center">
             <UButton target="_blank" :to="`https://github.com/${theme.repo}/tree/${theme.branch}`" size="xs" class="flex gap-x-4 transition-colors duration-200 items-center justify-center"
@@ -57,16 +57,16 @@ const command = computed(() => {
         <div v-if="!theme.shop" class="flex flex-col gap-y-4">
           <div class="grid grid-cols-1 lg:grid-cols-4 justify-between w-full gap-3"
             :class="theme.studio ? 'xl:grid-cols-3' : 'xl:grid-cols-2'">
-            <UButton target="_blank" :to="`/c/${theme.slug}`" variant="outline" color="gray" label="CodeSandbox"
+            <UButton target="_blank" :to="`/c/${theme.slug}`" color="gray" label="CodeSandbox"
               icon="i-simple-icons-codesandbox" class="lg:col-span-2 xl:col-span-1 flex justify-center items-center"
               size="sm" :ui="{ icon: { size: { sm: 'w-4 h-4' } } }" />
 
-            <UButton target="_blank" :to="`/s/${theme.slug}`" label="StackBlitz" variant="outline" color="gray"
+            <UButton target="_blank" :to="`/s/${theme.slug}`" label="StackBlitz" color="gray"
               icon="i-simple-icons-stackblitz" class="lg:col-span-2 xl:col-span-1 flex justify-center items-center"
               size="sm" />
 
             <UButton v-if="theme.studio" target="_blank" :to="`/studio/${theme.slug}`" label="Studio"
-              icon="i-simple-icons-nuxtdotjs" variant="outline" color="gray"
+              icon="i-simple-icons-nuxtdotjs" color="gray"
               class="lg:col-span-4 xl:col-span-1 flex justify-center items-center" size="sm"
               :ui="{ icon: { base: 'flex-shrink-0 text-cyan-500' } }">
             </UButton>
@@ -76,7 +76,7 @@ const command = computed(() => {
             background="bg-gradient-to-b from-gray-900 to-gray-950 hover:to-gray-800 lg:hover:to-gray-900" size="sm" />
         </div>
 
-        <UButton v-else target="_blank" :to="theme.shop" variant="outline" color="gray" label="Buy it now"
+        <UButton v-else target="_blank" :to="theme.shop" color="gray" label="Buy it now"
           icon="i-ph-arrow-up-right-bold" :trailing="true" size="sm" :ui="{ icon: { size: { sm: 'w-4 h-4' } } }"
           class="w-full flex justify-center items-center" />
       </div>
