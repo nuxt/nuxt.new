@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   extends: process.env.NUXT_UI_PRO_PATH || '@nuxt/ui-pro',
 
-  typescript: { typeCheck: true, shim: false },
+  typescript: { typeCheck: true, shim: false, strict: false },
 
   nitro: {
     prerender: {
@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     // TODO: relative url support: https://github.com/GoogleChromeLabs/critters/issues/115
     // '@nuxtjs/critters',
     '@nuxt/ui',
-    '@nuxt/content',
     '@nuxt/image',
     '@nuxtjs/plausible',
     '@nuxtjs/fontaine',
@@ -54,17 +53,4 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'dark',
   },
-
-  // hooks: {
-  //   // Related to https://github.com/nuxt/nuxt/pull/22558
-  //   // Adding all global components to the main entry
-  //   // To avoid lagging during page navigation on client-side
-  //   'components:extend': function (components) {
-  //     for (const comp of components) {
-  //       if (comp.global)
-  //         //@ts-ignore
-  //         comp.global = 'sync'
-  //     }
-  //   },
-  // },
 })

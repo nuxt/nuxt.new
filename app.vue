@@ -26,11 +26,6 @@ const links = [{
   label: 'Themes',
   to: '/themes',
 }]
-
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation())
-
-// Provide
-provide('navigation', navigation)
 </script>
 
 <template>
@@ -55,8 +50,8 @@ provide('navigation', navigation)
     <UFooter :links="links">
       <template #left>
         <span class="text-gray-300 text-sm text-center">
-                        Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
-                      </span>
+                            Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
+                          </span>
       </template>
       <template #right>
         <UButton to="https://discord.com/invite/nuxt" target="_blank" variant="ghost" color="gray" aria-label="Join us"
