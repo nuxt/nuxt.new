@@ -19,7 +19,7 @@ const command = computed(() => {
   <li class="relative w-full h-full flex justify-center items-center p-[1px]">
     <div class="w-full h-full text-xs card rounded-xl z-10 grid grid-cols-1">
       <div class="relative h-[300px]">
-        <NuxtImg :src="theme.image" class="w-full rounded-t-xl object-cover h-[300px]" alt="" sizes="sm:300px lg:600px" width="1112" height="617" format="webp" :loading="lazyImg ? 'loading' : undefined" />
+        <NuxtImg :src="theme.image" class="w-full rounded-t-xl object-cover h-[300px]" alt="" sizes="sm:300px lg:600px" width="1112" height="617" format="webp" :loading="lazyImg ? 'lazy' : undefined" />
 
         <div class="h-[5px] w-full line flex justify-between -mt-[1px] z-10">
           <span class="h-[5px] w-full bg-gradient-to-l from-transparent to-slate-950/90" />
