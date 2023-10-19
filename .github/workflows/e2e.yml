@@ -17,7 +17,7 @@ jobs:
     if: github.event.deployment_status.state == 'success' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Audit URLs using Lighthouse
         uses: treosh/lighthouse-ci-action@v9
         with:
@@ -37,7 +37,7 @@ jobs:
       image: mcr.microsoft.com/playwright:v1.38.1-focal
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: corepack enable
       - uses: actions/setup-node@v3
         with:
