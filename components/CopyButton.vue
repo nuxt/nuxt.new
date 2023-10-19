@@ -21,7 +21,7 @@ defineProps({
     default: 'bg-gradient-to-b from-gray-800 to-gray-900 hover:to-gray-700 lg:hover:to-gray-800'
   },
   size: {
-    type: String,
+    type: String as () => 'xl' | 'sm' | 'md' | 'xs' | '2xs' | 'lg' | undefined,
     default: 'md'
   },
   text: {
