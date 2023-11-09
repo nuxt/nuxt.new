@@ -13,7 +13,7 @@
   "devDependencies": {
     "@iconify-json/ph": "^1.1.6",
     "@iconify-json/simple-icons": "^1.1.77",
-    "@nuxt/devtools": "^1.0.0",
+    "@nuxt/devtools": "^1.0.1",
     "@nuxt/image": "1.0.0",
     "@nuxt/ui": "^2.9.0",
     "@nuxtjs/critters": "^0.5.1",
