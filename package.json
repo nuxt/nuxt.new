@@ -22,7 +22,7 @@
     "@nuxtjs/plausible": "^0.2.3",
     "@playwright/test": "1.39.0",
     "@vueuse/nuxt": "^10.5.0",
-    "nuxt": "^3.8.1",
+    "nuxt": "^3.8.2",
     "purgecss": "^5.0.0",
     "purgecss-from-html": "^5.0.0",
     "typescript": "^5.2.2",
