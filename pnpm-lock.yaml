@@ -11,11 +11,11 @@ dependencies:
 
 devDependencies:
   '@iconify-json/ph':
-    specifier: ^1.1.8
-    version: 1.1.8
+    specifier: ^1.1.9
+    version: 1.1.9
   '@iconify-json/simple-icons':
-    specifier: ^1.1.83
-    version: 1.1.83
+    specifier: ^1.1.84
+    version: 1.1.84
   '@nuxt/devtools':
     specifier: ^1.0.5
     version: 1.0.5(nuxt@3.8.2)(vite@4.5.0)
@@ -1227,14 +1227,14 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/ph@1.1.8:
-    resolution: {integrity: sha512-LtUWsiO/R2Gx4ZqHGJbJYG4XaAFkQ1+rHPQmmQ7NVTaqg7EZibB3ky1aXX12sJ2F+6z8QIpthsw3wRjReEnTig==}
+  /@iconify-json/ph@1.1.9:
+    resolution: {integrity: sha512-LcKe7rSp4zm1Rpafsv03DVdta65ePmPMH7IHLErD8nFLL2jNAtt/8CUAJWbaqYztE3V4wEg21az09Ur6yo9CXw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons@1.1.83:
-    resolution: {integrity: sha512-7BeKVFCgHjXIdrFqUeuLDBsf+h5cxqwKyFjOtlZGYnXDAccliVZjv5eMNdcWxM6Lolxlt8bfAFzx47gc2h7Nuw==}
+  /@iconify-json/simple-icons@1.1.84:
+    resolution: {integrity: sha512-Mg7XHuRaXgZKlr+bz+vjuwy4atREUuHxwkQWymNnmL8cP1g0LI5Euh0bEYIcfmgMi8UiJQ+ALVM7ZSoAEP2uHQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
