@@ -2,8 +2,12 @@ export default defineNuxtConfig({
   typescript: { typeCheck: true, shim: false },
   nitro: {
     prerender: {
-      routes: ['/', '/themes', '/data/starters.json', '/data/themes.json']
+      routes: ['/', '/data/starters.json']
     }
+  },
+  routeRules: {
+    '/themes': { redirect: 'https://nuxt.com/templates' },
+    '/templates': { redirect: 'https://nuxt.com/templates' }
   },
   modules: [
     '@nuxt/devtools',

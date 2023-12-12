@@ -1,5 +1,3 @@
-
-
 <script setup lang="ts">
 const nuxtApp = useNuxtApp()
 const open = ref(false)
@@ -39,7 +37,7 @@ onMounted(() => {
 
         <div class="flex flex-col gap-y-6 px-4 pt-6 text-lg">
           <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/" aria-label="Go to starters page">Starters</NuxtLink>
-          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="/themes" aria-label="Go to themes page">Themes</NuxtLink>
+          <NuxtLink class="text-slate-400 hover:text-white transition-colors duration-200" to="https://nuxt.com/templates" external aria-label="Go to templates page">Templates</NuxtLink>
         </div>
       </div>
     </USlideover>
@@ -48,7 +46,7 @@ onMounted(() => {
       <NuxtDropdown />
       <div class="hidden sm:flex gap-x-8 items-center justify-center text-lg">
         <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/" aria-label="Go to starters page">Starters</NuxtLink>
-        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="/themes" aria-label="Go to themes page">Themes</NuxtLink>
+        <NuxtLink class="text-slate-300 hover:text-white transition-colors duration-200" to="https://nuxt.com/templates" external aria-label="Go to templates">Templates</NuxtLink>
       </div>
       <div class="hidden sm:flex items-center sm:gap-x-4 text-white font-medium">
         <UButton class="flex items-center sm:-mr-2" to="https://discord.com/invite/nuxt" target="_blank" variant="link"

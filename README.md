@@ -11,7 +11,6 @@ Learn more in the ['What is Nuxt?'](https://nuxt.com/docs/getting-started/introd
 ## ✨ Features
 
 - 🚀 Start from a starter (Nuxt, Content, Module or Layer)
-- 🎨 Start with a theme (free or premium)
 
 Head over [nuxt.new](https://nuxt.new) to get started.
 
