@@ -46,10 +46,8 @@ test.describe(`pages`, () => {
         .toEqual([
           "/_nuxt/entry.js",
           "/_nuxt/index.js",
-          "/_nuxt/FurtherSection.vue.js",
           "/_nuxt/error-404.js",
-          "/_nuxt/error-500.js",
-          "/_nuxt/themes.js",
+          "/_nuxt/error-500.js"
         ])
     })
   }
