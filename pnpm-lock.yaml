@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^0.4.1
     version: 0.4.1
   '@nuxtjs/google-fonts':
-    specifier: ^3.1.1
-    version: 3.1.1
+    specifier: ^3.1.3
+    version: 3.1.3
   '@nuxtjs/plausible':
     specifier: ^0.2.4
     version: 0.2.4
@@ -1887,8 +1887,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/google-fonts@3.1.1:
-    resolution: {integrity: sha512-vlBUw2KroO20dmLuLm2kxlb+moaWdphlrXNpTlB6z85djFsaBZ4pmDJSUY63MxI/lnAdDrPbudtnO4ogFNoVqA==}
+  /@nuxtjs/google-fonts@3.1.3:
+    resolution: {integrity: sha512-gHwstHXQKd/r9O2WnQR4UJbi7Rfb9No1/gF4gqP+y18h1DAAZUOYPBF5EAPGjZKgDOW2XbZHP8Rw3oSDTpIT1A==}
     dependencies:
       '@nuxt/kit': 3.8.2
       google-fonts-helper: 3.4.1
