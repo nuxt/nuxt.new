@@ -11,7 +11,7 @@
     "test:e2e": "playwright test test/e2e"
   },
   "devDependencies": {
-    "@iconify-json/ph": "^1.1.9",
+    "@iconify-json/ph": "^1.1.10",
     "@iconify-json/simple-icons": "^1.1.87",
     "@nuxt/devtools": "^1.0.6",
     "@nuxt/image": "1.0.0",
