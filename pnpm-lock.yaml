@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@iconify-json/ph':
-    specifier: ^1.1.10
-    version: 1.1.10
+    specifier: ^1.1.11
+    version: 1.1.11
   '@iconify-json/simple-icons':
     specifier: ^1.1.90
     version: 1.1.90
@@ -1029,8 +1029,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/ph@1.1.10:
-    resolution: {integrity: sha512-e7owJfx9BgnUVGXKk/243iFV4tHH1UiBDl5mWYkwKoPf4nN2rzPGdD7ISfvwr3SB25VvOteSC5DOVWxjs56Ywg==}
+  /@iconify-json/ph@1.1.11:
+    resolution: {integrity: sha512-izLvLZrU7WM03zNwNWNrAySv3i45hM3D3K6USjCGBSQMUG0HB8zxwrMf4O0leDrganmuQBH7Z0DWTgyH1ET/fg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
