@@ -42,10 +42,12 @@ test.describe(`pages`, () => {
       expect(pageErrors).toEqual([])
       expect(consoleLogErrors).toEqual([])
       expect(consoleLogWarnings).toEqual([])
-      expect(requests.filter(i => i.endsWith('.js')).map(i => parseURL(i.replace(/\.\w+\.js/, '.js')).pathname))
+      expect(requests.filter(i => i.endsWith('.js')).map(i => parseURL(i.replace(/\.[\w-]+\.js/, '.js')).pathname))
         .toEqual([
           "/_nuxt/entry.js",
           "/_nuxt/index.js",
+          // TODO: remove in v3.11
+          "/_nuxt/component-stub.js",
           "/_nuxt/error-404.js",
           "/_nuxt/error-500.js"
         ])
