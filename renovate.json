@@ -1,6 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "ignoreDeps": ["vue-tsc"],
   "extends": [
     "github>nuxt/renovate-config-nuxt",
     ":labels(dependencies,devops)",
@@ -16,8 +15,17 @@
     {
       "groupName": "nuxt framework",
       "groupSlug": "nuxt",
-      "matchPackageNames": ["nuxt", "nuxt3"],
-      "matchPackagePatterns": ["^@nuxt/"]
+      "matchPackageNames": [
+        "nuxt",
+        "nuxt3",
+        "nuxt-nightly"
+      ],
+      "matchPackagePatterns": [
+        "^@nuxt/"
+      ],
+      "excludePackageNames": [
+        "@nuxt/ui"
+      ]
     }
   ]
 }
