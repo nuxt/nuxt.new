@@ -17,7 +17,7 @@
     "@nuxt/image": "1.4.0",
     "@nuxt/ui": "^2.9.0",
     "@nuxtjs/critters": "^0.6.0",
-    "@nuxtjs/fontaine": "^0.4.2",
+    "@nuxtjs/fontaine": "^0.4.3",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/plausible": "^0.2.4",
     "@playwright/test": "1.42.1",
