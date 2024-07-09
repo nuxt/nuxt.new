@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^1.1.13
     version: 1.1.13
   '@iconify-json/simple-icons':
-    specifier: ^1.1.108
-    version: 1.1.108
+    specifier: ^1.1.109
+    version: 1.1.109
   '@nuxt/devtools':
     specifier: ^1.0.8
     version: 1.0.8(nuxt@3.10.3)(vite@5.1.6)
@@ -1131,8 +1131,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons@1.1.108:
-    resolution: {integrity: sha512-GeC0Oy3j385BgjI0TadEzVbzM/cYjvAot22hJLNal3wKLmf/8t6RtH2PgRiNaK+SxELeDYdSAHocXxw4QoKXYA==}
+  /@iconify-json/simple-icons@1.1.109:
+    resolution: {integrity: sha512-vIhIJQDdbS5R6kSyIHVBRCaR2jiFjVlbVtB4PAoLjQL45vJRHMTwkrFa536XcX7yW69HbQkoanydcyDjknI6pw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
