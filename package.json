@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@iconify-json/ph": "^1.1.13",
-    "@iconify-json/simple-icons": "^1.1.109",
+    "@iconify-json/simple-icons": "^1.1.110",
     "@nuxt/devtools": "^1.0.8",
     "@nuxt/image": "1.4.0",
     "@nuxt/ui": "^2.9.0",
@@ -28,7 +28,7 @@
     "typescript": "^5.4.5",
     "vue-tsc": "1.8.27"
   },
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@8.15.9",
   "dependencies": {
     "ufo": "^1.5.4"
   }
