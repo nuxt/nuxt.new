@@ -24,7 +24,7 @@
     "@vueuse/nuxt": "^10.9.0",
     "nuxt": "^3.10.3",
     "purgecss": "^5.0.0",
-    "purgecss-from-html": "^6.0.0",
+    "purgecss-from-html": "^5.0.0",
     "typescript": "^5.4.5",
     "vue-tsc": "1.8.27"
   },
