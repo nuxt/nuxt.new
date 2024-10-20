@@ -13,10 +13,6 @@
     ],
     "resourceCounts": [
       {
-        "resourceType": "third-party",
-        "budget": 1
-      },
-      {
         "resourceType": "image",
         "budget": 3
       },
