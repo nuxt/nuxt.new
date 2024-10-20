@@ -26,8 +26,7 @@ export default defineNuxtModule({
     addVitePlugin({
       name: 'entry-css',
       writeBundle(_options, bundle) {
-        for (const name in bundle) {
-          const asset = bundle[name]
+        for (const asset of Object.values(bundle)) {
           if (asset.type === 'asset' && asset.fileName.match(/entry.*\.css$/)) {
             cssFilename = asset.fileName
             css = asset.source.toString()
