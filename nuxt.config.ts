@@ -1,26 +1,4 @@
 export default defineNuxtConfig({
-  typescript: { typeCheck: true, shim: false },
-  nitro: {
-    prerender: {
-      routes: ['/', '/data/starters.json']
-    }
-  },
-  routeRules: {
-    '/themes': { redirect: 'https://nuxt.com/templates' },
-    '/templates': { redirect: 'https://nuxt.com/templates' }
-  },
-  vite: {
-    $client: {
-      build: {
-        rollupOptions: {
-          output: {
-            entryFileNames: '_nuxt/[name].[hash].js',
-            chunkFileNames: '_nuxt/[name].[hash].js',
-          }
-        }
-      }
-    }
-  },
   modules: [
     '@nuxt/devtools',
     '@nuxt/ui',
@@ -32,19 +10,46 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/eslint',
   ],
-  image: {
-    screens: {
-      sm: 640,
-      lg: 1024
-    }
+  colorMode: {
+    preference: 'dark',
+  },
+  routeRules: {
+    '/themes': { redirect: 'https://nuxt.com/templates' },
+    '/templates': { redirect: 'https://nuxt.com/templates' },
+  },
+  compatibilityDate: '2024-10-20',
+  nitro: {
+    prerender: {
+      routes: ['/', '/data/starters.json'],
+    },
+  },
+  vite: {
+    $client: {
+      build: {
+        rollupOptions: {
+          output: {
+            entryFileNames: '_nuxt/[name].[hash].js',
+            chunkFileNames: '_nuxt/[name].[hash].js',
+          },
+        },
+      },
+    },
+  },
+  typescript: { typeCheck: true, shim: false },
+  eslint: {
+    config: {
+      stylistic: true,
+    },
   },
   fonts: {
     defaults: {
       weights: [200, 300, 700],
-    }
+    },
   },
-  colorMode: {
-    preference: 'dark',
+  image: {
+    screens: {
+      sm: 640,
+      lg: 1024,
+    },
   },
-  compatibilityDate: '2024-10-20',
 })

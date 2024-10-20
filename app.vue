@@ -2,14 +2,14 @@
 useHead({
   link: [
     { rel: 'icon', href: '/icon.png' },
-    { rel: 'canonical', href: 'https://nuxt.new' }
+    { rel: 'canonical', href: 'https://nuxt.new' },
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'en',
   },
   bodyAttrs: {
-    class: 'bg-gray-950'
-  }
+    class: 'bg-gray-950',
+  },
 })
 
 useSeoMeta({

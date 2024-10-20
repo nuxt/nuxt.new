@@ -19,13 +19,13 @@ test.describe(`pages`, () => {
       page.on('console', (message) => {
         consoleLogs.push({
           type: message.type(),
-          text: message.text()
+          text: message.text(),
         })
       })
       page.on('pageerror', (err) => {
         pageErrors.push(err)
       })
-      page.on('request', request => {
+      page.on('request', (request) => {
         requests.push(request.url())
       })
 
@@ -44,9 +44,9 @@ test.describe(`pages`, () => {
       expect(consoleLogWarnings).toEqual([])
       expect(requests.filter(i => i.endsWith('.js')).map(i => parseURL(i.replace(/\.[\w-]+\.js/, '.js')).pathname))
         .toEqual([
-          "/_nuxt/entry.js",
-          "/_nuxt/error-404.js",
-          "/_nuxt/error-500.js"
+          '/_nuxt/entry.js',
+          '/_nuxt/error-404.js',
+          '/_nuxt/error-500.js',
         ])
     })
   }
