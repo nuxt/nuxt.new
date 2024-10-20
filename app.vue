@@ -1,7 +1,8 @@
 <script setup lang="ts">
 useHead({
   link: [
-    { rel: 'icon', href: '/icon.png' }
+    { rel: 'icon', href: '/icon.png' },
+    { rel: 'canonical', href: 'https://nuxt.new' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -12,11 +13,15 @@ useHead({
 })
 
 useSeoMeta({
-  title: 'Nuxt.new',
-  description: 'Kickstart your Nuxt project',
+  title: 'nuxt.new',
+  ogTitle: 'Kickstart your Nuxt project',
+  description: 'Open a Nuxt starter on CodeSandbox, StackBlitz or locally to get up and running in a few seconds.',
   ogSiteName: 'nuxt.new',
+  ogImage: 'https://nuxt.new/social-card.png',
+  ogImageAlt: 'boilerplate',
   twitterCard: 'summary_large_image',
   twitterSite: '@nuxt_js',
+  twitterImage: 'https://nuxt.new/social-card.png',
 })
 </script>
 
@@ -24,7 +29,11 @@ useSeoMeta({
   <div>
     <AppHeader />
     <UContainer>
-      <NuxtPage />
+      <div>
+        <Hero />
+        <StarterList />
+        <FurtherSection />
+      </div>
     </UContainer>
     <AppFooter />
   </div>

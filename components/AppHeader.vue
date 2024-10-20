@@ -3,7 +3,9 @@ const nuxtApp = useNuxtApp()
 const open = ref(false)
 
 onMounted(() => {
-  nuxtApp.$router.afterEach(() => setTimeout(() => open.value = false, 50))
+  nuxtApp.$router.afterEach(() => {
+    setTimeout(() => open.value = false, 50)
+  })
 
   if (process.client) {
     watch(open, (isVisible) => {
