@@ -21,7 +21,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/plausible": "^1.0.3",
     "@playwright/test": "1.42.1",
-    "@vueuse/nuxt": "^10.9.0",
+    "@vueuse/nuxt": "^11.1.0",
     "nuxt": "^3.10.3",
     "purgecss": "^5.0.0",
     "purgecss-from-html": "^6.0.0",
