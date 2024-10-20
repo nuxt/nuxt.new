@@ -14,7 +14,7 @@ devDependencies:
     specifier: ^1.1.14
     version: 1.1.14
   '@iconify-json/simple-icons':
-    specifier: ^1.1.115
+    specifier: ^1.2.8
     version: 1.2.8
   '@nuxt/devtools':
     specifier: ^1.0.8
