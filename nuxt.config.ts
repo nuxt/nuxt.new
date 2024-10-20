@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  typescript: { typeCheck: true, shim: false },
+  typescript: { typeCheck: 'build', shim: false },
   eslint: {
     config: {
       stylistic: true,
