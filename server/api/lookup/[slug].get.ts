@@ -1,7 +1,7 @@
 export default lazyEventHandler(async () => {
   const repos = await $fetch<Starter[]>('/data/starters.json')
 
-  return defineEventHandler(event => {
+  return defineEventHandler((event) => {
     const slug = getRouterParam(event, 'slug')
     const repo = repos.find(r => r.slug === slug)
 

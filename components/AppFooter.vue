@@ -14,7 +14,7 @@ const socialLinks = [
     to: 'https://discord.com/invite/nuxt',
     alt: 'Nuxt Discord Channel',
     icon: 'i-simple-icons-discord',
-  }
+  },
 ] as Array<{ to: string, alt: string, icon: string }>
 </script>
 
@@ -22,11 +22,27 @@ const socialLinks = [
   <div class="border-t border-gray-800 py-6">
     <UContainer class="flex justify-between items-center gap-x-4">
       <span class="text-gray-300 text-sm">
-        Made with love by the Nuxt Community 💚 (<NuxtLink to="https://github.com/nuxt/nuxt.new" target="_blank" class="underline hover:text-white" aria-label="View nuxt.new source code on github">source code</NuxtLink>).
+        Made with love by the Nuxt Community 💚 (<NuxtLink
+          to="https://github.com/nuxt/nuxt.new"
+          target="_blank"
+          class="underline hover:text-white"
+          aria-label="View nuxt.new source code on github"
+        >source code</NuxtLink>).
       </span>
       <ul class="flex items-center justify-center gap-x-2">
-        <li v-for="social in socialLinks" :key="social.to" >
-          <UButton variant="link" color="gray" :to="social.to" :alt="social.alt" :icon="social.icon" target="_blank" :aria-label="social.alt" />
+        <li
+          v-for="social in socialLinks"
+          :key="social.to"
+        >
+          <UButton
+            variant="link"
+            color="gray"
+            :to="social.to"
+            :alt="social.alt"
+            :icon="social.icon"
+            target="_blank"
+            :aria-label="social.alt"
+          />
         </li>
       </ul>
     </UContainer>

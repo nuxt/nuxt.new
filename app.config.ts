@@ -6,14 +6,14 @@ export default defineAppConfig({
       divide: 'divide-y divide-gray-700',
       tbody: 'divide-y divide-gray-800',
       tr: {
-        selected: 'bg-gray-800/50'
+        selected: 'bg-gray-800/50',
       },
       th: {
         base: 'text-left rtl:text-right',
         padding: 'px-3 py-3.5',
         color: 'text-gray-200',
         font: 'font-semibold',
-        size: 'text-sm'
+        size: 'text-sm',
       },
       td: {
         color: 'text-gray-300',
@@ -26,8 +26,8 @@ export default defineAppConfig({
     },
     popover: {
       popper: {
-        placement: 'bottom-start'
-      }
-    }
+        placement: 'bottom-start',
+      },
+    },
   },
 })
