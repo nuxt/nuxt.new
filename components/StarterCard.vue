@@ -25,6 +25,7 @@ const command = computed(() => {
       <div class="flex flex-col gap-y-4 justify-center items-center w-full">
         <img
           :src="starter.image"
+          loading="lazy"
           width="40"
           height="40"
           :alt="starter.name"

@@ -52,6 +52,7 @@ const links = [
               :aria-label="link.arialabel"
             >
               <img
+                loading="lazy"
                 class="text-white w-6 h-6 self-center"
                 src="/nuxt.svg"
               >

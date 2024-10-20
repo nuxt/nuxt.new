@@ -14,7 +14,7 @@
       />
     </div>
     <img
-      :src="`hero-starter.svg`"
+      src="/hero-starter.svg"
       width="385"
       height="216"
       class="hidden md:block w-full h-full justify-self-center md:justify-self-end md:col-span-3"
