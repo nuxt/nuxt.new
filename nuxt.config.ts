@@ -9,6 +9,18 @@ export default defineNuxtConfig({
     '/themes': { redirect: 'https://nuxt.com/templates' },
     '/templates': { redirect: 'https://nuxt.com/templates' }
   },
+  vite: {
+    $client: {
+      build: {
+        rollupOptions: {
+          output: {
+            entryFileNames: '_nuxt/[name].[hash].js',
+            chunkFileNames: '_nuxt/[name].[hash].js',
+          }
+        }
+      }
+    }
+  },
   modules: [
     '@nuxt/devtools',
     '@nuxt/ui',
