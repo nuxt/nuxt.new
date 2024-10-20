@@ -16,9 +16,9 @@ export default defineNuxtConfig({
     // '@nuxtjs/critters',
     '@nuxt/image',
     '@nuxtjs/plausible',
-    '@nuxtjs/fontaine',
-    '@nuxtjs/google-fonts',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
+    '@nuxt/fonts',
+    '@nuxt/eslint',
   ],
   image: {
     screens: {
@@ -26,26 +26,13 @@ export default defineNuxtConfig({
       lg: 1024
     }
   },
-  fontMetrics: {
-    inline: false,
-    fonts: [
-      {
-        family: 'DM Sans',
-        fallbacks: ['Arial']
-      }
-    ],
-  },
-  googleFonts: {
-    display: 'swap',
-    download: true,
-    families: {
-      'DM+Sans': [200, 300, 700],
-    },
-  },
-  ui: {
-    icons: ['simple-icons', 'ph'],
+  fonts: {
+    defaults: {
+      weights: [200, 300, 700],
+    }
   },
   colorMode: {
     preference: 'dark',
   },
+  compatibilityDate: '2024-10-20',
 })

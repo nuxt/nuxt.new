@@ -30,7 +30,7 @@ useSeoMeta({
     <AppHeader />
     <UContainer>
       <div>
-        <Hero />
+        <AppHero />
         <StarterList />
         <FurtherSection />
       </div>

@@ -1,12 +1,13 @@
 <template>
-  <UButton @click='copy(text)'
-    :size="size"
+  <UButton
+:size="size"
     class="grid grid-cols-12 sm:grid-cols-6 items-center justify-between gap-x-3 px-5 transition-all duration-200 group border w-fit"
     :class="[
       background,
       { 'py-3 rounded-xl ': size !== 'sm' },
       [copied ? 'border-green-600' : 'border-gray-700 hover:border-gray-500']
     ]"
+    @click='copy(text)'
     >
     <UIcon name="i-ph-terminal" class="hidden sm:block w-5 h-5 text-gray-300 col-span-1" />
     <span class="font-mono text-gray-300 col-span-11 sm:col-span-4 text-center">{{ text }}</span>

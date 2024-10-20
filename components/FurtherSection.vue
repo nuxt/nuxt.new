@@ -10,7 +10,8 @@
     </div>
 
     <ul class="grid grid-cols-1 md:grid-cols-3 rounded-xl border border-gray-800 w-full">
-      <li v-for="(item, index) in items" :key="index"
+      <li
+v-for="(item, index) in items" :key="index"
         class="transition-colors duration-200 flex flex-col gap-y-1 hover:bg-gray-900"
         :class="index === 1 ? 'border-t border-b md:border-b-0 md:border-t-0 md:border-l md:border-r border-gray-800' : 'first:hover:rounded-t-xl last:hover:rounded-b-xl md:first:hover:rounded-tr-none md:first:hover:rounded-l-xl md:last:hover:rounded-r-xl md:last:hover:rounded-bl-none'">
         <NuxtLink :to="item.to" target="_blank" class="px-6 py-8" :aria-label="item.arialabel">
