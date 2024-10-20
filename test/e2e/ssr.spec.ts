@@ -32,7 +32,7 @@ test.describe(`pages`, () => {
       await page.goto(url(path), { waitUntil: 'networkidle' })
 
       const title = page.locator('title')
-      expect(await title.textContent()).toContain('Start a new Nuxt project')
+      expect(await title.textContent()).toContain('nuxt.new')
 
       await expect(page).toHaveScreenshot({ maxDiffPixelRatio: 0.05 })
 
