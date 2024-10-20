@@ -45,7 +45,9 @@ export default defineNuxtModule({
           css: [{ raw: css }],
           extractors: [{ extensions: ['html'], extractor: purgehtml }],
         })
-        route.contents = inlineStyles(route.contents, result.css, route.fileName)
+        if (result) {
+          route.contents = inlineStyles(route.contents, result.css, route.fileName)
+        }
       })
     })
   },
