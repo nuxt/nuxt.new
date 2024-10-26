@@ -29,7 +29,7 @@
     "purgecss": "^6.0.0",
     "purgecss-from-html": "^6.0.0",
     "ufo": "^1.5.4",
-    "vue-tsc": "2.1.6"
+    "vue-tsc": "2.1.8"
   },
   "devDependencies": {
     "typescript": "^5.6.3"
