@@ -23,7 +23,7 @@
     "@nuxt/ui": "^2.18.7",
     "@nuxtjs/critters": "^0.7.2",
     "@nuxtjs/plausible": "^1.0.3",
-    "@playwright/test": "1.48.1",
+    "@playwright/test": "1.48.2",
     "@vueuse/nuxt": "^11.1.0",
     "nuxt": "^3.13.2",
     "purgecss": "^6.0.0",

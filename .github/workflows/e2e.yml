@@ -34,7 +34,7 @@ jobs:
     if: github.event.deployment_status.state == 'success' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.48.1-focal
+      image: mcr.microsoft.com/playwright:v1.48.2-focal
 
     steps:
       - uses: actions/checkout@v4
