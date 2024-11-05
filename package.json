@@ -20,7 +20,7 @@
     "@nuxt/eslint": "^0.6.1",
     "@nuxt/fonts": "^0.10.2",
     "@nuxt/image": "1.8.1",
-    "@nuxt/ui": "^2.18.7",
+    "@nuxt/ui": "^2.19.2",
     "@nuxtjs/critters": "^0.7.2",
     "@nuxtjs/plausible": "^1.0.3",
     "@playwright/test": "1.48.2",
