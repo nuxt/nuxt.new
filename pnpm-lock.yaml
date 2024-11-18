@@ -33,8 +33,8 @@ importers:
         specifier: ^0.7.2
         version: 0.7.2(magicast@0.3.5)(rollup@4.25.0)
       '@nuxtjs/plausible':
-        specifier: ^1.0.3
-        version: 1.0.3(magicast@0.3.5)(rollup@4.25.0)
+        specifier: ^1.1.0
+        version: 1.1.0(magicast@0.3.5)(rollup@4.25.0)
       '@playwright/test':
         specifier: 1.48.2
         version: 1.48.2
@@ -818,8 +818,8 @@ packages:
   '@nuxtjs/critters@0.7.2':
     resolution: {integrity: sha512-Z3eXVCKbrRQDBOZqU9mqapOERZz1/NrdPfctLr3clRK5GkXldGlUaaClVYNXSAMnV199cjjXUDr4EhKSgUrvAw==}
 
-  '@nuxtjs/plausible@1.0.3':
-    resolution: {integrity: sha512-jf6W9+Q/VhfHk/jal1gp0OpYU2qwq7eOV4evNKvHWKVM0Qbps+LbKSxNcewgqN91tVx9sv4RbnOEJ8Uq0/FRkg==}
+  '@nuxtjs/plausible@1.1.0':
+    resolution: {integrity: sha512-Cxa39bJf19IkDhE0LiI/pD/m7FaHsUWF2ww1CyxbBp0sHrrn7p+5WSKGAaJyImf9pVgOZwr4UMShpFYT2hS+xw==}
 
   '@nuxtjs/tailwindcss@6.12.2':
     resolution: {integrity: sha512-qPJiFH67CkTj/2kBGBzqXihOD1rQXMsbVS4vdQvfBxOBLPfGhU1yw7AATdhPl2BBjO2krjJLuZj39t7dnDYOwg==}
@@ -5719,7 +5719,7 @@ snapshots:
       - supports-color
       - webpack-sources
 
-  '@nuxtjs/plausible@1.0.3(magicast@0.3.5)(rollup@4.25.0)':
+  '@nuxtjs/plausible@1.1.0(magicast@0.3.5)(rollup@4.25.0)':
     dependencies:
       '@barbapapazes/plausible-tracker': 0.5.3
       '@nuxt/kit': 3.14.159(magicast@0.3.5)(rollup@4.25.0)
