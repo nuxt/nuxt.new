@@ -48,8 +48,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       purgecss-from-html:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.2
+        version: 7.0.2
       ufo:
         specifier: ^1.5.4
         version: 1.5.4
@@ -3734,8 +3734,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  purgecss-from-html@6.0.0:
-    resolution: {integrity: sha512-GkgAUzgyC4kwcVY5+QOI2eqQghV1Lq7q2uIODAPIueiBn3mHpJOh9boSMjfUQg0/YU/ZEWq7SzjwetuqxTvD4g==}
+  purgecss-from-html@7.0.2:
+    resolution: {integrity: sha512-eJOLW9wIt30qvruvz+FCBmaW5XLt+bx0VCGKn+ZhEDzj69e834kt4pIWhIn0APFfwYu4t9x5rSkjyAvbI77xqg==}
 
   purgecss@6.0.0:
     resolution: {integrity: sha512-s3EBxg5RSWmpqd0KGzNqPiaBbWDz1/As+2MzoYVGMqgDqRTLBhJW6sywfTBek7OwNfoS/6pS0xdtvChNhFj2cw==}
@@ -9151,7 +9151,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  purgecss-from-html@6.0.0:
+  purgecss-from-html@7.0.2:
     dependencies:
       parse5: 7.2.1
       parse5-htmlparser2-tree-adapter: 7.1.0
