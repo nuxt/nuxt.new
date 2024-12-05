@@ -18,7 +18,7 @@
     "@iconify-json/simple-icons": "^1.2.14",
     "@nuxt/devtools": "^1.6.3",
     "@nuxt/eslint": "^0.7.2",
-    "@nuxt/fonts": "^0.10.2",
+    "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "1.8.1",
     "@nuxt/ui": "^2.19.2",
     "@nuxtjs/critters": "^0.7.2",
