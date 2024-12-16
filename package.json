@@ -14,15 +14,15 @@
     "test:types": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@iconify-json/ph": "^1.2.1",
+    "@iconify-json/ph": "^1.2.2",
     "@iconify-json/simple-icons": "^1.2.16",
     "@nuxt/devtools": "^1.6.4",
     "@nuxt/eslint": "^0.7.3",
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "1.8.1",
-    "@nuxt/ui": "^2.19.2",
+    "@nuxt/ui": "^2.20.0",
     "@nuxtjs/critters": "^0.7.2",
-    "@nuxtjs/plausible": "^1.1.1",
+    "@nuxtjs/plausible": "^1.2.0",
     "@playwright/test": "1.48.2",
     "@vueuse/nuxt": "^12.0.0",
     "nuxt": "^3.14.1592",
