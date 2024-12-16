@@ -15,10 +15,10 @@ importers:
         specifier: ^1.2.16
         version: 1.2.16
       '@nuxt/devtools':
-        specifier: ^1.6.3
+        specifier: ^1.6.4
         version: 1.6.4(rollup@4.28.1)(vite@5.4.11(@types/node@22.10.2)(terser@5.37.0))(vue@3.5.13(typescript@5.7.2))
       '@nuxt/eslint':
-        specifier: ^0.7.2
+        specifier: ^0.7.3
         version: 0.7.3(@vue/compiler-sfc@3.5.13)(eslint@9.17.0(jiti@2.4.1))(magicast@0.3.5)(rollup@4.28.1)(typescript@5.7.2)(vite@5.4.11(@types/node@22.10.2)(terser@5.37.0))
       '@nuxt/fonts':
         specifier: ^0.10.3
