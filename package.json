@@ -21,18 +21,18 @@
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "1.8.1",
     "@nuxt/ui": "^2.20.0",
-    "@nuxtjs/critters": "^0.7.2",
+    "@nuxtjs/critters": "^0.8.0",
     "@nuxtjs/plausible": "^1.2.0",
-    "@playwright/test": "1.48.2",
-    "@vueuse/nuxt": "^12.0.0",
+    "@playwright/test": "1.49.1",
+    "@vueuse/nuxt": "^12.2.0",
     "nuxt": "^3.14.1592",
     "purgecss": "^7.0.2",
     "purgecss-from-html": "^7.0.2",
     "ufo": "^1.5.4",
-    "vue-tsc": "2.1.10"
+    "vue-tsc": "2.2.0"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
   },
-  "packageManager": "pnpm@9.13.2"
+  "packageManager": "pnpm@9.15.1"
 }
