@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.20",
+    "@iconify-json/simple-icons": "^1.2.21",
     "@nuxt/devtools": "^1.7.0",
     "@nuxt/eslint": "^0.7.5",
     "@nuxt/fonts": "^0.10.3",
