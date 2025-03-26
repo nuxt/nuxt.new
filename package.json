@@ -20,19 +20,19 @@
     "@nuxt/eslint": "^1.2.0",
     "@nuxt/fonts": "^0.11.0",
     "@nuxt/image": "1.10.0",
-    "@nuxt/ui": "^2.20.0",
-    "@nuxtjs/critters": "^0.7.2",
+    "@nuxt/ui": "^2.21.1",
+    "@nuxtjs/critters": "^0.8.0",
     "@nuxtjs/plausible": "^1.2.0",
-    "@playwright/test": "1.48.2",
+    "@playwright/test": "1.51.1",
     "@vueuse/nuxt": "^13.0.0",
     "nuxt": "^3.16.1",
     "purgecss": "^7.0.2",
     "purgecss-from-html": "^7.0.2",
     "ufo": "^1.5.4",
-    "vue-tsc": "2.1.10"
+    "vue-tsc": "2.2.8"
   },
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
-  "packageManager": "pnpm@10.2.1"
+  "packageManager": "pnpm@10.7.0"
 }
