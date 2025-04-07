@@ -28,11 +28,11 @@
     "nuxt": "^3.16.2",
     "purgecss": "^7.0.2",
     "purgecss-from-html": "^7.0.2",
-    "ufo": "^1.5.4",
+    "ufo": "^1.6.0",
     "vue-tsc": "2.2.8"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.7.1"
+  "packageManager": "pnpm@10.8.0"
 }
