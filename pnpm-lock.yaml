@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.2
         version: 1.2.2
       '@iconify-json/simple-icons':
-        specifier: ^1.2.34
-        version: 1.2.34
+        specifier: ^1.2.35
+        version: 1.2.35
       '@nuxt/devtools':
         specifier: ^2.4.1
         version: 2.4.1(vite@6.3.5(@types/node@22.10.5)(jiti@2.4.2)(terser@5.37.0)(yaml@2.7.0))(vue@3.5.14(typescript@5.8.3))
@@ -579,8 +579,8 @@ packages:
   '@iconify-json/ph@1.2.2':
     resolution: {integrity: sha512-PgkEZNtqa8hBGjHXQa4pMwZa93hmfu8FUSjs/nv4oUU6yLsgv+gh9nu28Kqi8Fz9CCVu4hj1MZs9/60J57IzFw==}
 
-  '@iconify-json/simple-icons@1.2.34':
-    resolution: {integrity: sha512-1FRWEA94hSl5zmBogRh6lQL36l7bVTfrl0n5+QJ+WmXmw70RccPT5phqeiSynwo3IhUWKoW2LiajyUMeweXW8g==}
+  '@iconify-json/simple-icons@1.2.35':
+    resolution: {integrity: sha512-PAHZZn6P5ToHMhmEeeh/O96E/Ep4PctN44N64dWYbDasEvbVoN6x62m+Doz8au0SVS4/zYEMAsDO6TdO9ep84Q==}
 
   '@iconify/collections@1.0.543':
     resolution: {integrity: sha512-aFBP8NrdXMXtv/hSz9d4s2TAUC+V4ZvKB60uNLQGFeiUwxf8CkrceKI2nbojJucoTQuFgaQeDOyPhX2g+J2C+A==}
@@ -5927,7 +5927,7 @@ snapshots:
   '@eslint/config-array@0.19.1':
     dependencies:
       '@eslint/object-schema': 2.1.5
-      debug: 4.4.0
+      debug: 4.4.1
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -5966,7 +5966,7 @@ snapshots:
   '@eslint/eslintrc@3.2.0':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.0
+      debug: 4.4.1
       espree: 10.3.0
       globals: 14.0.0
       ignore: 5.3.2
@@ -6023,7 +6023,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/simple-icons@1.2.34':
+  '@iconify-json/simple-icons@1.2.35':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -8726,7 +8726,7 @@ snapshots:
       ajv: 6.12.6
       chalk: 4.1.2
       cross-spawn: 7.0.6
-      debug: 4.4.0
+      debug: 4.4.1
       escape-string-regexp: 4.0.0
       eslint-scope: 8.2.0
       eslint-visitor-keys: 4.2.0
