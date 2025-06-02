@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "lint": "eslint .",
-    "postinstall": "nuxi prepare",
+    "postinstall": "nuxt prepare",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "test:e2e": "playwright test test/e2e",
