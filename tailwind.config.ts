@@ -33,6 +33,9 @@ export default <Partial<Config>>{
           900: '#003f25',
         },
       },
+      screens: {
+        'xs': '380px',
+      },
     },
   },
 }
