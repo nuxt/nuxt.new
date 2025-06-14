@@ -15,9 +15,9 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.37",
+    "@iconify-json/simple-icons": "^1.2.38",
     "@iconify-json/vscode-icons": "^1.2.22",
-    "@nuxt/devtools": "^2.4.1",
+    "@nuxt/devtools": "^2.5.0",
     "@nuxt/eslint": "^1.4.1",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/image": "1.10.0",
@@ -35,5 +35,5 @@
   "devDependencies": {
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.11.1"
+  "packageManager": "pnpm@10.12.1"
 }
