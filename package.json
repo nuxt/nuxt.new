@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.38",
+    "@iconify-json/simple-icons": "^1.2.39",
     "@nuxt/devtools": "^2.5.0",
     "@nuxt/eslint": "^1.4.1",
     "@nuxt/fonts": "^0.11.4",
@@ -23,7 +23,7 @@
     "@nuxt/ui": "^2.22.0",
     "@nuxtjs/critters": "^0.9.0",
     "@nuxtjs/plausible": "^1.2.0",
-    "@playwright/test": "1.53.0",
+    "@playwright/test": "1.53.1",
     "@vueuse/nuxt": "^13.3.0",
     "nuxt": "^3.17.5",
     "purgecss": "^7.0.2",
@@ -34,5 +34,5 @@
   "devDependencies": {
     "typescript": "^5.8.3"
   },
-  "packageManager": "pnpm@10.12.1"
+  "packageManager": "pnpm@10.12.2"
 }
