@@ -44,5 +44,5 @@ export default defineEventHandler((): Starter[] => [
     repo: 'nuxt/starter',
     branch: 'module',
     docs: 'https://nuxt.com/docs/4.x/guide/going-further/modules',
-  }
+  },
 ])
