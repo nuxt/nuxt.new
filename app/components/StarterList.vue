@@ -1,5 +1,7 @@
 <script setup lang="ts">
-const { data: starters } = await useFetch<Array<Starter>>('/data/starters.json')
+const { data: starters } = await useFetch<Array<Starter>>('/data/starters.json', {
+  transform: starters => starters.filter(starter => !starter.deprecated),
+})
 </script>
 
 <template>

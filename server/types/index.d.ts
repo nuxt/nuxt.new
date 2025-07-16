@@ -8,4 +8,5 @@ declare interface Starter {
   dir?: string
   demo?: string
   docs?: string
+  deprecated?: boolean
 }
