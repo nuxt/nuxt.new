@@ -34,14 +34,5 @@ export default defineEventHandler((): Starter[] => [
     repo: 'nuxt/starter',
     branch: 'module',
     docs: 'https://nuxt.com/docs/4.x/guide/going-further/modules',
-  },
-  {
-    name: 'Layer',
-    slug: 'layer',
-    description: 'Starter to create your first Nuxt layer.',
-    image: 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' xmlns:xlink=\'http://www.w3.org/1999/xlink\' aria-hidden=\'true\' role=\'img\' width=\'1em\' height=\'1em\' viewBox=\'0 0 24 24\' data-v-047565da=\'\'%3E%3Cpath fill=\'%2300BD6F\' d=\'m2.5 8.86l9 5.2a1 1 0 0 0 1 0l9-5.2A1 1 0 0 0 22 8a1 1 0 0 0-.5-.87l-9-5.19a1 1 0 0 0-1 0l-9 5.19A1 1 0 0 0 2 8a1 1 0 0 0 .5.86ZM12 4l7 4l-7 4l-7-4Zm8.5 7.17L12 16l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Zm0 4L12 20l-8.5-4.87a1 1 0 0 0-1.37.37a1 1 0 0 0 .37 1.36l9 5.2a1 1 0 0 0 1 0l9-5.2a1 1 0 0 0 .37-1.36a1 1 0 0 0-1.37-.37Z\'%3E%3C/path%3E%3C/svg%3E',
-    repo: 'nuxt/starter',
-    branch: 'layer',
-    docs: 'https://nuxt.com/docs/4.x/guide/going-further/layers',
-  },
+  }
 ])
