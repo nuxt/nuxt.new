@@ -2,7 +2,7 @@
 const { data: starters } = await useFetch<Array<Starter>>('/data/starters.json')
 
 const visibleStarters = computed(() => {
-  return starters.value.filter(starter => !starter.deprecated)
+  return starters.value?.filter(starter => !starter.deprecated) || []
 })
 </script>
 
