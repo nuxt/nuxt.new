@@ -17,8 +17,7 @@ export default defineNuxtConfig({
     '/themes': { redirect: 'https://nuxt.com/templates' },
     '/templates': { redirect: 'https://nuxt.com/templates' },
   },
-  future: { compatibilityVersion: 4 },
-  compatibilityDate: '2024-10-20',
+  compatibilityDate: '2025-07-28',
   nitro: {
     prerender: {
       routes: ['/', '/data/starters.json'],
