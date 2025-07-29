@@ -17,23 +17,10 @@ export default defineNuxtConfig({
     '/themes': { redirect: 'https://nuxt.com/templates' },
     '/templates': { redirect: 'https://nuxt.com/templates' },
   },
-  future: { compatibilityVersion: 4 },
-  compatibilityDate: '2024-10-20',
+  compatibilityDate: '2025-07-28',
   nitro: {
     prerender: {
       routes: ['/', '/data/starters.json'],
-    },
-  },
-  vite: {
-    $client: {
-      build: {
-        rollupOptions: {
-          output: {
-            entryFileNames: '_nuxt/[name].[hash].js',
-            chunkFileNames: '_nuxt/[name].[hash].js',
-          },
-        },
-      },
     },
   },
   typescript: { typeCheck: 'build', shim: false },
