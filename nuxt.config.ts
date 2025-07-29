@@ -23,6 +23,18 @@ export default defineNuxtConfig({
       routes: ['/', '/data/starters.json'],
     },
   },
+  vite: {
+    $client: {
+      build: {
+        rollupOptions: {
+          output: {
+            entryFileNames: '_nuxt/[name].[hash].js',
+            chunkFileNames: '_nuxt/[name].[hash].js',
+          },
+        },
+      },
+    },
+  },
   typescript: { typeCheck: 'build', shim: false },
   eslint: {
     config: {
