@@ -15,25 +15,25 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.38",
-    "@iconify-json/vscode-icons": "^1.2.22",
-    "@nuxt/devtools": "^2.5.0",
-    "@nuxt/eslint": "^1.4.1",
+    "@iconify-json/simple-icons": "^1.2.46",
+    "@iconify-json/vscode-icons": "^1.2.24",
+    "@nuxt/devtools": "^2.6.2",
+    "@nuxt/eslint": "^1.7.1",
     "@nuxt/fonts": "^0.11.4",
-    "@nuxt/image": "1.10.0",
-    "@nuxt/ui": "^2.22.0",
+    "@nuxt/image": "1.11.0",
+    "@nuxt/ui": "^2.22.1",
     "@nuxtjs/critters": "^0.9.0",
     "@nuxtjs/plausible": "^1.2.0",
-    "@playwright/test": "1.52.0",
-    "@vueuse/nuxt": "^13.3.0",
-    "nuxt": "^3.17.5",
+    "@playwright/test": "1.54.2",
+    "@vueuse/nuxt": "^13.6.0",
+    "nuxt": "^4.0.2",
     "purgecss": "^7.0.2",
     "purgecss-from-html": "^7.0.2",
     "ufo": "^1.6.1",
-    "vue-tsc": "2.2.10"
+    "vue-tsc": "3.0.5"
   },
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
-  "packageManager": "pnpm@10.12.1"
+  "packageManager": "pnpm@10.14.0"
 }

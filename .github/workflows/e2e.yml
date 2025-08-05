@@ -34,14 +34,14 @@ jobs:
     if: github.event.deployment_status.state == 'success' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.52.0-noble
+      image: mcr.microsoft.com/playwright:v1.54.2-noble
 
     steps:
       - uses: actions/checkout@v4
-      - run: npm i -g --force corepack && corepack enable
+      - run: corepack enable
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: lts/*
           cache: "pnpm"
 
       - name: Install dependencies
