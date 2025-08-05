@@ -8,10 +8,7 @@
       <p class="text-gray-300 text-xl font-extralight">
         Open a Nuxt starter on CodeSandbox, StackBlitz or locally to get up and running in a few seconds.
       </p>
-      <CopyButton
-        text="npm create nuxt@latest"
-        class="mt-4"
-      />
+      <PackageManagerTabs />
     </div>
     <img
       src="/hero-starter.svg"
