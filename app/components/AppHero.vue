@@ -9,10 +9,6 @@
         Open a Nuxt starter on CodeSandbox, StackBlitz or locally to get up and running in a few seconds.
       </p>
       <PackageManagerTabs />
-      <!-- <CopyButton
-        text="npm create nuxt@latest"
-        class="mt-4"
-      /> -->
     </div>
     <img
       src="/hero-starter.svg"
