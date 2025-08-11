@@ -25,7 +25,7 @@
     "@nuxtjs/plausible": "^1.2.0",
     "@playwright/test": "1.54.2",
     "@vueuse/nuxt": "^13.6.0",
-    "nuxt": "^4.0.2",
+    "nuxt": "^4.0.3",
     "purgecss": "^7.0.2",
     "purgecss-from-html": "^7.0.2",
     "ufo": "^1.6.1",
