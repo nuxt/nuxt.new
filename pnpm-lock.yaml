@@ -33,8 +33,8 @@ importers:
         specifier: ^0.9.0
         version: 0.9.0(magicast@0.3.5)
       '@nuxtjs/plausible':
-        specifier: ^1.2.0
-        version: 1.2.0(magicast@0.3.5)
+        specifier: ^2.0.1
+        version: 2.0.1(magicast@0.3.5)
       '@playwright/test':
         specifier: 1.55.0
         version: 1.55.0
@@ -906,8 +906,8 @@ packages:
   '@nuxtjs/critters@0.9.0':
     resolution: {integrity: sha512-XFspmZajsQPbgOWcMERKxQrTd/6ze4L4QOuNv1fM8YOCD3YeCyYpJ/n96Riakv3rsL6biayL3WwYSxGUO3CYOA==}
 
-  '@nuxtjs/plausible@1.2.0':
-    resolution: {integrity: sha512-pjfps32fFN77BhjqHmq2Jx4XCNso9TcYnB+S4IR2qH/c26WDfYB5mQxN5pOEiWRlMkiKq+Y45mBBFtSOVKClCA==}
+  '@nuxtjs/plausible@2.0.1':
+    resolution: {integrity: sha512-Edr7oFIeZ9Og2lS21NhC3MRgcR7X9H1Hyjve8EsM2CycJGBlCcGKHs0+vi4KpbCVi33VlTXUUYNRPtGyeUX6Fw==}
 
   '@nuxtjs/tailwindcss@6.14.0':
     resolution: {integrity: sha512-30RyDK++LrUVRgc2A85MktGWIZoRQgeQKjE4CjjD64OXNozyl+4ScHnnYgqVToMM6Ch2ZG2W4wV2J0EN6F0zkQ==}
@@ -6725,10 +6725,10 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxtjs/plausible@1.2.0(magicast@0.3.5)':
+  '@nuxtjs/plausible@2.0.1(magicast@0.3.5)':
     dependencies:
       '@barbapapazes/plausible-tracker': 0.5.6
-      '@nuxt/kit': 3.18.0(magicast@0.3.5)
+      '@nuxt/kit': 4.0.3(magicast@0.3.5)
       defu: 6.1.4
       ufo: 1.6.1
     transitivePeerDependencies:
