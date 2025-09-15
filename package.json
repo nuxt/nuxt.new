@@ -34,5 +34,5 @@
   "devDependencies": {
     "typescript": "^5.9.2"
   },
-  "packageManager": "pnpm@10.15.1"
+  "packageManager": "pnpm@10.16.1"
 }
