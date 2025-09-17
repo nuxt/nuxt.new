@@ -1,4 +1,4 @@
-declare interface Starter {
+export interface Starter {
   name: string
   slug: string
   description: string
