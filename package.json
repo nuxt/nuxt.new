@@ -29,10 +29,10 @@
     "purgecss": "^7.0.2",
     "purgecss-from-html": "^7.0.2",
     "ufo": "^1.6.1",
-    "vue-tsc": "3.1.0"
+    "vue-tsc": "3.1.1"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.18.0"
+  "packageManager": "pnpm@10.18.1"
 }
