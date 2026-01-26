@@ -26,7 +26,7 @@
     "@playwright/test": "1.58.0",
     "@vueuse/nuxt": "^14.1.0",
     "nuxt": "^4.3.0",
-    "purgecss": "^7.0.2",
+    "purgecss": "^8.0.0",
     "purgecss-from-html": "^7.0.2",
     "ufo": "^1.6.3",
     "vue-tsc": "3.2.2"

@@ -45,8 +45,8 @@ importers:
         specifier: ^4.3.0
         version: 4.3.0(@netlify/blobs@9.1.2)(@parcel/watcher@2.5.0)(@vue/compiler-sfc@3.5.27)(cac@6.7.14)(db0@0.3.4)(eslint@9.17.0(jiti@2.6.1))(ioredis@5.9.2)(lightningcss@1.30.2)(magicast@0.5.1)(optionator@0.9.4)(rollup@4.55.1)(terser@5.37.0)(typescript@5.9.3)(vite@7.3.1(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.37.0)(yaml@2.8.2))(vue-tsc@3.2.2(typescript@5.9.3))(yaml@2.8.2)
       purgecss:
-        specifier: ^7.0.2
-        version: 7.0.2
+        specifier: ^8.0.0
+        version: 8.0.0
       purgecss-from-html:
         specifier: ^7.0.2
         version: 7.0.2
@@ -3226,11 +3226,6 @@ packages:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
     hasBin: true
 
-  glob@11.0.0:
-    resolution: {integrity: sha512-9UiX/Bl6J2yaBbxKoEBRm4Cipxgok8kQYcOPEhScPwebu2I0HoQOuYdIO6S3hLuWoZgpDpwQZMzTFxgpkyT76g==}
-    engines: {node: 20 || >=22}
-    hasBin: true
-
   glob@13.0.0:
     resolution: {integrity: sha512-tvZgpqk6fz4BaNZ66ZsRaZnbHvP/jG3uKJvAZOwEVUL4RTA5nJeeLYfyN9/VA8NX/V3IBG+hkeuGpKjvELkVhA==}
     engines: {node: 20 || >=22}
@@ -3498,10 +3493,6 @@ packages:
 
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
-
-  jackspeak@4.0.2:
-    resolution: {integrity: sha512-bZsjR/iRjl1Nk1UkjGpAzLNfQtzuijhn2g+pbZb98HQ1Gk8vM9hfbxeMBP+M2/UUdwj0RqGG3mlvk2MsAqwvEw==}
-    engines: {node: 20 || >=22}
 
   jiti@1.21.7:
     resolution: {integrity: sha512-/imKNG4EbWNrVjoNC/1H5/9GFy+tqjGBHCaSsN+P2RnPqjsLmv6UD3Ej+Kj8nBWaRAwyk7kK5ZUc+OEatnTR3A==}
@@ -4467,8 +4458,8 @@ packages:
   purgecss-from-html@7.0.2:
     resolution: {integrity: sha512-eJOLW9wIt30qvruvz+FCBmaW5XLt+bx0VCGKn+ZhEDzj69e834kt4pIWhIn0APFfwYu4t9x5rSkjyAvbI77xqg==}
 
-  purgecss@7.0.2:
-    resolution: {integrity: sha512-4Ku8KoxNhOWi9X1XJ73XY5fv+I+hhTRedKpGs/2gaBKU8ijUiIKF/uyyIyh7Wo713bELSICF5/NswjcuOqYouQ==}
+  purgecss@8.0.0:
+    resolution: {integrity: sha512-QFJyps9y5oHeXnNA3Ql1EaAqWBivNwQn19Pw1lt9RxfB+4e+bIyqCyuombk79D6Fxe+lPXggVfI1WtRGEBwgbQ==}
     hasBin: true
 
   qs@6.14.0:
@@ -8830,15 +8821,6 @@ snapshots:
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
-  glob@11.0.0:
-    dependencies:
-      foreground-child: 3.3.0
-      jackspeak: 4.0.2
-      minimatch: 10.1.1
-      minipass: 7.1.2
-      package-json-from-dist: 1.0.1
-      path-scurry: 2.0.0
-
   glob@13.0.0:
     dependencies:
       minimatch: 10.1.1
@@ -9148,10 +9130,6 @@ snapshots:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
-
-  jackspeak@4.0.2:
-    dependencies:
-      '@isaacs/cliui': 8.0.2
 
   jiti@1.21.7: {}
 
@@ -10302,12 +10280,12 @@ snapshots:
       parse5: 7.2.1
       parse5-htmlparser2-tree-adapter: 7.1.0
 
-  purgecss@7.0.2:
+  purgecss@8.0.0:
     dependencies:
       commander: 12.1.0
-      glob: 11.0.0
+      fast-glob: 3.3.3
       postcss: 8.5.6
-      postcss-selector-parser: 6.1.2
+      postcss-selector-parser: 7.1.0
 
   qs@6.14.0:
     dependencies:
