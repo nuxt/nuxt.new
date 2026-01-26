@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.67",
+    "@iconify-json/simple-icons": "^1.2.68",
     "@nuxt/devtools": "^3.1.1",
     "@nuxt/eslint": "^1.13.0",
     "@nuxt/fonts": "^0.13.0",
@@ -29,10 +29,10 @@
     "purgecss": "^8.0.0",
     "purgecss-from-html": "^8.0.0",
     "ufo": "^1.6.3",
-    "vue-tsc": "3.2.2"
+    "vue-tsc": "3.2.4"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }
