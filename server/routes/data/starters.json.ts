@@ -1,7 +1,7 @@
 export default defineEventHandler(async () => {
   const templates: Starter[] = []
 
-  const files = await $fetch('https://api.github.com/repos/maximepvrt/nuxt-starter/contents/templates?ref=update-template')
+  const files = await $fetch<Array<{ name: string, type: string, download_url?: string }>>('https://api.github.com/repos/maximepvrt/nuxt-starter/contents/templates?ref=update-template')
 
   await Promise.all(files.map(async (file) => {
     if (!file.download_url || file.type !== 'file' || !file.name.endsWith('.json')) {
@@ -12,7 +12,7 @@ export default defineEventHandler(async () => {
       responseType: 'json',
     }) as Starter
     if (!template.deprecated) {
-      templates.push({ slug: templateName, ...template, tar: `https://codeload.github.com/${template.repo}/tar.gz/refs/heads/${template.branch}` })
+      templates.push({ ...template, slug: templateName, tar: `https://codeload.github.com/${template.repo}/tar.gz/refs/heads/${template.branch}` })
     }
   }))
 
