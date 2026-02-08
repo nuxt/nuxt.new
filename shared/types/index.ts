@@ -5,8 +5,8 @@ export interface Starter {
   description: string
   image?: string
   tar: string
-  repo: string,
-  branch: string,
+  repo: string
+  branch: string
   defaultDir?: string
   url?: string
   deprecated?: boolean
