@@ -1,7 +1,7 @@
 export default defineEventHandler(async (event) => {
   const templates: Starter[] = []
 
-  const files = await $fetch('https://api.github.com/repos/maximepvrt/nuxt-starter/contents/templates?ref=update-template')
+  const files = await $fetch('https://api.github.com/repos/nuxt/nuxt-starter/contents/templates')
 
   await Promise.all(files.map(async (file) => {
       if (!file.download_url || file.type !== 'file' || !file.name.endsWith('.json')) {
