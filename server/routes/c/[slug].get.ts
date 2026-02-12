@@ -7,5 +7,5 @@ export default defineEventHandler(async (event) => {
       body: 'Not found',
     }
   }
-  return sendRedirect(event, `https://codesandbox.io/s/github/${starter.repo}/tree/${starter.branch}/${starter.dir || ''}`, 302)
+  return sendRedirect(event, `https://codesandbox.io/s/github/${starter.repo}/tree/${starter.branch}`, 302)
 })
