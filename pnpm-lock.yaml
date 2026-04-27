@@ -12,7 +12,7 @@ importers:
         specifier: ^1.2.2
         version: 1.2.2
       '@iconify-json/simple-icons':
-        specifier: ^1.2.79
+        specifier: ^1.2.80
         version: 1.2.80
       '@nuxt/devtools':
         specifier: ^3.2.4
