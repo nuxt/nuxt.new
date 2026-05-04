@@ -51,7 +51,7 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0
       ufo:
-        specifier: ^1.6.3
+        specifier: ^1.6.4
         version: 1.6.4
       vue-tsc:
         specifier: 3.2.7
