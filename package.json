@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.81",
+    "@iconify-json/simple-icons": "^1.2.82",
     "@nuxt/devtools": "^3.2.4",
     "@nuxt/eslint": "^1.15.2",
     "@nuxt/fonts": "^0.14.0",
@@ -29,7 +29,7 @@
     "purgecss": "^8.0.0",
     "purgecss-from-html": "^8.0.0",
     "ufo": "^1.6.4",
-    "vue-tsc": "3.2.8"
+    "vue-tsc": "3.2.9"
   },
   "devDependencies": {
     "typescript": "^6.0.3"
