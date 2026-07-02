@@ -7,11 +7,7 @@ const props = defineProps({
 })
 
 const template = computed(() => {
-  return props.starter.repo === 'nuxt/starter'
-    ? (props.starter.branch === 'v4')
-        ? ''
-        : `-- -t ${props.starter.branch}`
-    : `-- -t "${props.starter.repo}#${props.starter.branch}"`
+  return props.starter.default ? '' : `-- -t ${props.starter.slug}`
 })
 
 const command = computed(() => {
