@@ -1,0 +1,9 @@
+allowBuilds:
+  '@parcel/watcher': false
+  esbuild: false
+  sharp: false
+  unrs-resolver: false
+
+shamefullyHoist: true
+
+strictPeerDependencies: false
