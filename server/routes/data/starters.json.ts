@@ -1,24 +1,19 @@
-export default defineEventHandler(async () => {
-  const templates: Starter[] = []
+export default defineEventHandler(async (): Promise<Starter[]> => {
+  const { tree } = await $fetch<{ tree: Array<{ path: string, type: string }> }>(
+    'https://api.github.com/repos/nuxt/starter/git/trees/templates?recursive=1',
+  )
 
-  const files = await $fetch<Array<{ name: string, type: string, download_url?: string }>>('https://api.github.com/repos/maximepvrt/nuxt-starter/contents/templates?ref=update-template')
+  const files = tree.filter(entry =>
+    entry.type === 'blob' && entry.path.startsWith('templates/') && entry.path.endsWith('.json'),
+  )
 
-  await Promise.all(files.map(async (file) => {
-    if (!file.download_url || file.type !== 'file' || !file.name.endsWith('.json')) {
-      return
-    }
-    const templateName = file.name.replace('.json', '')
-    const template = await $fetch(file.download_url, {
+  const templates = await Promise.all(files.map(file =>
+    $fetch<Starter>(`https://raw.githubusercontent.com/nuxt/starter/templates/${file.path}`, {
       responseType: 'json',
-    }) as Starter
-    if (!template.deprecated) {
-      templates.push({ ...template, slug: templateName, tar: `https://codeload.github.com/${template.repo}/tar.gz/refs/heads/${template.branch}` })
-    }
-  }))
+    }),
+  ))
 
-  return templates.sort((a, b) => {
-    if (a.default && !b.default) return -1
-    if (!a.default && b.default) return 1
-    return 0
-  })
+  return templates
+    .filter(template => !template.deprecated)
+    .sort((a, b) => Number(b.default ?? false) - Number(a.default ?? false))
 })
