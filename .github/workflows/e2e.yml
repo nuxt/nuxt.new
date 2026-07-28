@@ -9,6 +9,10 @@ on:
         type: string
   deployment_status:
 
+permissions:
+  contents: read
+  deployments: read
+
 jobs:
   lighthouse:
     environment:

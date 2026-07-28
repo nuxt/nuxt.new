@@ -10,7 +10,13 @@ export default defineNuxtModule({
       enforce: 'pre',
       transform: (code, id) => {
         if (!id.endsWith('.vue') && !id.endsWith('.vue?macro=true')) return
-        return code.replace(/<!--(?:.*?)-->/sg, '')
+        let result = code
+        let prev: string
+        do {
+          prev = result
+          result = result.replace(/<!--(?:.*?)-->/sg, '')
+        } while (result !== prev)
+        return result
       },
     })
   },
