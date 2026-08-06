@@ -7,3 +7,10 @@ allowBuilds:
 shamefullyHoist: true
 
 strictPeerDependencies: false
+
+minimumReleaseAgeExclude:
+  - nuxt
+  - nuxt-nightly
+  - '@nuxt/*'
+  - vue
+  - '@vue/*'
