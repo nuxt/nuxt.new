@@ -22,7 +22,7 @@
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "^2.22.3",
     "@nuxtjs/critters": "^0.9.2",
-    "@nuxtjs/plausible": "^3.0.2",
+    "@nuxtjs/plausible": "^4.0.0",
     "@playwright/test": "1.60.0",
     "@vueuse/nuxt": "^14.3.0",
     "nuxt": "^4.4.8",
