@@ -33,8 +33,8 @@ importers:
         specifier: ^0.9.2
         version: 0.9.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.133.0)
       '@nuxtjs/plausible':
-        specifier: ^3.0.2
-        version: 3.0.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.133.0)
+        specifier: ^4.0.0
+        version: 4.0.0(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.133.0)
       '@playwright/test':
         specifier: 1.60.0
         version: 1.60.0
@@ -1102,8 +1102,8 @@ packages:
   '@nuxtjs/critters@0.9.2':
     resolution: {integrity: sha512-fL3XFZiVEsrIRTDFjYEFnsM57fm9036u2aYgBV0GJIFUmN1EKRGGN+1OCbJsn8nYfE2S0PonJ0rOb6Q/V9cIKg==}
 
-  '@nuxtjs/plausible@3.0.2':
-    resolution: {integrity: sha512-6z01a7XbggSmI4CTWCkDDmLHQNm7wob2dx1QnvpIoo+YEV19298+GsuvlBclXVxXSk7op8r8qJpw25xKo8mzQQ==}
+  '@nuxtjs/plausible@4.0.0':
+    resolution: {integrity: sha512-R2G9BktBVSCG0nDNBSVlC8jDbsYBgrbqmn8wWisiIF9lKfRq99NwIvtw/DLuwexJT5pCYPvBflIof4NS4ZX8Xg==}
 
   '@nuxtjs/tailwindcss@6.14.0':
     resolution: {integrity: sha512-30RyDK++LrUVRgc2A85MktGWIZoRQgeQKjE4CjjD64OXNozyl+4ScHnnYgqVToMM6Ch2ZG2W4wV2J0EN6F0zkQ==}
@@ -1590,8 +1590,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@plausible-analytics/tracker@0.4.4':
-    resolution: {integrity: sha512-fz0NOYUEYXtg1TBaPEEvtcBq3FfmLFuTe1VZw4M8sTWX129br5dguu3M15+plOQnc181ShYe67RfwhKgK89VnA==}
+  '@plausible-analytics/tracker@0.4.5':
+    resolution: {integrity: sha512-6BfAGejXY+YA3Cw6LYT2Zpn4hTxDtPQAawFsYUsQCOg78wIS5C4deAGXTfJffa5VleMWITv5lpJ/EYuQBl1tPA==}
 
   '@playwright/test@1.60.0':
     resolution: {integrity: sha512-O71yZIbAh/PxDMNGns37GHBIfrVkEVyn+AXyIa5dOTfb4/xNvRWV+Vv/NMbNCtODB/pO7vLlF2OTmMVLhmr7Ag==}
@@ -6726,10 +6726,10 @@ snapshots:
       - rolldown
       - unplugin
 
-  '@nuxtjs/plausible@3.0.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.133.0)':
+  '@nuxtjs/plausible@4.0.0(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.133.0)':
     dependencies:
       '@nuxt/kit': 4.5.2(magic-string@0.30.21)(magicast@0.5.4)(oxc-parser@0.133.0)(unplugin@3.0.0)
-      '@plausible-analytics/tracker': 0.4.4
+      '@plausible-analytics/tracker': 0.4.5
       defu: 6.1.7
       ufo: 1.6.4
     transitivePeerDependencies:
@@ -7025,7 +7025,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@plausible-analytics/tracker@0.4.4': {}
+  '@plausible-analytics/tracker@0.4.5': {}
 
   '@playwright/test@1.60.0':
     dependencies:
