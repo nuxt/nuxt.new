@@ -7,8 +7,9 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "lint": "eslint .",
-    "postinstall": "nuxt prepare",
+    "postinstall": "node scripts/generate-types.mjs && nuxt prepare",
     "generate": "nuxt generate",
+    "generate:types": "node scripts/generate-types.mjs",
     "preview": "nuxt preview",
     "test:e2e": "playwright test test/e2e",
     "test:types": "vue-tsc --noEmit"
@@ -32,6 +33,7 @@
     "vue-tsc": "3.3.11"
   },
   "devDependencies": {
+    "json-schema-to-typescript": "^15.0.4",
     "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@11.6.0"

@@ -7,11 +7,7 @@ const props = defineProps({
 })
 
 const template = computed(() => {
-  return props.starter.repo === 'nuxt/starter'
-    ? (props.starter.branch === 'v4')
-        ? ''
-        : `-- -t ${props.starter.branch}`
-    : `-- -t "${props.starter.repo}#${props.starter.branch}"`
+  return props.starter.default ? '' : `-- -t ${props.starter.name}`
 })
 
 const command = computed(() => {
@@ -28,7 +24,7 @@ const command = computed(() => {
           loading="lazy"
           width="40"
           height="40"
-          :alt="starter.name"
+          :alt="starter.label ?? starter.name"
         >
         <UButton
           target="_blank"
@@ -39,7 +35,7 @@ const command = computed(() => {
           variant="ghost"
           color="gray"
         >
-          <span class="text-white font-bold text-2xl">{{ starter.name }}</span>
+          <span class="text-white font-bold text-2xl">{{ starter.label ?? starter.name }}</span>
           <UIcon
             name="i-simple-icons-github"
             class="h-5 w-5"
@@ -51,7 +47,7 @@ const command = computed(() => {
         <div class="grid grid-cols-1 lg:grid-cols-2 justify-between w-full gap-3">
           <UButton
             target="_blank"
-            :to="`/c/${starter.slug}`"
+            :to="`/c/${starter.name}`"
             color="gray"
             label="CodeSandbox"
             icon="i-simple-icons-codesandbox"
@@ -62,7 +58,7 @@ const command = computed(() => {
 
           <UButton
             target="_blank"
-            :to="`/s/${starter.slug}`"
+            :to="`/s/${starter.name}`"
             label="StackBlitz"
             color="gray"
             icon="i-simple-icons-stackblitz"

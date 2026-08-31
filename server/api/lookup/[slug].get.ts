@@ -3,7 +3,7 @@ export default lazyEventHandler(async () => {
 
   return defineEventHandler((event) => {
     const slug = getRouterParam(event, 'slug')
-    const repo = repos.find(r => r.slug === slug)
+    const repo = repos.find(r => r.name === slug)
 
     if (!repo) {
       throw createError({
