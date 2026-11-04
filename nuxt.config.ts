@@ -14,13 +14,14 @@ export default defineNuxtConfig({
     preference: 'dark',
   },
   routeRules: {
+    '/': { redirect: 'https://nuxt.com/templates' },
     '/themes': { redirect: 'https://nuxt.com/templates' },
     '/templates': { redirect: 'https://nuxt.com/templates' },
   },
   compatibilityDate: '2025-07-28',
   nitro: {
     prerender: {
-      routes: ['/', '/data/starters.json'],
+      routes: ['/data/starters.json'],
     },
   },
   vite: {
